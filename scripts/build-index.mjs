@@ -323,9 +323,17 @@ async function ocrCached(id, kind, imagePath, options) {
 
   const preparedPath = path.join(ocrInputDir, `${id}-${kind}.png`);
   let text = "";
+  let inputForOcr = preparedPath;
   try {
-    await prepareForOcr(imagePath, preparedPath);
-    text = cleanOcr(await runTesseract(preparedPath));
+    try {
+      await prepareForOcr(imagePath, preparedPath);
+    } catch (error) {
+      console.warn(`OCR preprocessing failed for ${id} ${kind}; trying original image. ${firstErrorLine(error)}`);
+      inputForOcr = imagePath;
+    }
+    text = cleanOcr(await runTesseract(inputForOcr));
+  } catch (error) {
+    console.warn(`OCR failed for ${id} ${kind}; leaving that field empty. ${firstErrorLine(error)}`);
   } finally {
     await rm(preparedPath, { force: true });
   }
@@ -388,12 +396,26 @@ async function writeBlurredThumbnail(id, imagePath) {
   const targetPath = path.join(rootDir, "public", relativePath);
   if (await exists(targetPath)) return relativePath;
 
-  await sharp(imagePath, { animated: false, limitInputPixels: false })
-    .flatten({ background: "#ffffff" })
-    .resize({ width: 168, withoutEnlargement: true })
-    .blur(4)
-    .webp({ quality: 42, effort: 4 })
-    .toFile(targetPath);
+  try {
+    await sharp(imagePath, { animated: false, limitInputPixels: false })
+      .flatten({ background: "#ffffff" })
+      .resize({ width: 168, withoutEnlargement: true })
+      .blur(4)
+      .webp({ quality: 42, effort: 4 })
+      .toFile(targetPath);
+  } catch (error) {
+    console.warn(`Thumbnail generation failed for ${id}; using placeholder. ${firstErrorLine(error)}`);
+    await sharp({
+      create: {
+        width: 168,
+        height: 126,
+        channels: 3,
+        background: "#d6d0c5"
+      }
+    })
+      .webp({ quality: 42, effort: 4 })
+      .toFile(targetPath);
+  }
 
   return relativePath;
 }
@@ -519,6 +541,10 @@ function extensionFromUrl(url) {
   const pathname = new URL(url).pathname;
   const extension = path.extname(pathname).toLowerCase();
   return extension && extension.length <= 6 ? extension : ".img";
+}
+
+function firstErrorLine(error) {
+  return String(error?.message || error || "").split("\n")[0];
 }
 
 function stableId(slug) {
