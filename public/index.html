@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SMBC Search</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="toolbar">
+        <div class="brand">
+          <h1>SMBC Search</h1>
+          <div id="indexMeta" class="meta">Loading index</div>
+        </div>
+        <form id="searchForm" class="search" role="search">
+          <label class="searchLabel" for="query">Search</label>
+          <input id="query" name="query" type="search" autocomplete="off" autofocus />
+          <button type="submit">Search</button>
+        </form>
+        <fieldset class="filters" aria-label="Search fields">
+          <label><input type="checkbox" name="field" value="comicText" checked /> Comic</label>
+          <label><input type="checkbox" name="field" value="hoverText" /> Hover</label>
+          <label><input type="checkbox" name="field" value="voteyText" /> Votey</label>
+        </fieldset>
+      </header>
+
+      <section class="statusbar">
+        <div id="resultCount">No query</div>
+        <label class="limit">
+          <span>Show</span>
+          <select id="resultLimit">
+            <option value="48">48</option>
+            <option value="96">96</option>
+            <option value="192">192</option>
+            <option value="0">All</option>
+          </select>
+        </label>
+      </section>
+
+      <section id="results" class="results" aria-live="polite"></section>
+    </main>
+    <template id="resultTemplate">
+      <a class="result" target="_blank" rel="noreferrer">
+        <img alt="" loading="lazy" width="168" />
+        <div class="resultText">
+          <div class="resultTitle"></div>
+          <div class="resultDate"></div>
+          <div class="badges"></div>
+        </div>
+      </a>
+    </template>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

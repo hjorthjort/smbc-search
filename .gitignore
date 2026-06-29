@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+
+# Generated scrape/cache output. The source and generated data are large and
+# reproducible with `npm run scrape`.
+data/
+public/data/
+public/thumbs/
+
+# Local run logs
+*.log

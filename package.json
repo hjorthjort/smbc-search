@@ -1,0 +1,19 @@
+{
+  "name": "smbc-search",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/build-index.mjs",
+    "scrape:sample": "node scripts/build-index.mjs --limit 12 --concurrency 2",
+    "serve": "node scripts/server.mjs",
+    "smoke": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  }
+}
