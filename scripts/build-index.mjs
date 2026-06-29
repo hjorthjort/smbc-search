@@ -204,7 +204,7 @@ async function processComic(entry, options) {
   const page = parseComicPage(entry, pageHtml);
   const mainImage = await downloadComicImage(page.imageUrl, mainImageDir, page.id, options);
   const voteyImage = page.voteyUrl
-    ? await downloadComicImage(page.voteyUrl, voteyImageDir, `${page.id}-votey`, options)
+    ? await downloadComicImage(page.voteyUrl, voteyImageDir, `${page.id}-votey`, options, { optional: true })
     : null;
 
   const comicText = mainImage ? await ocrCached(page.id, "comic", mainImage.path, options) : "";
@@ -286,7 +286,7 @@ function readJsonLd($) {
   return null;
 }
 
-async function downloadComicImage(url, targetDir, basename, options) {
+async function downloadComicImage(url, targetDir, basename, options, { optional = false } = {}) {
   const extension = extensionFromUrl(url);
   const targetPath = path.join(targetDir, `${basename}${extension}`);
 
@@ -298,13 +298,24 @@ async function downloadComicImage(url, targetDir, basename, options) {
     headers: { "user-agent": userAgent, accept: "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" }
   });
 
-  if (response.status === 404) return null;
+  if (optional && [404, 410].includes(response.status)) {
+    console.warn(`Optional image missing for ${basename}: ${url}`);
+    return null;
+  }
   if (!response.ok) {
+    if (optional) {
+      console.warn(`Optional image unavailable for ${basename}: ${response.status} ${response.statusText} ${url}`);
+      return null;
+    }
     throw new Error(`Failed to download ${url}: ${response.status} ${response.statusText}`);
   }
 
   const contentType = response.headers.get("content-type") || "";
   if (!contentType.startsWith("image/")) {
+    if (optional) {
+      console.warn(`Optional image is not an image for ${basename}: ${contentType || "unknown content type"} ${url}`);
+      return null;
+    }
     throw new Error(`Expected image for ${url}, got ${contentType || "unknown content type"}`);
   }
 
