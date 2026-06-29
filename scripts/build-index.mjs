@@ -191,6 +191,13 @@ async function loadArchive(options) {
 }
 
 async function processComic(entry, options) {
+  const recordPath = path.join(recordDir, `${entry.id}.json`);
+  const cachedRecord = await readJsonIfExists(recordPath);
+  if (cachedRecord && !options.refreshPages && !options.refreshImages && !options.refreshOcr) {
+    const thumbnailPath = cachedRecord.thumbnail ? path.join(rootDir, "public", cachedRecord.thumbnail) : "";
+    if (!thumbnailPath || (await exists(thumbnailPath))) return cachedRecord;
+  }
+
   await sleep(options.delayMs);
 
   const pageHtml = await loadComicPage(entry, options);
@@ -223,7 +230,7 @@ async function processComic(entry, options) {
     updatedAt: new Date().toISOString()
   };
 
-  await writeJsonAtomic(path.join(recordDir, `${page.id}.json`), record);
+  await writeJsonAtomic(recordPath, record);
   return record;
 }
 
@@ -315,8 +322,13 @@ async function ocrCached(id, kind, imagePath, options) {
   }
 
   const preparedPath = path.join(ocrInputDir, `${id}-${kind}.png`);
-  await prepareForOcr(imagePath, preparedPath);
-  const text = cleanOcr(await runTesseract(preparedPath));
+  let text = "";
+  try {
+    await prepareForOcr(imagePath, preparedPath);
+    text = cleanOcr(await runTesseract(preparedPath));
+  } finally {
+    await rm(preparedPath, { force: true });
+  }
   await writeFileAtomic(ocrPath, text);
   return text;
 }
