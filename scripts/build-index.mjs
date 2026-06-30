@@ -311,12 +311,20 @@ async function downloadComicImage(url, targetDir, basename, options, { optional 
   }
 
   const contentType = response.headers.get("content-type") || "";
-  if (!contentType.startsWith("image/")) {
+  const hasImageExtension = isImageUrl(url);
+  if (contentType && !contentType.startsWith("image/")) {
     if (optional) {
       console.warn(`Optional image is not an image for ${basename}: ${contentType || "unknown content type"} ${url}`);
       return null;
     }
     throw new Error(`Expected image for ${url}, got ${contentType || "unknown content type"}`);
+  }
+  if (!contentType && !hasImageExtension) {
+    if (optional) {
+      console.warn(`Optional image has no content type for ${basename}: ${url}`);
+      return null;
+    }
+    throw new Error(`Expected image for ${url}, got unknown content type`);
   }
 
   const buffer = Buffer.from(await response.arrayBuffer());
@@ -552,6 +560,10 @@ function extensionFromUrl(url) {
   const pathname = new URL(url).pathname;
   const extension = path.extname(pathname).toLowerCase();
   return extension && extension.length <= 6 ? extension : ".img";
+}
+
+function isImageUrl(url) {
+  return /\.(avif|gif|jpe?g|png|webp)$/i.test(new URL(url).pathname);
 }
 
 function firstErrorLine(error) {
