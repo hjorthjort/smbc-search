@@ -141,6 +141,12 @@ button:focus-visible {
   padding: 0 16px;
 }
 
+.resultTools {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+}
+
 .limit {
   display: inline-flex;
   gap: 8px;
@@ -152,6 +158,56 @@ button:focus-visible {
 .limit select {
   min-height: 34px;
   padding: 0 8px;
+}
+
+.pagination {
+  display: none;
+  gap: 5px;
+  align-items: center;
+}
+
+.pagination.visible {
+  display: inline-flex;
+}
+
+.paginationBottom {
+  justify-content: center;
+  padding: 0 16px 32px;
+}
+
+.pageButton {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0 9px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  color: var(--text);
+}
+
+.pageButton:hover,
+.pageButton:focus-visible {
+  border-color: var(--accent);
+  background: var(--panel);
+  color: var(--accent-strong);
+}
+
+.pageButton[aria-current="page"] {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: white;
+}
+
+.pageButton:disabled {
+  color: var(--muted);
+  cursor: default;
+  opacity: 0.48;
+}
+
+.pageGap {
+  min-width: 20px;
+  color: var(--muted);
+  text-align: center;
 }
 
 .results {
@@ -270,6 +326,21 @@ button:focus-visible {
 
   .statusbar {
     padding: 0 14px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .resultTools {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .pagination {
+    overflow-x: auto;
+    max-width: 100%;
   }
 
   .results {

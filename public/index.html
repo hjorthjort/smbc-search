@@ -27,18 +27,22 @@
 
       <section class="statusbar">
         <div id="resultCount">No query</div>
-        <label class="limit">
-          <span>Show</span>
-          <select id="resultLimit">
-            <option value="48">48</option>
-            <option value="96">96</option>
-            <option value="192">192</option>
-            <option value="0">All</option>
-          </select>
-        </label>
+        <div class="resultTools">
+          <nav id="paginationTop" class="pagination" aria-label="Result pages"></nav>
+          <label class="limit">
+            <span>Show</span>
+            <select id="resultLimit">
+              <option value="48">48</option>
+              <option value="96">96</option>
+              <option value="192">192</option>
+              <option value="0">All</option>
+            </select>
+          </label>
+        </div>
       </section>
 
       <section id="results" class="results" aria-live="polite"></section>
+      <nav id="paginationBottom" class="pagination paginationBottom" aria-label="Result pages"></nav>
     </main>
     <template id="resultTemplate">
       <a class="result" target="_blank" rel="noreferrer">
