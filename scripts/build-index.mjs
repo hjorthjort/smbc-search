@@ -56,14 +56,17 @@ async function main() {
   await ensureDirs();
 
   const archive = await loadArchive(options);
-  const selected = archive.entries.slice(options.offset, options.limit ? options.offset + options.limit : undefined);
+  const selected = options.latest
+    ? archive.entries.slice(-options.latest)
+    : archive.entries.slice(options.offset, options.limit ? options.offset + options.limit : undefined);
+  const selectedStart = options.latest ? archive.entries.length - selected.length : options.offset;
 
   console.log(`Archive has ${archive.entries.length} comics. Processing ${selected.length}.`);
 
   if (!options.rebuildIndexOnly) {
     await runPool(selected, options.concurrency, async (entry, index) => {
       const processed = await processComic(entry, options);
-      const done = options.offset + index + 1;
+      const done = selectedStart + index + 1;
       const total = options.limit ? Math.min(options.offset + options.limit, archive.entries.length) : archive.entries.length;
       console.log(
         `${String(done).padStart(5, " ")}/${total} ${processed.id} ` +
@@ -84,6 +87,7 @@ function parseArgs(args) {
     concurrency: 2,
     delayMs: 250,
     limit: 0,
+    latest: 0,
     offset: 0,
     refreshPages: false,
     refreshImages: false,
@@ -105,6 +109,7 @@ function parseArgs(args) {
     if (arg === "--concurrency") options.concurrency = readNumber(arg);
     else if (arg === "--delay-ms") options.delayMs = readNumber(arg);
     else if (arg === "--limit") options.limit = readNumber(arg);
+    else if (arg === "--latest") options.latest = readNumber(arg);
     else if (arg === "--offset") options.offset = readNumber(arg);
     else if (arg === "--refresh-pages") options.refreshPages = true;
     else if (arg === "--refresh-images") options.refreshImages = true;
@@ -121,6 +126,12 @@ function parseArgs(args) {
   }
   if (!Number.isInteger(options.limit) || options.limit < 0) {
     throw new Error("--limit must be a non-negative integer");
+  }
+  if (!Number.isInteger(options.latest) || options.latest < 0) {
+    throw new Error("--latest must be a non-negative integer");
+  }
+  if (options.latest && (options.limit || options.offset)) {
+    throw new Error("--latest cannot be combined with --limit or --offset");
   }
   if (!Number.isInteger(options.offset) || options.offset < 0) {
     throw new Error("--offset must be a non-negative integer");
@@ -202,15 +213,23 @@ async function processComic(entry, options) {
 
   const pageHtml = await loadComicPage(entry, options);
   const page = parseComicPage(entry, pageHtml);
-  const mainImage = await downloadComicImage(page.imageUrl, mainImageDir, page.id, options);
-  const voteyImage = page.voteyUrl
-    ? await downloadComicImage(page.voteyUrl, voteyImageDir, `${page.id}-votey`, options, { optional: true })
-    : null;
+  const reusableMain = await reusableMainAsset(cachedRecord, page, options);
+  const mainImage = reusableMain
+    ? { path: path.join(rootDir, cachedRecord.localImage || ""), url: page.imageUrl }
+    : await downloadComicImage(page.imageUrl, mainImageDir, page.id, options);
+  const reusableVotey = await reusableVoteyAsset(cachedRecord, page, options);
+  const voteyImage = reusableVotey
+    ? cachedRecord.localVoteyImage
+      ? { path: path.join(rootDir, cachedRecord.localVoteyImage), url: page.voteyUrl }
+      : { path: "", url: page.voteyUrl }
+    : page.voteyUrl
+      ? await downloadComicImage(page.voteyUrl, voteyImageDir, `${page.id}-votey`, options, { optional: true })
+      : null;
 
-  const comicText = mainImage ? await ocrCached(page.id, "comic", mainImage.path, options) : "";
-  const voteyText = voteyImage ? await ocrCached(page.id, "votey", voteyImage.path, options) : "";
+  const comicText = reusableMain ? cachedRecord.comicText || "" : mainImage ? await ocrCached(page.id, "comic", mainImage.path, options) : "";
+  const voteyText = reusableVotey ? cachedRecord.voteyText || "" : voteyImage ? await ocrCached(page.id, "votey", voteyImage.path, options) : "";
   const hoverText = cleanHoverText(page.hoverText, page);
-  const thumbnail = mainImage ? await writeBlurredThumbnail(page.id, mainImage.path) : "";
+  const thumbnail = reusableMain ? cachedRecord.thumbnail || "" : mainImage ? await writeBlurredThumbnail(page.id, mainImage.path) : "";
 
   const record = {
     id: page.id,
@@ -221,8 +240,8 @@ async function processComic(entry, options) {
     dateLabel: page.dateLabel,
     imageUrl: page.imageUrl,
     voteyUrl: voteyImage ? page.voteyUrl : "",
-    localImage: mainImage ? path.relative(rootDir, mainImage.path) : "",
-    localVoteyImage: voteyImage ? path.relative(rootDir, voteyImage.path) : "",
+    localImage: reusableMain ? cachedRecord.localImage || "" : mainImage ? path.relative(rootDir, mainImage.path) : "",
+    localVoteyImage: reusableVotey ? cachedRecord.localVoteyImage || "" : voteyImage ? path.relative(rootDir, voteyImage.path) : "",
     thumbnail,
     comicText,
     hoverText,
@@ -232,6 +251,19 @@ async function processComic(entry, options) {
 
   await writeJsonAtomic(recordPath, record);
   return record;
+}
+
+async function reusableMainAsset(cachedRecord, page, options) {
+  if (!cachedRecord || options.refreshImages || options.refreshOcr) return false;
+  if (cachedRecord.imageUrl !== page.imageUrl) return false;
+  if (!cachedRecord.thumbnail) return false;
+  return exists(path.join(rootDir, cachedRecord.thumbnail));
+}
+
+async function reusableVoteyAsset(cachedRecord, page, options) {
+  if (!cachedRecord || options.refreshImages || options.refreshOcr) return false;
+  if (!page.voteyUrl || cachedRecord.voteyUrl !== page.voteyUrl) return false;
+  return Object.hasOwn(cachedRecord, "voteyText");
 }
 
 async function loadComicPage(entry, options) {
@@ -440,12 +472,22 @@ async function writeBlurredThumbnail(id, imagePath) {
 }
 
 async function loadRecords(entries) {
+  const previousIndex = await readExistingSearchIndex();
+  const previousRecords = new Map((previousIndex?.comics || []).map((comic) => [comic.id, comic]));
   const records = [];
   for (const entry of entries) {
     const record = await readJsonIfExists(path.join(recordDir, `${entry.id}.json`));
     if (record) records.push(record);
+    else if (previousRecords.has(entry.id)) records.push(previousRecords.get(entry.id));
   }
   return records;
+}
+
+async function readExistingSearchIndex() {
+  return (
+    (await readJsonIfExists(path.join(publicDataDir, "search-index.json"))) ||
+    (await readJsonIfExists(path.join(dataDir, "search-index.json")))
+  );
 }
 
 async function writeSearchIndex(archive, records) {

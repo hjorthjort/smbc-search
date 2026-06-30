@@ -1,11 +1,9 @@
 node_modules/
 .DS_Store
 
-# Generated scrape/cache output. The source and generated data are large and
-# reproducible with `npm run scrape`.
-data/
-public/data/
-public/thumbs/
+# Generated scrape/cache output. Public search assets are committed so the
+# cloud host can deploy without native OCR tooling.
+/data/
 
 # Local run logs
 *.log

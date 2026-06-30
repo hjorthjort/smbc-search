@@ -62,3 +62,7 @@ Open the printed local URL.
 ```sh
 npm run smoke
 ```
+
+## Cloud deployment
+
+For the set-and-forget Cloudflare/GitHub Actions setup, see [docs/cloud-deployment.md](docs/cloud-deployment.md).
