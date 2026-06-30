@@ -299,6 +299,8 @@ function countOccurrences(haystack, needle) {
 }
 
 function countClauseOccurrences(haystack, clause) {
+  if (clause.type === "term") return countOccurrences(haystack, clause.value);
+
   const paddedHaystack = ` ${haystack} `;
   const paddedNeedle = ` ${clause.value} `;
   return countOccurrences(paddedHaystack, paddedNeedle);
