@@ -67,9 +67,8 @@ async function main() {
     await runPool(selected, options.concurrency, async (entry, index) => {
       const processed = await processComic(entry, options);
       const done = selectedStart + index + 1;
-      const total = options.limit ? Math.min(options.offset + options.limit, archive.entries.length) : archive.entries.length;
       console.log(
-        `${String(done).padStart(5, " ")}/${total} ${processed.id} ` +
+        `${String(done).padStart(5, " ")}/${archive.entries.length} ${processed.id} ` +
           `comic:${processed.comicText ? processed.comicText.length : 0} ` +
           `hover:${processed.hoverText ? processed.hoverText.length : 0} ` +
           `votey:${processed.voteyText ? processed.voteyText.length : 0}`
@@ -372,22 +371,31 @@ async function ocrCached(id, kind, imagePath, options) {
     return cleanOcr(await readFile(ocrPath, "utf8"));
   }
 
-  const preparedPath = path.join(ocrInputDir, `${id}-${kind}.png`);
-  let text = "";
-  let inputForOcr = preparedPath;
+  const tempPaths = [];
+  const ocrOutputs = [];
   try {
+    const preparedPath = path.join(ocrInputDir, `${id}-${kind}.png`);
+    tempPaths.push(preparedPath);
     try {
       await prepareForOcr(imagePath, preparedPath);
+      ocrOutputs.push(await runTesseract(preparedPath, { pageSegmentationMode: 11 }));
     } catch (error) {
       console.warn(`OCR preprocessing failed for ${id} ${kind}; trying original image. ${firstErrorLine(error)}`);
-      inputForOcr = imagePath;
     }
-    text = cleanOcr(await runTesseract(inputForOcr));
+
+    ocrOutputs.push(await runTesseract(imagePath, { pageSegmentationMode: 11 }));
+
+    const tilePaths = await prepareOcrTiles(id, kind, imagePath);
+    tempPaths.push(...tilePaths);
+    for (const tilePath of tilePaths) {
+      ocrOutputs.push(await runTesseract(tilePath, { pageSegmentationMode: 6 }));
+    }
   } catch (error) {
     console.warn(`OCR failed for ${id} ${kind}; leaving that field empty. ${firstErrorLine(error)}`);
   } finally {
-    await rm(preparedPath, { force: true });
+    await Promise.all(tempPaths.map((tempPath) => rm(tempPath, { force: true })));
   }
+  const text = mergeOcrTexts(ocrOutputs);
   await writeFileAtomic(ocrPath, text);
   return text;
 }
@@ -408,7 +416,40 @@ async function prepareForOcr(inputPath, outputPath) {
     .toFile(outputPath);
 }
 
-async function runTesseract(imagePath) {
+async function prepareOcrTiles(id, kind, imagePath) {
+  const metadata = await sharp(imagePath, { animated: false, limitInputPixels: false }).metadata();
+  const sourceWidth = metadata.width || 0;
+  const sourceHeight = metadata.height || 0;
+  if (!sourceWidth || !sourceHeight || sourceHeight / sourceWidth < 2.2) return [];
+
+  const tileHeight = Math.min(900, Math.max(520, Math.round(sourceWidth * 0.95)));
+  const overlap = Math.min(120, Math.round(tileHeight * 0.14));
+  const targetWidth = sourceWidth < 1500 ? 1500 : sourceWidth;
+  const paths = [];
+  let tileIndex = 0;
+
+  for (let top = 0; top < sourceHeight; top += tileHeight - overlap) {
+    const height = Math.min(tileHeight, sourceHeight - top);
+    if (height < 160) break;
+
+    const tilePath = path.join(ocrInputDir, `${id}-${kind}-tile-${String(tileIndex).padStart(2, "0")}.png`);
+    await sharp(imagePath, { animated: false, limitInputPixels: false })
+      .extract({ left: 0, top, width: sourceWidth, height })
+      .flatten({ background: "#ffffff" })
+      .resize({ width: targetWidth, withoutEnlargement: sourceWidth >= 1500 })
+      .grayscale()
+      .normalize()
+      .sharpen()
+      .png({ compressionLevel: 6 })
+      .toFile(tilePath);
+    paths.push(tilePath);
+    tileIndex += 1;
+  }
+
+  return paths;
+}
+
+async function runTesseract(imagePath, { pageSegmentationMode = 11 } = {}) {
   const args = [
     imagePath,
     "stdout",
@@ -417,7 +458,7 @@ async function runTesseract(imagePath) {
     "--oem",
     "1",
     "--psm",
-    "11",
+    String(pageSegmentationMode),
     "-c",
     "preserve_interword_spaces=1"
   ];
@@ -440,6 +481,44 @@ async function runTesseract(imagePath) {
       else reject(new Error(`tesseract exited ${code} for ${imagePath}\n${stderr}`));
     });
   });
+}
+
+function mergeOcrTexts(texts) {
+  const lines = [];
+  const seen = new Set();
+
+  for (const text of texts) {
+    for (const line of cleanOcr(text).split("\n")) {
+      const cleaned = line.trim();
+      if (!isUsefulOcrLine(cleaned)) continue;
+      const key = normalizeOcrLine(cleaned);
+      if (!key || seen.has(key)) continue;
+      seen.add(key);
+      lines.push(cleaned);
+    }
+  }
+
+  return lines.join("\n\n");
+}
+
+function isUsefulOcrLine(line) {
+  if (!line) return false;
+  const letters = line.match(/[A-Za-z]/g) || [];
+  const alphanumeric = line.match(/[A-Za-z0-9]/g) || [];
+  if (!alphanumeric.length) return false;
+  if (alphanumeric.length === 1 && !/^[AI]$/.test(line)) return false;
+  if (!letters.length && alphanumeric.length < 3) return false;
+  return true;
+}
+
+function normalizeOcrLine(line) {
+  return line
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
 async function writeBlurredThumbnail(id, imagePath) {

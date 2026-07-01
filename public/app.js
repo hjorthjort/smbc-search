@@ -1,14 +1,18 @@
 const fieldLabels = new Map([
   ["comicText", "Comic"],
+  ["metadata", "Title"],
   ["hoverText", "Hover"],
   ["voteyText", "Votey"]
 ]);
 
 const fieldWeights = new Map([
   ["comicText", 3],
+  ["metadata", 4],
   ["hoverText", 2],
   ["voteyText", 2]
 ]);
+
+const metadataField = "metadata";
 
 const queryInput = document.querySelector("#query");
 const searchForm = document.querySelector("#searchForm");
@@ -37,8 +41,15 @@ async function init() {
       ...comic,
       normalized: {
         comicText: normalize(comic.comicText),
+        metadata: normalize([comic.title, comic.date, comic.dateLabel, comic.slug, comic.url].join(" ")),
         hoverText: normalize(comic.hoverText),
         voteyText: normalize(comic.voteyText)
+      },
+      tokens: {
+        comicText: tokenize(comic.comicText),
+        metadata: tokenize([comic.title, comic.date, comic.dateLabel, comic.slug, comic.url].join(" ")),
+        hoverText: tokenize(comic.hoverText),
+        voteyText: tokenize(comic.voteyText)
       }
     }));
     indexMetaElement.textContent = `${index.totalIndexedComics.toLocaleString()} indexed`;
@@ -87,6 +98,7 @@ function runSearch({ resetPage = false } = {}) {
 }
 
 function search(parsedQuery, fields) {
+  const searchableFields = [...fields, metadataField];
   return normalizedComics
     .map((comic) => {
       const matches = new Set();
@@ -95,10 +107,10 @@ function search(parsedQuery, fields) {
 
       for (const clause of parsedQuery.clauses) {
         let clauseMatched = false;
-        for (const field of fields) {
+        for (const field of searchableFields) {
           const haystack = comic.normalized[field] || "";
           if (!haystack) continue;
-          const count = countClauseOccurrences(haystack, clause);
+          const count = countClauseOccurrences(haystack, clause, comic.tokens[field] || []);
           if (count === 0) continue;
 
           clauseMatched = true;
@@ -116,9 +128,12 @@ function search(parsedQuery, fields) {
 
       if (!allClausesMatched) return null;
 
-      const combinedHaystack = fields.map((field) => comic.normalized[field] || "").join(" ");
+      const combinedHaystack = searchableFields.map((field) => comic.normalized[field] || "").join(" ");
       if (parsedQuery.normalized && combinedHaystack.includes(parsedQuery.normalized)) {
         score += 20 + parsedQuery.normalized.length / 6;
+      }
+      if (parsedQuery.normalized && (comic.normalized[metadataField] || "").includes(parsedQuery.normalized)) {
+        score += 120 + parsedQuery.normalized.length / 3;
       }
 
       if (score === 0) return null;
@@ -298,12 +313,56 @@ function countOccurrences(haystack, needle) {
   return count;
 }
 
-function countClauseOccurrences(haystack, clause) {
-  if (clause.type === "term") return countOccurrences(haystack, clause.value);
+function countClauseOccurrences(haystack, clause, tokens) {
+  if (clause.type === "term") {
+    const exactCount = countOccurrences(haystack, clause.value);
+    if (exactCount > 0) return exactCount;
+    return countFuzzyOccurrences(tokens, clause.value);
+  }
 
   const paddedHaystack = ` ${haystack} `;
   const paddedNeedle = ` ${clause.value} `;
   return countOccurrences(paddedHaystack, paddedNeedle);
+}
+
+function countFuzzyOccurrences(tokens, term) {
+  if (term.length < 5) return 0;
+
+  let count = 0;
+  for (const token of tokens) {
+    if (Math.abs(token.length - term.length) > 1) continue;
+    if (isEditDistanceAtMostOne(token, term)) count += 1;
+  }
+  return count;
+}
+
+function isEditDistanceAtMostOne(left, right) {
+  if (left === right) return true;
+  if (Math.abs(left.length - right.length) > 1) return false;
+
+  let edits = 0;
+  let leftIndex = 0;
+  let rightIndex = 0;
+
+  while (leftIndex < left.length && rightIndex < right.length) {
+    if (left[leftIndex] === right[rightIndex]) {
+      leftIndex += 1;
+      rightIndex += 1;
+      continue;
+    }
+
+    edits += 1;
+    if (edits > 1) return false;
+
+    if (left.length > right.length) leftIndex += 1;
+    else if (right.length > left.length) rightIndex += 1;
+    else {
+      leftIndex += 1;
+      rightIndex += 1;
+    }
+  }
+
+  return edits + (left.length - leftIndex) + (right.length - rightIndex) <= 1;
 }
 
 function recencyBoost(date) {

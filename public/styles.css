@@ -281,6 +281,10 @@ button:focus-visible {
   background: var(--accent);
 }
 
+.badge.metadata {
+  background: #55524d;
+}
+
 .badge.hoverText {
   background: var(--gold);
 }
