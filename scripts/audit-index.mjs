@@ -8,6 +8,7 @@ const rootDir = path.resolve(__dirname, "..");
 const index = await readJson(path.join(rootDir, "public", "data", "search-index.json"));
 const archive = await readJson(path.join(rootDir, "data", "archive.json"));
 const failures = [];
+const latestOcrFallbackCount = 4;
 
 const comicsById = new Map(index.comics.map((comic) => [comic.id, comic]));
 const duplicateIds = index.comics.map((comic) => comic.id).filter((id, index, ids) => ids.indexOf(id) !== index);
@@ -33,6 +34,9 @@ const tesseractComicText = index.comics.filter((comic) => comic.comicTextSource 
 const tesseractVoteyText = index.comics.filter(
   (comic) => comic.voteyText && (comic.voteyTextSource === "tesseract" || !comic.voteyTextSource)
 );
+const latestOcrFallbackIds = new Set(archive.entries.slice(-latestOcrFallbackCount).map((entry) => entry.id));
+const staleTesseractComicText = tesseractComicText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
+const staleTesseractVoteyText = tesseractVoteyText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
 const suspiciousOcr = findSuspiciousOcr(index.comics);
 
 if (archive.entries.length !== index.totalArchiveComics) {
@@ -51,8 +55,12 @@ if (emptyAllSearchableText.length) failures.push(`Records with no searchable tex
 if (semanticComicText.length < 7700) {
   failures.push(`Semantic comic text coverage too low: ${semanticComicText.length} of ${index.comics.length}.`);
 }
-if (tesseractComicText.length) failures.push(`Raw Tesseract comic text remains: ${tesseractComicText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
-if (tesseractVoteyText.length) failures.push(`Raw Tesseract votey text remains: ${tesseractVoteyText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+if (staleTesseractComicText.length) {
+  failures.push(`Raw Tesseract comic text remains outside the newest ${latestOcrFallbackCount}: ${staleTesseractComicText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+}
+if (staleTesseractVoteyText.length) {
+  failures.push(`Raw Tesseract votey text remains outside the newest ${latestOcrFallbackCount}: ${staleTesseractVoteyText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+}
 
 const probes = [
   { query: "meatmail", expectedId: "2014-12-17" },
@@ -89,6 +97,9 @@ console.log(
       manualVoteyText: manualVoteyText.length,
       tesseractComicText: tesseractComicText.length,
       tesseractVoteyText: tesseractVoteyText.length,
+      latestOcrFallbackIds: Array.from(latestOcrFallbackIds),
+      staleTesseractComicText: staleTesseractComicText.length,
+      staleTesseractVoteyText: staleTesseractVoteyText.length,
       suspiciousOcr: suspiciousOcr.length,
       suspiciousExamples: suspiciousOcr.slice(0, 20),
       probes: Object.fromEntries(probes.map((probe) => [probe.query, search(probe.query, index.comics).slice(0, 5).map((comic) => comic.id)]))

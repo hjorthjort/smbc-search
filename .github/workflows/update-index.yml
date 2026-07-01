@@ -74,14 +74,11 @@ jobs:
 
       - name: Update latest comics
         if: steps.mode.outputs.mode == 'latest'
-        run: npm run scrape:latest
+        run: npm run update:latest
 
       - name: Refresh full archive
         if: steps.mode.outputs.mode == 'full'
-        run: npm run scrape:full
-
-      - name: Import semantic transcripts
-        run: npm run import:semantic -- --refresh-list
+        run: npm run update:full
 
       - name: Verify generated search app
         run: |

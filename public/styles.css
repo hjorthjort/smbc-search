@@ -76,6 +76,14 @@ select {
   font-size: 0.92rem;
 }
 
+.searchHint {
+  grid-column: 2 / -1;
+  margin: -2px 0 0;
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
+
 input[type="search"],
 select {
   min-height: 42px;
@@ -321,6 +329,10 @@ button:focus-visible {
     height: 1px;
     overflow: hidden;
     clip: rect(0 0 0 0);
+  }
+
+  .searchHint {
+    grid-column: 1 / -1;
   }
 
   .filters {

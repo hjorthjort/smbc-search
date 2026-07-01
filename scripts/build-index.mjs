@@ -22,6 +22,7 @@ const publicThumbDir = path.join(rootDir, "public", "thumbs");
 const archiveUrl = "https://www.smbc-comics.com/comic/archive";
 const siteOrigin = "https://www.smbc-comics.com";
 const userAgent = "Mozilla/5.0 smbc-search-local-indexer";
+const reviewedTextSources = new Set(["manual", "ohyesrobot"]);
 
 const monthNumbers = new Map(
   [
@@ -212,11 +213,13 @@ async function processComic(entry, options) {
 
   const pageHtml = await loadComicPage(entry, options);
   const page = parseComicPage(entry, pageHtml);
-  const reusableMain = await reusableMainAsset(cachedRecord, page, options);
+  const reviewedMainText = reusableReviewedMainText(cachedRecord, page);
+  const reusableMain = reviewedMainText || (await reusableMainAsset(cachedRecord, page, options));
   const mainImage = reusableMain
     ? { path: path.join(rootDir, cachedRecord.localImage || ""), url: page.imageUrl }
     : await downloadComicImage(page.imageUrl, mainImageDir, page.id, options);
-  const reusableVotey = await reusableVoteyAsset(cachedRecord, page, options);
+  const reviewedVoteyText = reusableReviewedVoteyText(cachedRecord, page);
+  const reusableVotey = reviewedVoteyText || (await reusableVoteyAsset(cachedRecord, page, options));
   const voteyImage = reusableVotey
     ? cachedRecord.localVoteyImage
       ? { path: path.join(rootDir, cachedRecord.localVoteyImage), url: page.voteyUrl }
@@ -227,6 +230,8 @@ async function processComic(entry, options) {
 
   const comicText = reusableMain ? cachedRecord.comicText || "" : mainImage ? await ocrCached(page.id, "comic", mainImage.path, options) : "";
   const voteyText = reusableVotey ? cachedRecord.voteyText || "" : voteyImage ? await ocrCached(page.id, "votey", voteyImage.path, options) : "";
+  const comicTextSource = reusableMain ? cachedRecord.comicTextSource || (comicText ? "tesseract" : "") : comicText ? "tesseract" : "";
+  const voteyTextSource = reusableVotey ? cachedRecord.voteyTextSource || (voteyText ? "tesseract" : "") : voteyText ? "tesseract" : "";
   const hoverText = cleanHoverText(page.hoverText, page);
   const thumbnail = reusableMain ? cachedRecord.thumbnail || "" : mainImage ? await writeBlurredThumbnail(page.id, mainImage.path) : "";
 
@@ -245,11 +250,26 @@ async function processComic(entry, options) {
     comicText,
     hoverText,
     voteyText,
+    comicTextSource,
+    voteyTextSource,
+    semanticTranscriptUrl: reusableMain || reusableVotey ? cachedRecord.semanticTranscriptUrl || "" : "",
     updatedAt: new Date().toISOString()
   };
 
   await writeJsonAtomic(recordPath, record);
   return record;
+}
+
+function reusableReviewedMainText(cachedRecord, page) {
+  if (!cachedRecord || cachedRecord.imageUrl !== page.imageUrl) return false;
+  if (!reviewedTextSources.has(cachedRecord.comicTextSource)) return false;
+  return Object.hasOwn(cachedRecord, "comicText");
+}
+
+function reusableReviewedVoteyText(cachedRecord, page) {
+  if (!cachedRecord || cachedRecord.voteyUrl !== page.voteyUrl) return false;
+  if (!reviewedTextSources.has(cachedRecord.voteyTextSource)) return false;
+  return Object.hasOwn(cachedRecord, "voteyText");
 }
 
 async function reusableMainAsset(cachedRecord, page, options) {
@@ -586,7 +606,10 @@ async function writeSearchIndex(archive, records) {
       thumbnail: record.thumbnail,
       comicText: record.comicText || "",
       hoverText: record.hoverText || "",
-      voteyText: record.voteyText || ""
+      voteyText: record.voteyText || "",
+      comicTextSource: record.comicTextSource || (record.comicText ? "tesseract" : ""),
+      voteyTextSource: record.voteyTextSource || (record.voteyText ? "tesseract" : ""),
+      semanticTranscriptUrl: record.semanticTranscriptUrl || ""
     }))
   };
 

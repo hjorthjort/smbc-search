@@ -21,9 +21,11 @@ Make sure the Cloudflare project watches the same branch that contains this work
 
 `.github/workflows/update-index.yml` runs:
 
-- daily latest update: refresh the archive and fully reprocess the newest 4 comics
-- monthly full refresh: refresh every comic page and rebuild the full search index, reusing cached OCR/page records when image URLs have not changed
+- daily latest update: refresh the archive, fully reprocess the newest 4 comics, then import semantic/manual transcripts
+- monthly full refresh: refresh every comic page, rebuild the full search index, then import semantic/manual transcripts
 - semantic transcript import: map cached Oh Yes Robot SMBC transcript pages back to official SMBC URLs, replacing raw OCR text where available while keeping official hover text from SMBC
+
+The scraper preserves reviewed `manual` and `ohyesrobot` text when a later scan sees the same comic image URL again, including during latest-comic OCR refreshes. New comics may temporarily use OCR until a semantic or manual transcript is available, but the audit fails if raw OCR remains outside the newest 4 comics.
 
 The workflow commits changes under `public/data` and `public/thumbs`. Those commits trigger a normal Cloudflare redeploy from the repository.
 
@@ -35,3 +37,5 @@ In GitHub Actions, run **Update SMBC index** manually with:
 
 - `latest` to reprocess only the newest 4 comics
 - `full` to refresh the whole archive
+
+Locally, use `npm run update:latest` or `npm run update:full` for the same scrape-plus-import path the scheduled workflow uses.

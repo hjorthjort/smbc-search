@@ -9,6 +9,8 @@
     "scrape:full": "node scripts/build-index.mjs --refresh-pages",
     "scrape:sample": "node scripts/build-index.mjs --limit 12 --concurrency 2",
     "import:semantic": "node scripts/import-semantic-transcripts.mjs",
+    "update:latest": "npm run scrape:latest && npm run import:semantic -- --refresh-list",
+    "update:full": "npm run scrape:full && npm run import:semantic -- --refresh-list",
     "audit": "node scripts/audit-index.mjs",
     "deploy": "wrangler deploy",
     "serve": "node scripts/server.mjs",
