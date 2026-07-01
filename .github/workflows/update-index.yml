@@ -67,6 +67,7 @@ jobs:
             data/pages
             data/records
             data/ocr
+            data/semantic
           key: smbc-scrape-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             smbc-scrape-${{ runner.os }}-
@@ -79,8 +80,13 @@ jobs:
         if: steps.mode.outputs.mode == 'full'
         run: npm run scrape:full
 
+      - name: Import semantic transcripts
+        run: npm run import:semantic -- --refresh-list
+
       - name: Verify generated search app
-        run: npm run smoke
+        run: |
+          npm run audit
+          npm run smoke
 
       - name: Commit public index changes
         run: |
@@ -94,8 +100,7 @@ jobs:
             git push
           fi
 
-      - name: Save scraper cache after full refresh
-        if: steps.mode.outputs.mode == 'full'
+      - name: Save scraper cache
         uses: actions/cache/save@v4
         with:
           path: |
@@ -103,4 +108,5 @@ jobs:
             data/pages
             data/records
             data/ocr
+            data/semantic
           key: smbc-scrape-${{ runner.os }}-${{ github.run_id }}

@@ -24,6 +24,11 @@ const emptyComicText = index.comics.filter((comic) => !String(comic.comicText ||
 const emptyAllSearchableText = index.comics.filter(
   (comic) => ![comic.comicText, comic.hoverText, comic.voteyText, comic.title, comic.date, comic.slug].join("").trim()
 );
+const semanticComicText = index.comics.filter((comic) => comic.comicTextSource === "ohyesrobot");
+const semanticVoteyText = index.comics.filter((comic) => comic.voteyTextSource === "ohyesrobot");
+const semanticTranscriptUrls = index.comics.filter((comic) => comic.semanticTranscriptUrl);
+const manualComicText = index.comics.filter((comic) => comic.comicTextSource === "manual");
+const manualVoteyText = index.comics.filter((comic) => comic.voteyTextSource === "manual");
 const suspiciousOcr = findSuspiciousOcr(index.comics);
 
 if (archive.entries.length !== index.totalArchiveComics) {
@@ -39,11 +44,17 @@ if (duplicateIds.length) failures.push(`Duplicate ids: ${duplicateIds.slice(0, 1
 if (missingFromIndex.length) failures.push(`Missing archive entries: ${missingFromIndex.slice(0, 10).map((entry) => entry.id).join(", ")}`);
 if (missingThumbs.length) failures.push(`Missing thumbnails: ${missingThumbs.slice(0, 10).join(", ")}`);
 if (emptyAllSearchableText.length) failures.push(`Records with no searchable text at all: ${emptyAllSearchableText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+if (semanticComicText.length < 7700) {
+  failures.push(`Semantic comic text coverage too low: ${semanticComicText.length} of ${index.comics.length}.`);
+}
 
 const probes = [
   { query: "meatmail", expectedId: "2014-12-17" },
   { query: "cheap information transfer", expectedId: "2014-12-17" },
   { query: "robotic minds", expectedId: "2014-12-17" },
+  { query: "square root 64", expectedId: "2006-09-14" },
+  { query: "popular science cosmopolitan", expectedId: "2014-11-22" },
+  { query: "stokes theorem", expectedId: "2014-11-22" },
   { query: "2014-12-17", expectedId: "2014-12-17" }
 ];
 
@@ -65,6 +76,11 @@ console.log(
       missingThumbs: missingThumbs.length,
       emptyComicText: emptyComicText.length,
       emptyAllSearchableText: emptyAllSearchableText.length,
+      semanticComicText: semanticComicText.length,
+      semanticVoteyText: semanticVoteyText.length,
+      semanticTranscriptUrls: semanticTranscriptUrls.length,
+      manualComicText: manualComicText.length,
+      manualVoteyText: manualVoteyText.length,
       suspiciousOcr: suspiciousOcr.length,
       suspiciousExamples: suspiciousOcr.slice(0, 20),
       probes: Object.fromEntries(probes.map((probe) => [probe.query, search(probe.query, index.comics).slice(0, 5).map((comic) => comic.id)]))

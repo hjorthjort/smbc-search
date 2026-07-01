@@ -23,6 +23,7 @@ Make sure the Cloudflare project watches the same branch that contains this work
 
 - daily latest update: refresh the archive and fully reprocess the newest 4 comics
 - monthly full refresh: refresh every comic page and rebuild the full search index, reusing cached OCR/page records when image URLs have not changed
+- semantic transcript import: map cached Oh Yes Robot SMBC transcript pages back to official SMBC URLs, replacing raw OCR text where available while keeping official hover text from SMBC
 
 The workflow commits changes under `public/data` and `public/thumbs`. Those commits trigger a normal Cloudflare redeploy from the repository.
 
