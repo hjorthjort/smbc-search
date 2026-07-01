@@ -74,29 +74,22 @@ async function main() {
 
   for (const comic of index.comics) {
     const manualTranscript = manualTranscripts?.[comic.id];
-    if (manualTranscript) {
-      const nextComic = {
-        ...comic,
-        comicText: cleanTranscriptText(manualTranscript.comicText || comic.comicText || ""),
-        voteyText: cleanTranscriptText(manualTranscript.voteyText || comic.voteyText || ""),
-        comicTextSource: manualTranscript.comicText ? "manual" : comic.comicTextSource || "tesseract",
-        voteyTextSource: manualTranscript.voteyText ? "manual" : comic.voteyTextSource || (comic.voteyText ? "tesseract" : "")
-      };
-      if (manualTranscript.comicText) stats.manualComicText += 1;
-      if (manualTranscript.voteyText) stats.manualVoteyText += 1;
-      updatedComics.push(nextComic);
-      await updateCachedRecord(nextComic);
-      continue;
-    }
-
+    const hasManualComicText = Object.hasOwn(manualTranscript || {}, "comicText");
+    const hasManualVoteyText = Object.hasOwn(manualTranscript || {}, "voteyText");
     const transcript = transcriptsById.get(comic.id);
     if (!transcript) {
       stats.unmatchedComics += 1;
-      updatedComics.push({
+      const nextComic = {
         ...comic,
-        comicTextSource: comic.comicTextSource || "tesseract",
-        voteyTextSource: comic.voteyTextSource || (comic.voteyText ? "tesseract" : "")
-      });
+        comicText: hasManualComicText ? cleanTranscriptText(manualTranscript.comicText) : comic.comicText || "",
+        voteyText: hasManualVoteyText ? cleanTranscriptText(manualTranscript.voteyText) : comic.voteyText || "",
+        comicTextSource: hasManualComicText ? "manual" : comic.comicTextSource || "tesseract",
+        voteyTextSource: hasManualVoteyText ? "manual" : comic.voteyTextSource || (comic.voteyText ? "tesseract" : "")
+      };
+      if (hasManualComicText) stats.manualComicText += 1;
+      if (hasManualVoteyText) stats.manualVoteyText += 1;
+      updatedComics.push(nextComic);
+      await updateCachedRecord(nextComic);
       continue;
     }
 
@@ -107,15 +100,21 @@ async function main() {
     const semanticVoteyText = applySemanticCorrections(comic.id, "voteyText", transcript.voteyText);
     const nextComic = {
       ...comic,
-      comicText: semanticComicText || comic.comicText || "",
-      voteyText: semanticVoteyText || comic.voteyText || "",
-      comicTextSource: semanticComicText ? sourceName : comic.comicTextSource || "tesseract",
-      voteyTextSource: semanticVoteyText ? sourceName : comic.voteyTextSource || (comic.voteyText ? "tesseract" : ""),
+      comicText: hasManualComicText ? cleanTranscriptText(manualTranscript.comicText) : semanticComicText || comic.comicText || "",
+      voteyText: hasManualVoteyText ? cleanTranscriptText(manualTranscript.voteyText) : semanticVoteyText || comic.voteyText || "",
+      comicTextSource: hasManualComicText ? "manual" : semanticComicText ? sourceName : comic.comicTextSource || "tesseract",
+      voteyTextSource: hasManualVoteyText
+        ? "manual"
+        : semanticVoteyText
+          ? sourceName
+          : comic.voteyTextSource || (comic.voteyText ? "tesseract" : ""),
       semanticTranscriptUrl: transcript.sourceUrl
     };
 
-    if (semanticComicText) stats.comicTextFromSemantic += 1;
-    if (semanticVoteyText) stats.voteyTextFromSemantic += 1;
+    if (hasManualComicText) stats.manualComicText += 1;
+    else if (semanticComicText) stats.comicTextFromSemantic += 1;
+    if (hasManualVoteyText) stats.manualVoteyText += 1;
+    else if (semanticVoteyText) stats.voteyTextFromSemantic += 1;
 
     updatedComics.push(nextComic);
     await updateCachedRecord(nextComic);

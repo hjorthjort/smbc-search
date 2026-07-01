@@ -29,6 +29,10 @@ const semanticVoteyText = index.comics.filter((comic) => comic.voteyTextSource =
 const semanticTranscriptUrls = index.comics.filter((comic) => comic.semanticTranscriptUrl);
 const manualComicText = index.comics.filter((comic) => comic.comicTextSource === "manual");
 const manualVoteyText = index.comics.filter((comic) => comic.voteyTextSource === "manual");
+const tesseractComicText = index.comics.filter((comic) => comic.comicTextSource === "tesseract" || !comic.comicTextSource);
+const tesseractVoteyText = index.comics.filter(
+  (comic) => comic.voteyText && (comic.voteyTextSource === "tesseract" || !comic.voteyTextSource)
+);
 const suspiciousOcr = findSuspiciousOcr(index.comics);
 
 if (archive.entries.length !== index.totalArchiveComics) {
@@ -47,6 +51,8 @@ if (emptyAllSearchableText.length) failures.push(`Records with no searchable tex
 if (semanticComicText.length < 7700) {
   failures.push(`Semantic comic text coverage too low: ${semanticComicText.length} of ${index.comics.length}.`);
 }
+if (tesseractComicText.length) failures.push(`Raw Tesseract comic text remains: ${tesseractComicText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+if (tesseractVoteyText.length) failures.push(`Raw Tesseract votey text remains: ${tesseractVoteyText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
 
 const probes = [
   { query: "meatmail", expectedId: "2014-12-17" },
@@ -81,6 +87,8 @@ console.log(
       semanticTranscriptUrls: semanticTranscriptUrls.length,
       manualComicText: manualComicText.length,
       manualVoteyText: manualVoteyText.length,
+      tesseractComicText: tesseractComicText.length,
+      tesseractVoteyText: tesseractVoteyText.length,
       suspiciousOcr: suspiciousOcr.length,
       suspiciousExamples: suspiciousOcr.slice(0, 20),
       probes: Object.fromEntries(probes.map((probe) => [probe.query, search(probe.query, index.comics).slice(0, 5).map((comic) => comic.id)]))
