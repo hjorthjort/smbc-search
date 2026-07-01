@@ -23,13 +23,14 @@ for (const comic of index.comics) {
 
 const emptyComicText = index.comics.filter((comic) => !String(comic.comicText || "").trim());
 const emptyAllSearchableText = index.comics.filter(
-  (comic) => ![comic.comicText, comic.hoverText, comic.voteyText, comic.title, comic.date, comic.slug].join("").trim()
+  (comic) => ![comic.comicText, comic.hoverText, comic.voteyText, comic.descriptionText, comic.title, comic.date, comic.slug].join("").trim()
 );
 const semanticComicText = index.comics.filter((comic) => comic.comicTextSource === "ohyesrobot");
 const semanticVoteyText = index.comics.filter((comic) => comic.voteyTextSource === "ohyesrobot");
 const semanticTranscriptUrls = index.comics.filter((comic) => comic.semanticTranscriptUrl);
 const manualComicText = index.comics.filter((comic) => comic.comicTextSource === "manual");
 const manualVoteyText = index.comics.filter((comic) => comic.voteyTextSource === "manual");
+const descriptionText = index.comics.filter((comic) => String(comic.descriptionText || "").trim());
 const tesseractComicText = index.comics.filter((comic) => comic.comicTextSource === "tesseract" || !comic.comicTextSource);
 const tesseractVoteyText = index.comics.filter(
   (comic) => comic.voteyText && (comic.voteyTextSource === "tesseract" || !comic.voteyTextSource)
@@ -38,6 +39,24 @@ const latestOcrFallbackIds = new Set(archive.entries.slice(-latestOcrFallbackCou
 const staleTesseractComicText = tesseractComicText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
 const staleTesseractVoteyText = tesseractVoteyText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
 const suspiciousOcr = findSuspiciousOcr(index.comics);
+const semanticSplitChecks = [
+  {
+    id: "dark-matter",
+    comicMustNotInclude: ["round glasses"],
+    descriptionMustInclude: ["round glasses"]
+  },
+  {
+    id: "2006-09-14",
+    comicMustInclude: ["square root of 64"],
+    comicMustNotInclude: ["holds a yellow sheet"],
+    descriptionMustInclude: ["holds a yellow sheet"]
+  },
+  {
+    id: "2014-12-17",
+    comicMustInclude: ["meatmail"],
+    comicMustNotInclude: ["panel 1"]
+  }
+];
 
 if (archive.entries.length !== index.totalArchiveComics) {
   failures.push(`Archive count mismatch: archive has ${archive.entries.length}, index says ${index.totalArchiveComics}.`);
@@ -60,6 +79,22 @@ if (staleTesseractComicText.length) {
 }
 if (staleTesseractVoteyText.length) {
   failures.push(`Raw Tesseract votey text remains outside the newest ${latestOcrFallbackCount}: ${staleTesseractVoteyText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+}
+for (const check of semanticSplitChecks) {
+  const comic = comicsById.get(check.id);
+  if (!comic) {
+    failures.push(`Semantic split check missing comic: ${check.id}.`);
+    continue;
+  }
+  for (const phrase of check.comicMustInclude || []) {
+    if (!includesNormalized(comic.comicText, phrase)) failures.push(`${check.id} comicText no longer includes "${phrase}".`);
+  }
+  for (const phrase of check.comicMustNotInclude || []) {
+    if (includesNormalized(comic.comicText, phrase)) failures.push(`${check.id} comicText still includes description phrase "${phrase}".`);
+  }
+  for (const phrase of check.descriptionMustInclude || []) {
+    if (!includesNormalized(comic.descriptionText, phrase)) failures.push(`${check.id} descriptionText no longer includes "${phrase}".`);
+  }
 }
 
 const probes = [
@@ -95,11 +130,13 @@ console.log(
       semanticTranscriptUrls: semanticTranscriptUrls.length,
       manualComicText: manualComicText.length,
       manualVoteyText: manualVoteyText.length,
+      descriptionText: descriptionText.length,
       tesseractComicText: tesseractComicText.length,
       tesseractVoteyText: tesseractVoteyText.length,
       latestOcrFallbackIds: Array.from(latestOcrFallbackIds),
       staleTesseractComicText: staleTesseractComicText.length,
       staleTesseractVoteyText: staleTesseractVoteyText.length,
+      semanticSplitChecks: semanticSplitChecks.length,
       suspiciousOcr: suspiciousOcr.length,
       suspiciousExamples: suspiciousOcr.slice(0, 20),
       probes: Object.fromEntries(probes.map((probe) => [probe.query, search(probe.query, index.comics).slice(0, 5).map((comic) => comic.id)]))
@@ -194,6 +231,10 @@ function normalize(value) {
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function includesNormalized(value, phrase) {
+  return ` ${normalize(value)} `.includes(` ${normalize(phrase)} `);
 }
 
 function tokenize(value) {

@@ -13,13 +13,17 @@ const index = JSON.parse(await readFile(indexPath, "utf8"));
 
 assert(Array.isArray(index.comics), "search-index.json must contain comics array");
 assert(index.comics.length > 0, "search-index.json must contain at least one comic");
+assert(index.fields?.includes("descriptionText"), "search-index.json fields must include descriptionText");
 
 for (const comic of index.comics.slice(0, 10)) {
   assert(comic.id, "comic id is required");
   assert(comic.url?.startsWith("https://www.smbc-comics.com/comic/"), `invalid official URL for ${comic.id}`);
   assert(comic.thumbnail, `thumbnail is required for ${comic.id}`);
   assert(
-    typeof comic.comicText === "string" && typeof comic.hoverText === "string" && typeof comic.voteyText === "string",
+    typeof comic.comicText === "string" &&
+      typeof comic.hoverText === "string" &&
+      typeof comic.voteyText === "string" &&
+      typeof comic.descriptionText === "string",
     `text fields must be strings for ${comic.id}`
   );
 }

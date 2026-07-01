@@ -2,14 +2,16 @@ const fieldLabels = new Map([
   ["comicText", "Comic"],
   ["metadata", "Title"],
   ["hoverText", "Hover"],
-  ["voteyText", "Votey"]
+  ["voteyText", "Votey"],
+  ["descriptionText", "Description"]
 ]);
 
 const fieldWeights = new Map([
   ["comicText", 3],
   ["metadata", 4],
   ["hoverText", 2],
-  ["voteyText", 2]
+  ["voteyText", 2],
+  ["descriptionText", 1]
 ]);
 
 const metadataField = "metadata";
@@ -43,13 +45,15 @@ async function init() {
         comicText: normalize(comic.comicText),
         metadata: normalize([comic.title, comic.date, comic.dateLabel, comic.slug, comic.url].join(" ")),
         hoverText: normalize(comic.hoverText),
-        voteyText: normalize(comic.voteyText)
+        voteyText: normalize(comic.voteyText),
+        descriptionText: normalize(comic.descriptionText)
       },
       tokens: {
         comicText: tokenize(comic.comicText),
         metadata: tokenize([comic.title, comic.date, comic.dateLabel, comic.slug, comic.url].join(" ")),
         hoverText: tokenize(comic.hoverText),
-        voteyText: tokenize(comic.voteyText)
+        voteyText: tokenize(comic.voteyText),
+        descriptionText: tokenize(comic.descriptionText)
       }
     }));
     indexMetaElement.textContent = `${index.totalIndexedComics.toLocaleString()} indexed`;

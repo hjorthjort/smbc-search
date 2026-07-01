@@ -301,6 +301,10 @@ button:focus-visible {
   background: var(--blue);
 }
 
+.badge.descriptionText {
+  background: #7a4f96;
+}
+
 .empty {
   grid-column: 1 / -1;
   padding: 34px 16px;

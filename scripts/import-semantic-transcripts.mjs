@@ -66,7 +66,9 @@ async function main() {
     manualComicText: 0,
     manualVoteyText: 0,
     comicTextFromSemantic: 0,
-    voteyTextFromSemantic: 0
+    voteyTextFromSemantic: 0,
+    descriptionTextFromSemantic: 0,
+    manualDescriptionText: 0
   };
 
   const updatedComics = [];
@@ -76,18 +78,23 @@ async function main() {
     const manualTranscript = manualTranscripts?.[comic.id];
     const hasManualComicText = Object.hasOwn(manualTranscript || {}, "comicText");
     const hasManualVoteyText = Object.hasOwn(manualTranscript || {}, "voteyText");
+    const hasManualDescriptionText = Object.hasOwn(manualTranscript || {}, "descriptionText");
     const transcript = transcriptsById.get(comic.id);
     if (!transcript) {
       stats.unmatchedComics += 1;
+      const manualDescriptionText = hasManualDescriptionText ? cleanTranscriptText(manualTranscript.descriptionText) : "";
       const nextComic = {
         ...comic,
         comicText: hasManualComicText ? cleanTranscriptText(manualTranscript.comicText) : comic.comicText || "",
         voteyText: hasManualVoteyText ? cleanTranscriptText(manualTranscript.voteyText) : comic.voteyText || "",
+        descriptionText: hasManualDescriptionText ? manualDescriptionText : comic.descriptionText || "",
         comicTextSource: hasManualComicText ? "manual" : comic.comicTextSource || "tesseract",
-        voteyTextSource: hasManualVoteyText ? "manual" : comic.voteyTextSource || (comic.voteyText ? "tesseract" : "")
+        voteyTextSource: hasManualVoteyText ? "manual" : comic.voteyTextSource || (comic.voteyText ? "tesseract" : ""),
+        descriptionTextSource: hasManualDescriptionText ? "manual" : comic.descriptionTextSource || (comic.descriptionText ? "tesseract" : "")
       };
       if (hasManualComicText) stats.manualComicText += 1;
       if (hasManualVoteyText) stats.manualVoteyText += 1;
+      if (hasManualDescriptionText) stats.manualDescriptionText += 1;
       updatedComics.push(nextComic);
       await updateCachedRecord(nextComic);
       continue;
@@ -98,16 +105,23 @@ async function main() {
 
     const semanticComicText = applySemanticCorrections(comic.id, "comicText", transcript.comicText);
     const semanticVoteyText = applySemanticCorrections(comic.id, "voteyText", transcript.voteyText);
+    const semanticDescriptionText = applySemanticCorrections(comic.id, "descriptionText", transcript.descriptionText);
     const nextComic = {
       ...comic,
-      comicText: hasManualComicText ? cleanTranscriptText(manualTranscript.comicText) : semanticComicText || comic.comicText || "",
-      voteyText: hasManualVoteyText ? cleanTranscriptText(manualTranscript.voteyText) : semanticVoteyText || comic.voteyText || "",
-      comicTextSource: hasManualComicText ? "manual" : semanticComicText ? sourceName : comic.comicTextSource || "tesseract",
+      comicText: hasManualComicText ? cleanTranscriptText(manualTranscript.comicText) : semanticComicText,
+      voteyText: hasManualVoteyText ? cleanTranscriptText(manualTranscript.voteyText) : semanticVoteyText,
+      descriptionText: hasManualDescriptionText ? cleanTranscriptText(manualTranscript.descriptionText) : semanticDescriptionText,
+      comicTextSource: hasManualComicText ? "manual" : sourceName,
       voteyTextSource: hasManualVoteyText
         ? "manual"
         : semanticVoteyText
           ? sourceName
-          : comic.voteyTextSource || (comic.voteyText ? "tesseract" : ""),
+          : "",
+      descriptionTextSource: hasManualDescriptionText
+        ? "manual"
+        : semanticDescriptionText
+          ? sourceName
+          : "",
       semanticTranscriptUrl: transcript.sourceUrl
     };
 
@@ -115,6 +129,8 @@ async function main() {
     else if (semanticComicText) stats.comicTextFromSemantic += 1;
     if (hasManualVoteyText) stats.manualVoteyText += 1;
     else if (semanticVoteyText) stats.voteyTextFromSemantic += 1;
+    if (hasManualDescriptionText) stats.manualDescriptionText += 1;
+    else if (semanticDescriptionText) stats.descriptionTextFromSemantic += 1;
 
     updatedComics.push(nextComic);
     await updateCachedRecord(nextComic);
@@ -126,11 +142,12 @@ async function main() {
     ...index,
     generatedAt: new Date().toISOString(),
     semanticImportedAt: new Date().toISOString(),
+    fields: ["comicText", "hoverText", "voteyText", "descriptionText"],
     semanticSource: {
       name: sourceName,
       url: sourceOrigin,
       note:
-        "AI-generated semantic transcripts are used for comic and votey text where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
+        "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
       stats
     },
     comics: updatedComics
@@ -259,6 +276,9 @@ function parseTranscriptPage(entry, html) {
 
   const transcriptText = htmlToText($, "section.transcript .body");
   const split = splitTranscript(transcriptText);
+  const comicParts = extractVisibleTextAndDescription(split.comicText);
+  const voteyParts = extractVisibleTextAndDescription(split.voteyText);
+  const descriptionText = cleanTranscriptText([comicParts.description, voteyParts.description].filter(Boolean).join("\n\n"));
 
   return {
     sourceUrl: entry.sourceUrl,
@@ -266,8 +286,11 @@ function parseTranscriptPage(entry, html) {
     originalUrl,
     originalSlug,
     smbcId: stableId(originalSlug),
-    comicText: cleanTranscriptText(split.comicText),
-    voteyText: cleanTranscriptText(split.voteyText),
+    comicText: cleanTranscriptText(comicParts.text),
+    voteyText: cleanTranscriptText(voteyParts.text),
+    comicDescription: cleanTranscriptText(comicParts.description),
+    voteyDescription: cleanTranscriptText(voteyParts.description),
+    descriptionText,
     altText: cleanTranscriptText(htmlToText($, "section.alt .body")),
     model: squashWhitespace($(".model").first().text())
   };
@@ -309,6 +332,221 @@ function cleanTranscriptText(text) {
     .trim();
 }
 
+function extractVisibleTextAndDescription(text) {
+  const visible = [];
+  const description = [];
+  const lines = String(text || "").split("\n");
+  let captureTextBlock = false;
+
+  for (const rawLine of lines) {
+    const line = rawLine.trim();
+    if (!line) continue;
+
+    if (isPanelMarker(line)) {
+      captureTextBlock = false;
+    }
+
+    const labeled = splitLabel(line);
+    if (labeled) {
+      const labelText = visibleTextFromLabel(labeled.label);
+      if (labelText.length) visible.push(...labelText);
+
+      if (labeled.value) {
+        if (isVisibleTextLabel(labeled.label, labeled.value)) {
+          visible.push(...visibleValueTexts(labeled.value));
+          const labelDescription = descriptionFromLabel(labeled.label);
+          if (labelDescription) description.push(labelDescription);
+        } else {
+          description.push(line);
+        }
+        captureTextBlock = false;
+        continue;
+      }
+
+      if (startsTextBlock(labeled.label)) {
+        captureTextBlock = true;
+        continue;
+      }
+
+      if (isPanelMarker(line)) continue;
+    }
+
+    if (captureTextBlock) {
+      if (isPanelMarker(line)) {
+        captureTextBlock = false;
+      } else if (isStandaloneVisibleText(line) || looksLikeVisibleText(line)) {
+        visible.push(cleanVisibleText(line));
+      } else if (isLikelyVisualDescription(line)) {
+        captureTextBlock = false;
+        description.push(line);
+      } else {
+        visible.push(cleanVisibleText(line));
+      }
+      continue;
+    }
+
+    const quotedText = quotedVisibleText(line);
+    if (quotedText.length && !isLikelyExplanation(line)) {
+      visible.push(...quotedText);
+      const withoutQuotes = line.replace(/["“”][^"“”]+["“”]/g, "").trim();
+      if (withoutQuotes) description.push(withoutQuotes);
+      continue;
+    }
+
+    if (isStandaloneVisibleText(line)) {
+      visible.push(cleanVisibleText(line));
+    } else {
+      description.push(line);
+    }
+  }
+
+  const rescuedVisible = [];
+  const keptDescription = [];
+  for (const line of description) {
+    if (!isLikelyVisualDescription(line) && (isStandaloneVisibleText(line) || looksLikeVisibleText(line))) {
+      rescuedVisible.push(line);
+    } else {
+      keptDescription.push(line);
+    }
+  }
+
+  return {
+    text: dedupeLines([...visible, ...rescuedVisible.map(cleanVisibleText)]).join("\n"),
+    description: dedupeLines(keptDescription).join("\n")
+  };
+}
+
+function splitLabel(line) {
+  const match = /^([^:]{1,180}):\s*(.*)$/.exec(line);
+  if (!match) return null;
+  return {
+    label: match[1].trim(),
+    value: match[2].trim()
+  };
+}
+
+function isPanelMarker(line) {
+  return /^Panel\s+\d+\b/i.test(line) || /^Final panel\b/i.test(line) || /^Votey\b/i.test(line);
+}
+
+function startsTextBlock(label) {
+  return /\b(reads?|text|caption|label|labels|written|handwritten|screen|paper|newspaper|banner|sign|note|button|title|header|speech bubble|says?)\b/i.test(
+    label
+  );
+}
+
+function visibleTextFromLabel(label) {
+  const text = [];
+  const lower = label.toLowerCase();
+  if (/\b(labeled|labelled|label|caption|header|title|banner)\b/.test(lower)) {
+    text.push(...quotedVisibleText(label));
+  }
+  return text;
+}
+
+function isVisibleTextLabel(label, value) {
+  const lower = label.toLowerCase();
+  if (startsTextBlock(label)) return true;
+  if (isPanelMarker(label)) return hasTextCue(lower) || looksLikeVisibleText(value);
+  if (/^["“”']/.test(value)) return true;
+  if (isVisualOnlyLabel(lower)) return false;
+  if (looksLikeSpeakerLabel(label)) return true;
+  return looksLikeVisibleText(value);
+}
+
+function hasTextCue(value) {
+  return /\b(caption|header|title|banner|label|labeled|labelled|text|sign|screen|button|speech|thought|star)\b/.test(value);
+}
+
+function looksLikeSpeakerLabel(label) {
+  const lower = label.toLowerCase();
+  if (hasTextCue(lower)) return true;
+  if (isVisualOnlyLabel(lower) || isPanelMarker(label)) return false;
+  const words = label.split(/\s+/).filter(Boolean);
+  if (words.length > 10) return false;
+  return true;
+}
+
+function isVisualOnlyLabel(lowerLabel) {
+  return /\b(setting|scene|background|illustration|drawing|diagram|view|wide shot|close-up|close up|same scene|silent panel|final wide panel|image|photo|graph|chart)\b/.test(
+    lowerLabel
+  );
+}
+
+function looksLikeVisibleText(value) {
+  const cleaned = cleanVisibleText(value);
+  if (!cleaned) return false;
+  if (/^["“”']/.test(value)) return true;
+  const letters = cleaned.match(/[A-Za-z]/g) || [];
+  if (!letters.length) return /\d/.test(cleaned);
+  const uppercase = letters.filter((letter) => letter === letter.toUpperCase()).length;
+  return uppercase / letters.length > 0.55 || /[!?]$/.test(cleaned);
+}
+
+function isStandaloneVisibleText(line) {
+  if (/^\(?[A-Z0-9][A-Z0-9\s.,!?'"’‘“”:#%&/;<>+=-]{2,}\)?$/.test(line)) return true;
+  return /^[-\w ./:]+:\s+/.test(line) && looksLikeVisibleText(line);
+}
+
+function isLikelyVisualDescription(line) {
+  const lower = line.toLowerCase();
+  return /\b(close-up|close up|view|scene|setting|panel|illustration|drawing|diagram|background|shows?|appears?|standing|sitting|wearing|holding)\b/.test(
+    lower
+  );
+}
+
+function isLikelyExplanation(line) {
+  return /\b(the joke|implying|implies|suggesting|suggests|because|meaning|pun)\b/i.test(line);
+}
+
+function quotedVisibleText(line) {
+  const matches = [];
+  const pattern = /["“”]([^"“”]{2,})["“”]/g;
+  let match = pattern.exec(line);
+  while (match) {
+    matches.push(cleanVisibleText(match[1]));
+    match = pattern.exec(line);
+  }
+  return matches.filter(Boolean);
+}
+
+function visibleValueTexts(value) {
+  const quoted = quotedVisibleText(value);
+  if (quoted.length) {
+    const remainder = value.replace(/["“”][^"“”]+["“”]/g, "").replace(/[(),.;:\s-]+/g, "");
+    if (!remainder) return quoted;
+  }
+  return [cleanVisibleText(value)].filter(Boolean);
+}
+
+function descriptionFromLabel(label) {
+  const cleaned = label
+    .replace(/\([^)]*(caption|label|labeled|labelled|title|banner)[^)]*\)/gi, "")
+    .replace(/^Panel\s+\d+\s*/i, "")
+    .trim();
+  if (!cleaned || hasTextCue(cleaned.toLowerCase()) || looksLikeSpeakerLabel(cleaned)) return "";
+  return cleaned.endsWith(".") ? cleaned : `${cleaned}.`;
+}
+
+function cleanVisibleText(text) {
+  return String(text || "")
+    .replace(/^[\s("'“”‘’]+|[\s)"'“”‘’]+$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function dedupeLines(lines) {
+  const seen = new Set();
+  const deduped = [];
+  for (const line of lines.map(cleanTranscriptText).filter(Boolean)) {
+    const key = squashWhitespace(line).toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    deduped.push(line);
+  }
+  return deduped;
+}
+
 function applySemanticCorrections(id, field, text) {
   let corrected = text;
   for (const correction of semanticCorrections) {
@@ -336,8 +574,10 @@ async function updateCachedRecord(comic) {
     ...record,
     comicText: comic.comicText,
     voteyText: comic.voteyText,
+    descriptionText: comic.descriptionText,
     comicTextSource: comic.comicTextSource,
     voteyTextSource: comic.voteyTextSource,
+    descriptionTextSource: comic.descriptionTextSource,
     semanticTranscriptUrl: comic.semanticTranscriptUrl,
     semanticUpdatedAt: new Date().toISOString()
   });

@@ -4,11 +4,12 @@ A local, reproducible indexer and search page for [SMBC](https://www.smbc-comics
 
 The scraper reads the official archive, downloads each comic and votey image, extracts:
 
-- main comic OCR text
+- main comic text
 - hover text from the main comic image title
-- votey OCR text
+- votey text
+- visual descriptions from semantic transcripts, when available
 
-Hover text is ignored when it is empty or only the comic date. Search defaults to main comic text, with toggles for comic, hover text, and votey fields. Result thumbnails are generated locally from the comic images at a small blurred size so they identify a result without replacing the official page.
+Hover text is ignored when it is empty or only the comic date. Search defaults to main comic text, with toggles for comic, hover text, votey, and experimental description fields. Result thumbnails are generated locally from the comic images at a small blurred size so they identify a result without replacing the official page.
 
 ## Requirements
 

@@ -72,7 +72,8 @@ async function main() {
         `${String(done).padStart(5, " ")}/${archive.entries.length} ${processed.id} ` +
           `comic:${processed.comicText ? processed.comicText.length : 0} ` +
           `hover:${processed.hoverText ? processed.hoverText.length : 0} ` +
-          `votey:${processed.voteyText ? processed.voteyText.length : 0}`
+          `votey:${processed.voteyText ? processed.voteyText.length : 0} ` +
+          `description:${processed.descriptionText ? processed.descriptionText.length : 0}`
       );
     });
   }
@@ -232,6 +233,9 @@ async function processComic(entry, options) {
   const voteyText = reusableVotey ? cachedRecord.voteyText || "" : voteyImage ? await ocrCached(page.id, "votey", voteyImage.path, options) : "";
   const comicTextSource = reusableMain ? cachedRecord.comicTextSource || (comicText ? "tesseract" : "") : comicText ? "tesseract" : "";
   const voteyTextSource = reusableVotey ? cachedRecord.voteyTextSource || (voteyText ? "tesseract" : "") : voteyText ? "tesseract" : "";
+  const reusableDescription = reusableReviewedDescription(cachedRecord, page);
+  const descriptionText = reusableDescription ? cachedRecord.descriptionText || "" : "";
+  const descriptionTextSource = reusableDescription ? cachedRecord.descriptionTextSource || "" : "";
   const hoverText = cleanHoverText(page.hoverText, page);
   const thumbnail = reusableMain ? cachedRecord.thumbnail || "" : mainImage ? await writeBlurredThumbnail(page.id, mainImage.path) : "";
 
@@ -250,9 +254,11 @@ async function processComic(entry, options) {
     comicText,
     hoverText,
     voteyText,
+    descriptionText,
     comicTextSource,
     voteyTextSource,
-    semanticTranscriptUrl: reusableMain || reusableVotey ? cachedRecord.semanticTranscriptUrl || "" : "",
+    descriptionTextSource,
+    semanticTranscriptUrl: reusableMain || reusableVotey || reusableDescription ? cachedRecord.semanticTranscriptUrl || "" : "",
     updatedAt: new Date().toISOString()
   };
 
@@ -270,6 +276,13 @@ function reusableReviewedVoteyText(cachedRecord, page) {
   if (!cachedRecord || cachedRecord.voteyUrl !== page.voteyUrl) return false;
   if (!reviewedTextSources.has(cachedRecord.voteyTextSource)) return false;
   return Object.hasOwn(cachedRecord, "voteyText");
+}
+
+function reusableReviewedDescription(cachedRecord, page) {
+  if (!cachedRecord || !reviewedTextSources.has(cachedRecord.descriptionTextSource)) return false;
+  if (cachedRecord.imageUrl !== page.imageUrl) return false;
+  if (cachedRecord.voteyUrl && cachedRecord.voteyUrl !== page.voteyUrl) return false;
+  return Object.hasOwn(cachedRecord, "descriptionText");
 }
 
 async function reusableMainAsset(cachedRecord, page, options) {
@@ -595,7 +608,7 @@ async function writeSearchIndex(archive, records) {
     source: archive.source,
     totalArchiveComics: archive.entries.length,
     totalIndexedComics: records.length,
-    fields: ["comicText", "hoverText", "voteyText"],
+    fields: ["comicText", "hoverText", "voteyText", "descriptionText"],
     comics: records.map((record) => ({
       id: record.id,
       slug: record.slug,
@@ -607,8 +620,10 @@ async function writeSearchIndex(archive, records) {
       comicText: record.comicText || "",
       hoverText: record.hoverText || "",
       voteyText: record.voteyText || "",
+      descriptionText: record.descriptionText || "",
       comicTextSource: record.comicTextSource || (record.comicText ? "tesseract" : ""),
       voteyTextSource: record.voteyTextSource || (record.voteyText ? "tesseract" : ""),
+      descriptionTextSource: record.descriptionTextSource || (record.descriptionText ? "tesseract" : ""),
       semanticTranscriptUrl: record.semanticTranscriptUrl || ""
     }))
   };
