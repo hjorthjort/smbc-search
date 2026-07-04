@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-03T08:27:46.127Z",
+  "generatedAt": "2026-07-04T08:14:43.263Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7837,
-  "totalIndexedComics": 7837,
+  "totalArchiveComics": 7838,
+  "totalIndexedComics": 7838,
   "fields": [
     "comicText",
     "hoverText",
@@ -133238,19 +133238,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "percent-2",
+      "slug": "percent-2",
+      "url": "https://www.smbc-comics.com/comic/percent-2",
+      "title": "Percent",
+      "date": "2026-07-03",
+      "dateLabel": "July 3, 2026",
+      "thumbnail": "thumbs/percent-2.webp",
+      "comicText": "HEN, JUST A REMINDER, YOU'VE\n\nONLY COMPLETED 70% OF\n\nYOUR RELATIONSHIP TASKS.\n\n(Wo\n\nI SEE WHAT YOU'RE SAYING\n\nI WILL ORDER YOU\n\nBUT DON’T YOU FIND THE 70%\n\nA SAMURAI SWORD.\n\nSIGN A LITTLE ANNOYING?\n\nMAKES YOU FEEL A LITTLE...\n\nINCOMPLETE?\n\nWOW/ 71%\n\nOF TASKS NOW\n\nCOMPLETE/\n\nAah\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-C\n\nOMICS.COM\n\nC—_—4\n\nierzanl\n\nI SEE WHAT YOU'RE SAVING,\n\nBUT DON'T YOU FIND THE 76%\n\nINN\n\nSMBC-COMICS.COM",
+      "hoverText": "Later he starts adding quest items she doesn't want, but feels compelled to earn.",
+      "voteyText": "MAY T INTEREST YOU IN\n\nMY SOCIAL SECURITY CARD\n\nAND/OR MEDICAL RECORDS?",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-03T08:27:46.127Z",
+  "semanticImportedAt": "2026-07-04T08:14:43.263Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7837,
+      "indexedComics": 7838,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 38,
+      "unmatchedComics": 39,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
