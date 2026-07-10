@@ -35,9 +35,15 @@ const tesseractComicText = index.comics.filter((comic) => comic.comicTextSource 
 const tesseractVoteyText = index.comics.filter(
   (comic) => comic.voteyText && (comic.voteyTextSource === "tesseract" || !comic.voteyTextSource)
 );
+const latestReviewedComicDate = latestDate(index.comics.filter((comic) => ["manual", "ohyesrobot"].includes(comic.comicTextSource)));
+const latestReviewedVoteyDate = latestDate(index.comics.filter((comic) => ["manual", "ohyesrobot"].includes(comic.voteyTextSource)));
 const latestOcrFallbackIds = new Set(archive.entries.slice(-latestOcrFallbackCount).map((entry) => entry.id));
 const staleTesseractComicText = tesseractComicText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
 const staleTesseractVoteyText = tesseractVoteyText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
+const pendingTesseractComicText = staleTesseractComicText.filter((comic) => isAfterDate(comic.date, latestReviewedComicDate));
+const pendingTesseractVoteyText = staleTesseractVoteyText.filter((comic) => isAfterDate(comic.date, latestReviewedVoteyDate));
+const staleUnreviewedTesseractComicText = staleTesseractComicText.filter((comic) => !pendingTesseractComicText.includes(comic));
+const staleUnreviewedTesseractVoteyText = staleTesseractVoteyText.filter((comic) => !pendingTesseractVoteyText.includes(comic));
 const suspiciousOcr = findSuspiciousOcr(index.comics);
 const semanticSplitChecks = [
   {
@@ -74,11 +80,11 @@ if (emptyAllSearchableText.length) failures.push(`Records with no searchable tex
 if (semanticComicText.length < 7700) {
   failures.push(`Semantic comic text coverage too low: ${semanticComicText.length} of ${index.comics.length}.`);
 }
-if (staleTesseractComicText.length) {
-  failures.push(`Raw Tesseract comic text remains outside the newest ${latestOcrFallbackCount}: ${staleTesseractComicText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+if (staleUnreviewedTesseractComicText.length) {
+  failures.push(`Raw Tesseract comic text remains before the reviewed transcript frontier: ${staleUnreviewedTesseractComicText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
 }
-if (staleTesseractVoteyText.length) {
-  failures.push(`Raw Tesseract votey text remains outside the newest ${latestOcrFallbackCount}: ${staleTesseractVoteyText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
+if (staleUnreviewedTesseractVoteyText.length) {
+  failures.push(`Raw Tesseract votey text remains before the reviewed transcript frontier: ${staleUnreviewedTesseractVoteyText.slice(0, 10).map((comic) => comic.id).join(", ")}`);
 }
 for (const check of semanticSplitChecks) {
   const comic = comicsById.get(check.id);
@@ -133,9 +139,15 @@ console.log(
       descriptionText: descriptionText.length,
       tesseractComicText: tesseractComicText.length,
       tesseractVoteyText: tesseractVoteyText.length,
+      latestReviewedComicDate,
+      latestReviewedVoteyDate,
       latestOcrFallbackIds: Array.from(latestOcrFallbackIds),
       staleTesseractComicText: staleTesseractComicText.length,
       staleTesseractVoteyText: staleTesseractVoteyText.length,
+      pendingTesseractComicText: pendingTesseractComicText.map((comic) => comic.id),
+      pendingTesseractVoteyText: pendingTesseractVoteyText.map((comic) => comic.id),
+      staleUnreviewedTesseractComicText: staleUnreviewedTesseractComicText.length,
+      staleUnreviewedTesseractVoteyText: staleUnreviewedTesseractVoteyText.length,
       semanticSplitChecks: semanticSplitChecks.length,
       suspiciousOcr: suspiciousOcr.length,
       suspiciousExamples: suspiciousOcr.slice(0, 20),
@@ -231,6 +243,14 @@ function normalize(value) {
     .replace(/[^a-z0-9]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function latestDate(comics) {
+  return comics.map((comic) => comic.date).filter(Boolean).sort().at(-1) || "";
+}
+
+function isAfterDate(date, cutoff) {
+  return Boolean(date && cutoff && String(date) > String(cutoff));
 }
 
 function includesNormalized(value, phrase) {

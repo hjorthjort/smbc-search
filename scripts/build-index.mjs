@@ -57,17 +57,15 @@ async function main() {
   await ensureDirs();
 
   const archive = await loadArchive(options);
-  const selected = options.latest
-    ? archive.entries.slice(-options.latest)
-    : archive.entries.slice(options.offset, options.limit ? options.offset + options.limit : undefined);
-  const selectedStart = options.latest ? archive.entries.length - selected.length : options.offset;
+  const selected = await selectArchiveEntries(archive.entries, options);
+  const entryOrdinals = new Map(archive.entries.map((entry, index) => [entry.id, index + 1]));
 
   console.log(`Archive has ${archive.entries.length} comics. Processing ${selected.length}.`);
 
   if (!options.rebuildIndexOnly) {
     await runPool(selected, options.concurrency, async (entry, index) => {
       const processed = await processComic(entry, options);
-      const done = selectedStart + index + 1;
+      const done = entryOrdinals.get(entry.id) || index + 1;
       console.log(
         `${String(done).padStart(5, " ")}/${archive.entries.length} ${processed.id} ` +
           `comic:${processed.comicText ? processed.comicText.length : 0} ` +
@@ -81,6 +79,22 @@ async function main() {
   const records = await loadRecords(archive.entries);
   await writeSearchIndex(archive, records);
   console.log(`Wrote ${records.length} indexed comics to public/data/search-index.json.`);
+}
+
+async function selectArchiveEntries(entries, options) {
+  if (!options.latest) return entries.slice(options.offset, options.limit ? options.offset + options.limit : undefined);
+
+  const selectedIds = new Set(entries.slice(-options.latest).map((entry) => entry.id));
+  const previousIndex = await readExistingSearchIndex();
+  const previousIds = new Set((previousIndex?.comics || []).map((comic) => comic.id));
+
+  for (const entry of entries) {
+    if (previousIds.has(entry.id)) continue;
+    if (await exists(path.join(recordDir, `${entry.id}.json`))) continue;
+    selectedIds.add(entry.id);
+  }
+
+  return entries.filter((entry) => selectedIds.has(entry.id));
 }
 
 function parseArgs(args) {
