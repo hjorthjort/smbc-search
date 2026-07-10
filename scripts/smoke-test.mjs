@@ -10,10 +10,13 @@ const rootDir = path.resolve(__dirname, "..");
 
 const indexPath = path.join(rootDir, "public", "data", "search-index.json");
 const index = JSON.parse(await readFile(indexPath, "utf8"));
+const html = await readFile(path.join(rootDir, "public", "index.html"), "utf8");
 
 assert(Array.isArray(index.comics), "search-index.json must contain comics array");
 assert(index.comics.length > 0, "search-index.json must contain at least one comic");
 assert(index.fields?.includes("descriptionText"), "search-index.json fields must include descriptionText");
+assert(/<div id="resultCount">Loading<\/div>/.test(html), "initial result count should show Loading");
+assert(/<div class="empty">Loading<\/div>/.test(html), "initial results should show Loading");
 
 for (const comic of index.comics.slice(0, 10)) {
   assert(comic.id, "comic id is required");

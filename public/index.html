@@ -28,7 +28,7 @@
       </header>
 
       <section class="statusbar">
-        <div id="resultCount">No query</div>
+        <div id="resultCount">Loading</div>
         <div class="resultTools">
           <nav id="paginationTop" class="pagination" aria-label="Result pages"></nav>
           <label class="limit">
@@ -43,7 +43,9 @@
         </div>
       </section>
 
-      <section id="results" class="results" aria-live="polite"></section>
+      <section id="results" class="results" aria-live="polite">
+        <div class="empty">Loading</div>
+      </section>
       <nav id="paginationBottom" class="pagination paginationBottom" aria-label="Result pages"></nav>
     </main>
     <template id="resultTemplate">
