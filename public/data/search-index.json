@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-12T08:05:44.455Z",
+  "generatedAt": "2026-07-13T08:28:44.190Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7845,
-  "totalIndexedComics": 7845,
+  "totalArchiveComics": 7846,
+  "totalIndexedComics": 7846,
   "fields": [
     "comicText",
     "hoverText",
@@ -133374,19 +133374,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "old-2",
+      "slug": "old-2",
+      "url": "https://www.smbc-comics.com/comic/old-2",
+      "title": "Old",
+      "date": "2026-07-12",
+      "dateLabel": "July 12, 2026",
+      "thumbnail": "thumbs/old-2.webp",
+      "comicText": "IMAGINE ALMOST EVERYONE HAS THE SAME\n\nHOPEFUL COMMUNAL SPIRIT AS WIKIPEDIA,\n\nBUT THEY ALSO WANT TO TRICK YOU INTO\n\nSTARING INTO A VAST DISTENDED ANUS.\n\nAy\n\nEA\n\nCS\n\nDescribing the early Internet was surprisingly easy.\n\nHOPEFUL COMMDUNAL SPIRIT AS WIKIPEDIA,\n\noN\n\nao",
+      "hoverText": "Things will never again be so beautiful.",
+      "voteyText": "FAKADISE,\n\nOr”?\n\nPARADISE.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-12T08:05:44.455Z",
+  "semanticImportedAt": "2026-07-13T08:28:44.190Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7845,
+      "indexedComics": 7846,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 46,
+      "unmatchedComics": 47,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
