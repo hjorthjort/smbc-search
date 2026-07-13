@@ -9,10 +9,17 @@ const index = await readJson(path.join(rootDir, "public", "data", "search-index.
 const archive = await readJson(path.join(rootDir, "data", "archive.json"));
 const failures = [];
 const latestOcrFallbackCount = 4;
+const archiveCacheBehindIndex = archive.entries.length < index.totalArchiveComics;
+const archiveEntriesForCoverage = archiveCacheBehindIndex
+  ? index.comics.map((comic) => ({ id: comic.id }))
+  : archive.entries;
+const archiveEntriesForLatest = archiveCacheBehindIndex
+  ? index.comics
+  : archive.entries;
 
 const comicsById = new Map(index.comics.map((comic) => [comic.id, comic]));
 const duplicateIds = index.comics.map((comic) => comic.id).filter((id, index, ids) => ids.indexOf(id) !== index);
-const missingFromIndex = archive.entries.filter((entry) => !comicsById.has(entry.id));
+const missingFromIndex = archiveEntriesForCoverage.filter((entry) => !comicsById.has(entry.id));
 const missingThumbs = [];
 
 for (const comic of index.comics) {
@@ -37,7 +44,7 @@ const tesseractVoteyText = index.comics.filter(
 );
 const latestReviewedComicDate = latestDate(index.comics.filter((comic) => ["manual", "ohyesrobot"].includes(comic.comicTextSource)));
 const latestReviewedVoteyDate = latestDate(index.comics.filter((comic) => ["manual", "ohyesrobot"].includes(comic.voteyTextSource)));
-const latestOcrFallbackIds = new Set(archive.entries.slice(-latestOcrFallbackCount).map((entry) => entry.id));
+const latestOcrFallbackIds = new Set(archiveEntriesForLatest.slice(-latestOcrFallbackCount).map((entry) => entry.id));
 const staleTesseractComicText = tesseractComicText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
 const staleTesseractVoteyText = tesseractVoteyText.filter((comic) => !latestOcrFallbackIds.has(comic.id));
 const pendingTesseractComicText = staleTesseractComicText.filter((comic) => isAfterDate(comic.date, latestReviewedComicDate));
@@ -64,13 +71,16 @@ const semanticSplitChecks = [
   }
 ];
 
-if (archive.entries.length !== index.totalArchiveComics) {
+if (!archiveCacheBehindIndex && archive.entries.length !== index.totalArchiveComics) {
   failures.push(`Archive count mismatch: archive has ${archive.entries.length}, index says ${index.totalArchiveComics}.`);
 }
 if (index.comics.length !== index.totalIndexedComics) {
   failures.push(`Index count mismatch: comics has ${index.comics.length}, index says ${index.totalIndexedComics}.`);
 }
-if (archive.entries.length !== index.comics.length) {
+if (index.totalArchiveComics !== index.totalIndexedComics) {
+  failures.push(`Index coverage metadata mismatch: totalArchiveComics is ${index.totalArchiveComics}, totalIndexedComics is ${index.totalIndexedComics}.`);
+}
+if (!archiveCacheBehindIndex && archive.entries.length !== index.comics.length) {
   failures.push(`Coverage mismatch: archive has ${archive.entries.length}, index has ${index.comics.length}.`);
 }
 if (duplicateIds.length) failures.push(`Duplicate ids: ${duplicateIds.slice(0, 10).join(", ")}`);
@@ -124,8 +134,11 @@ console.log(
   JSON.stringify(
     {
       generatedAt: index.generatedAt,
+      archiveFetchedAt: archive.fetchedAt,
       archiveComics: archive.entries.length,
+      indexTotalArchiveComics: index.totalArchiveComics,
       indexedComics: index.comics.length,
+      archiveCacheBehindIndex,
       duplicateIds: duplicateIds.length,
       missingFromIndex: missingFromIndex.length,
       missingThumbs: missingThumbs.length,
