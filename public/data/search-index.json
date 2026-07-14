@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-13T08:28:44.190Z",
+  "generatedAt": "2026-07-14T08:05:04.560Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7846,
-  "totalIndexedComics": 7846,
+  "totalArchiveComics": 7847,
+  "totalIndexedComics": 7847,
   "fields": [
     "comicText",
     "hoverText",
@@ -133391,19 +133391,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "evolution-10",
+      "slug": "evolution-10",
+      "url": "https://www.smbc-comics.com/comic/evolution-10",
+      "title": "Evolution",
+      "date": "2026-07-13",
+      "dateLabel": "July 13, 2026",
+      "thumbnail": "thumbs/evolution-10.webp",
+      "comicText": "THIS GETS EVOLUTION\n\nTOTALLY WRONG.\n\nei\n\nBECAUSE IT'S TOO\n\nA REALISTIC \"DESCENT OF MAN\n\nTELEOLOGICAL?\n\nWOULD HAVE HUMANOID APES\n\nDIVERGING INTO DISTINCT\n\nSPECIES OVER MILLENNIA,\n\nTHERE SHOULD\n\nNO BECAUSE\n\nTHEN MEETING UP IN A CAVE\n\nBE BRANCHING\n\nONE NIGHT AND SAYING\n\nAND LOOPING.\n\n“I COULD WORK WITH THAT’\n\nWHERE ARE\n\nNEANDERTHALS?\n\nDENISOVANS?7\n\nBA\n\nate\n\nDos\n\nTim into blindfolds.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nMS\n\nIA REALISTIC “DESCENT OF MAN”\n\nTELEOLOGICAL.F\n\nDENISOVANS?\n\nES\n\nma lZ",
+      "hoverText": "This is why humans evolved our unique ability to self-deceive.",
+      "voteyText": "",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-13T08:28:44.190Z",
+  "semanticImportedAt": "2026-07-14T08:05:04.560Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7846,
+      "indexedComics": 7847,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 47,
+      "unmatchedComics": 48,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
