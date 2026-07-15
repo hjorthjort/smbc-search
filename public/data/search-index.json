@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-14T08:05:04.560Z",
+  "generatedAt": "2026-07-15T08:06:17.017Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7847,
-  "totalIndexedComics": 7847,
+  "totalArchiveComics": 7848,
+  "totalIndexedComics": 7848,
   "fields": [
     "comicText",
     "hoverText",
@@ -133408,19 +133408,36 @@
       "voteyTextSource": "",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "communication-2",
+      "slug": "communication-2",
+      "url": "https://www.smbc-comics.com/comic/communication-2",
+      "title": "Communication",
+      "date": "2026-07-14",
+      "dateLabel": "July 14, 2026",
+      "thumbnail": "thumbs/communication-2.webp",
+      "comicText": "DO YOU THINK IF WE MET\n\nALIENS THEN’D HAVE\n\nDIFFERENT WAYS OF\n\nCOMMUNICATING THAN 0S.7\n\nra\n\nT WISH TO BE KIND WITH YOU\n\nIN A NON-TRANSACTIONAL WAY.\n\ntre\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nALIENS THEY'D HAVE",
+      "hoverText": "They can also communicate via quantum superposition, but it's way less interesting.",
+      "voteyText": "WE ARE SO DIFFERENT, AND\n\nYET ALSO NOTHING ALIKE.\n\n(e7",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-14T08:05:04.560Z",
+  "semanticImportedAt": "2026-07-15T08:06:17.017Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7847,
+      "indexedComics": 7848,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 48,
+      "unmatchedComics": 49,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
