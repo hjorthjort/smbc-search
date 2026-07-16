@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-15T08:06:17.017Z",
+  "generatedAt": "2026-07-16T08:05:40.426Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7848,
-  "totalIndexedComics": 7848,
+  "totalArchiveComics": 7849,
+  "totalIndexedComics": 7849,
   "fields": [
     "comicText",
     "hoverText",
@@ -133425,19 +133425,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "pac",
+      "slug": "pac",
+      "url": "https://www.smbc-comics.com/comic/pac",
+      "title": "Pac",
+      "date": "2026-07-15",
+      "dateLabel": "July 15, 2026",
+      "thumbnail": "thumbs/pac.webp",
+      "comicText": "I FIND PAC-MAN TO BE SEXIST.\n\nLIKE, THE MALE IS \"NORMAU' AND\n\nMALES DO SEXVAL\n\nIN MOST SPECIES,\n\nTHE FEMALE HAS A GIANT BOW,\n\nDISPLAYS TO\n\nAND LIPSTICK.\n\nATTRACT MATES.\n\nTHAT IS\n\nFEMALE\n\nSUPREMACY,\n\nBOB.\n\nAl\n\nry\n\n‘Ps\n\nIN SPECIES WITH\n\nJUDGING PURELY BY PHENOTYPE, T\n\nSHOWY FEMALES,\n\nTHE MALES ARE\n\nA HAREM OF DIMINUTIVE PAC-MEN WHO\n\nWOULD GULESS MISS PAC-MAN KEEPS\n\nTYPICALLY\n\nTHEN INCUBATE HER EGGS AS SHE\n\nMONOGAMOUS\n\nLOOKS FOR ADDITIONAL MATES.\n\nAND HELP WITH\n\nCHILD-REARING.\n\nCe\n\nrar\n\net\n\nCO ered\n\nSO\n\nBSH 4\n\nTHIS IS GONNA MESS ME UP\n\n\"COME MICKENS/\n\nREAL HARD ON CLASSIC\n\nMINNIE MUST\n\nCARTOON CHARACTERS.\n\nBROO00000D /\"\n\nAY\n\nfo\n\nPATREON.CO\n\nM/ ZACHWEIN\n\nERSMITH\n\nSMBC-COMICS.COM\n\nIT FIND PAC-MAN T0 BE SEXIST.\n\nLIKE, THE MALE IS \"NORMAL AND.\n\nMALES DO SEXUAL\n\nyi\n\nWOULD GUESS MISS PAC-MAN KEEPS\n\nee\n\na2\n\nOe\n\n“COME MICKEYS/\n\nMINNIE MOST,\n\n80000000 /\"\n\nSL\n\nPATREON.COM/ZACHWEINERSMITH.",
+      "hoverText": "This is also why Daisy Duck has more linguistic capacity than Donald.",
+      "voteyText": "(Cd\n\nNd",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-15T08:06:17.017Z",
+  "semanticImportedAt": "2026-07-16T08:05:40.426Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7848,
+      "indexedComics": 7849,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 49,
+      "unmatchedComics": 50,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
