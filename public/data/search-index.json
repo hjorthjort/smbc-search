@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-16T08:05:40.426Z",
+  "generatedAt": "2026-07-17T08:05:28.526Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7849,
-  "totalIndexedComics": 7849,
+  "totalArchiveComics": 7850,
+  "totalIndexedComics": 7850,
   "fields": [
     "comicText",
     "hoverText",
@@ -133442,19 +133442,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "misery",
+      "slug": "misery",
+      "url": "https://www.smbc-comics.com/comic/misery",
+      "title": "Misery",
+      "date": "2026-07-16",
+      "dateLabel": "July 16, 2026",
+      "thumbnail": "thumbs/misery.webp",
+      "comicText": "GOD, WHY\n\nYOU STRUCTURED YOUR ECONOMY SO\n\nTHE HELL IS\n\nTHAT POETS, PAINTERS, AND WRITERS HAVE\n\nEVERYONE SO\n\nTHE WORST MONEN-TO-TALENT RATIO OF\n\nMISERABLE?\n\nANYONE, THEN TASKED THEM WITH\n\nTALKING ABOUT WHAT LIFE IS LIKE/\n\nWid\n\nALL OF YOUR GREATEST STORIES ARE\n\nYOU _COULD'VE TAKEN\n\nBROUGHT TO YOU BY A SCORNED\n\nUPPER MIDDLE CLASS\n\nUNDERCLASS WHO ALREADY HATED\n\nPROFESSIONALS AND\n\nTHEMSELVES BEFORE THEY WERE TOLD\n\nMADE THEM WRITE\n\nTHEY DESERVE NOTHING BECAUSE\n\nTHE MOVIES AND\n\nTHEIR JOE ISN'T REAL.\n\nBOOKS BUT MWO0000.\n\n—— eel\n\nWE TURNED OVER BOOKWRITING TO\n\nGOD, NOBODY READS LITERATURE ANYMORE.\n\nSELF-HELP WRITTEN BY MILLIONAIRES,\n\nAND FANTASY PORN.\n\nTHEN WHY\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nYe",
+      "hoverText": "Genuinely, putting artists in charge of depicting the good life has been a catastrophe.",
+      "voteyText": "I MADE A BONDAGE NOVEL\n\nBE THE BESTSELLING BOOK\n\nFOR TEN YEARS/ I'M OUT\n\nOF MIRACLEG/\n\nFOR TEN YEARS/ TIM OUT\n\nOF MIRACLES/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-16T08:05:40.426Z",
+  "semanticImportedAt": "2026-07-17T08:05:28.526Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7849,
+      "indexedComics": 7850,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 50,
+      "unmatchedComics": 51,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
