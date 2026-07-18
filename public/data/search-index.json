@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-17T08:05:28.526Z",
+  "generatedAt": "2026-07-18T08:04:05.906Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7850,
-  "totalIndexedComics": 7850,
+  "totalArchiveComics": 7851,
+  "totalIndexedComics": 7851,
   "fields": [
     "comicText",
     "hoverText",
@@ -133459,19 +133459,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "subjective",
+      "slug": "subjective",
+      "url": "https://www.smbc-comics.com/comic/subjective",
+      "title": "Subjective",
+      "date": "2026-07-17",
+      "dateLabel": "July 17, 2026",
+      "thumbnail": "thumbs/subjective.webp",
+      "comicText": "ZORGAX, WHAT IS CONSCIOUSNESS?\n\nHOW CAN THE PHYSICAL GIVE RISE\n\nTO THE SUBJECTIVE\n\ntC\n\nAHAHAHA/\n\nOHMYGOD CAN I\n\nGET A PICTURE\n\nWITH YO?\n\nvol ee\n\nLOOK, THE CONNECTION\n\nYOU'RE SMART ENOUGH\n\nBETWEEN PHYSICAL AND\n\nTO KNOW IT HAPPENS\n\nMENTAL PROCESSES IS\n\nBUT INCAPABLE OF\n\nSTRAIGHTFORWARD\n\nTHE PROBLEM IS THAT\n\nUNDERSTANDING. IT'S LIKE A\n\nTHE FULL IDEA, EVEN IF\n\nPUPPET WHO SEES THE HAND\n\nCOMPRESSED INTO\n\nGO IN, BUT LACKS THE\n\nCOGNITIVE CAPACITY TO\n\nFUNDAMENTAL CONCEPTS\n\nIMAGINE THE FINGERS/\n\nIS JOVUVLUST A BIT TOO LARGE\n\nFOR THE HUMAN BRAIN\n\nJ) G\n\nBAN\n\nHUMANS, UNIQUELY, ARE OBSESSED\n\nAHAHAHALAHA/\n\nWITH SOULS AND CONSCIOUSNESS\n\nAND “THE SUBJECTIVE,” AND IT'S ALL\n\nDOWN TO ABOUT A HALF-CUP\n\nSHORTFALL OF GREY MATTER/\n\nVS ayn\n\nDOES THE REST OF\n\nDO NOT WATCH\n\nTHE GALAXY KNOW\n\nOUR COMEDY CHANNELS\n\nABOUT THIS?\n\nDO NOT\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nZORGAX, WHAT |S CONSCIOUSNESS?\n\nTO THE SUBSECTIVES\n\nclan\n\nOHMYGOD CAN T\n\nWITH YOu?\n\noles\n\nYOURE SMART ENOUGH\n\nONDERSTANDING. IT'S LIKE A\n\nEUNDAMENTAL CONCEPTS,\n\nIS JOVULUST A BIT TOO LARGE\n\nQa\n\nHC ig\n\nABOLT THIS?\n\n20d\n\nPATREON.COM/ZACHIWEINERSMITH",
+      "hoverText": "You occasionally, by accident, get fleeting glimpses of the truth, and then you ascribe them to muses and fairies and shit.",
+      "voteyText": "ARE THEY WEARING\n\nHUMAN-FACE?\n\nIT WAS A\n\nDIFFERENT\n\nTIME/S\n\nQD @\n\nTIMES\n\niN",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-17T08:05:28.526Z",
+  "semanticImportedAt": "2026-07-18T08:04:05.906Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7850,
+      "indexedComics": 7851,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 51,
+      "unmatchedComics": 52,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
