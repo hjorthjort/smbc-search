@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-18T08:04:05.906Z",
+  "generatedAt": "2026-07-19T08:05:56.530Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7851,
-  "totalIndexedComics": 7851,
+  "totalArchiveComics": 7852,
+  "totalIndexedComics": 7852,
   "fields": [
     "comicText",
     "hoverText",
@@ -133476,19 +133476,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "list-2",
+      "slug": "list-2",
+      "url": "https://www.smbc-comics.com/comic/list-2",
+      "title": "List",
+      "date": "2026-07-18",
+      "dateLabel": "July 18, 2026",
+      "thumbnail": "thumbs/list-2.webp",
+      "comicText": "ITS JOST\n\nGROCERIES.\n\noe\n\nfT\n\nFrozen peas\n\nUpside bevy cake\n\nYOUR PARANOIA |S\n\nTEARING US APART,\n\nHANK/\n\nCot f\n\nK nockwurs ¢\n\nVane\n\nOnions\n\nY 4 Unmebosh\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nIT'S JUST\n\nae\n\nUps: ide down cake\n\nCal food\n\nKrockuurst\n\nVes\n\nWE\n\n-y E | Unebosh",
+      "hoverText": "What a strange coincidence the way this keeps happening every day.",
+      "voteyText": "\\, | gc \\\\n ch e\n\n5 Yow",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-18T08:04:05.906Z",
+  "semanticImportedAt": "2026-07-19T08:05:56.530Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7851,
+      "indexedComics": 7852,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 52,
+      "unmatchedComics": 53,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
