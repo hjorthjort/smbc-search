@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-19T08:05:56.530Z",
+  "generatedAt": "2026-07-20T08:22:19.181Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7852,
-  "totalIndexedComics": 7852,
+  "totalArchiveComics": 7853,
+  "totalIndexedComics": 7853,
   "fields": [
     "comicText",
     "hoverText",
@@ -133493,19 +133493,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "poof",
+      "slug": "poof",
+      "url": "https://www.smbc-comics.com/comic/poof",
+      "title": "Poof",
+      "date": "2026-07-19",
+      "dateLabel": "July 19, 2026",
+      "thumbnail": "thumbs/poof.webp",
+      "comicText": "THINGS ARE BAD PROBABLY\n\nTHERE WAS SOME TIME WHEN\n\nYESSS, YESSGSSS,\n\nTHE PAST WAS SO MUCH\n\nTHEY WERE GOOD.\n\nBETTER BECALUSE—\n\n~ Ff\n\nVe | °\n\nT'M HERE TO TELL YOU THE\n\nPAST WAS EVEN WORSE/\n\nHISTORY\n\nTHE\n\nFAIRY/\n\nce\n\nVY\n\nBUT WORK WAS BETTER AND\n\nPEOPLE HAD FREEDOM AND—\n\nSHH. SHH HONEY.\n\nTHINGS WERE\n\nNEVER GOOD.\n\nYio:\n\ncal\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nSAWYER LEE SAWYER LEE\n\nAND THE QUEST 10\n\nJUST STAY\n\nLy\n\nAND THE QUEST TO\n\nim.)\n\nJUSTSTAY HOME\n\n3 \\C TURES y\n\nAn illustrated\n\nmiddle grade novel\n\nLou\n\nPat\n\nstarring a feroc\n\nsly\n\nNOW IN\n\nos\n\ndiwewemr\n\nSs\n\ninactive avoiding\n\nzach W\n\nadventure.\n\n_ STORES!\n\nYESSS, YESSSSS,\n\nBETTER BECAUSE—\n\n~ f7\n\nKS\n\nIM HERE TO TELL YOU THE\n\nar\n\nca\n\nSAWYER Lee |\n\nAND THE QUEST TO. J\n\nme |\n\nJUST STAY HO!\n\nGad\n\na4\n\nGea\n\nKP\n\nstarring a ferociouSly\n\ninactive avo\n\nmat",
+      "hoverText": "Actually, things were at their best during the last year of my life when I had no responsibilities.",
+      "voteyText": "I WAS GONNA BUILD AN\n\nENTIRE IDEQLOGY ON THE\n\nBASIS OF RESENTMENT\n\nFOR THE LACK OF AN\n\nIMAGINED GOLDEN AGE/\n\nSHH.\n\nQUIET,\n\nBABY.\n\nENTIRE IDEOLOGY ON THE",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-19T08:05:56.530Z",
+  "semanticImportedAt": "2026-07-20T08:22:19.181Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7852,
+      "indexedComics": 7853,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 53,
+      "unmatchedComics": 54,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
