@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-21T08:07:03.304Z",
+  "generatedAt": "2026-07-22T08:07:31.512Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7854,
-  "totalIndexedComics": 7854,
+  "totalArchiveComics": 7855,
+  "totalIndexedComics": 7855,
   "fields": [
     "comicText",
     "hoverText",
@@ -133527,19 +133527,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "crawl",
+      "slug": "crawl",
+      "url": "https://www.smbc-comics.com/comic/crawl",
+      "title": "Crawl",
+      "date": "2026-07-21",
+      "dateLabel": "July 21, 2026",
+      "thumbnail": "thumbs/crawl.webp",
+      "comicText": "CRAWL TO ME\n\nYOU WORTHLESS\n\nTHIS IS\n\nPFET\n\nMAGGOT,\n\nBASICALLY\n\nVANILLA\n\nPT ww)\n\nOVER THESE LEGOS\n\n7 PINEAPPLE /\n\nPINEAPPLE /\n\nin\n\naA\n\n\\ AL)\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nIMAGGOT.\n\nKS\n\nOveR THESE EGOS] VF PINGAPPLE/\n\nPINCGAPPLE/\n\nif",
+      "hoverText": "I once joked about this back when twitter existed and a Twitter Dominatrix told me that she'd done it plenty of times.",
+      "voteyText": "SY LEGOS, NOT LEGO.\n\nSAY /7 MAGGOT/\n\nSPY LEGOS, NOT LEGO.\n\nSAY/T, MAGGOT/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-21T08:07:03.304Z",
+  "semanticImportedAt": "2026-07-22T08:07:31.512Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7854,
+      "indexedComics": 7855,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 55,
+      "unmatchedComics": 56,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
