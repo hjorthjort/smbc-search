@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-22T08:07:31.512Z",
+  "generatedAt": "2026-07-23T08:07:21.823Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7855,
-  "totalIndexedComics": 7855,
+  "totalArchiveComics": 7856,
+  "totalIndexedComics": 7856,
   "fields": [
     "comicText",
     "hoverText",
@@ -133544,19 +133544,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "bully-2",
+      "slug": "bully-2",
+      "url": "https://www.smbc-comics.com/comic/bully-2",
+      "title": "Bully",
+      "date": "2026-07-22",
+      "dateLabel": "July 22, 2026",
+      "thumbnail": "thumbs/bully-2.webp",
+      "comicText": "BEFORE YOU START BULLYING ME, YOU\n\nSHOULD KNOW I USE THE TECHNIQUE OF\n\nDISPROPORTIONATE RESPONSE IN ORDER\n\nTO DETER FUTURE BULLYING.\n\nO60)\n\nout\n\nin\n\nLO\n\nRESEARCH FINDS THAT BULLIES WHO ARE BULLIED BACK HAVE\n\nWORSE LONGITUDINAL OUTCOMES THAN EITHER PURE BULLIES\n\nOR THEIR VICTIMS, INCLUDING POOR HEALTH, POOR MENTAL\n\nHEALTH, LOWER SOCIOECONOMIC STATUS, AND DIFFICULTY\n\nFORMING RELATIONSHIPS, EVEN WHEN CONTROLLING FOR\n\nOTHER FACTORS LIKE FAMILY HARDSHIP PRE-EXISTING\n\nPSYCHIATRIC PROBLEMS, AND BEING A STUPID BITCH.\n\nia\n\nGIMME YOUR LUNCH MONEY.\n\n| N12\n\nhd\n\nPATREON.COM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nISHOULD KNOW I USE THE TECHNIQUE OF\n\nate\n\nNI\n\ni Tas\n\nOS\n\nLN. 2",
+      "hoverText": "And now I bully you with a wall of text.",
+      "voteyText": "LISTENING SKILLS HAVE\n\nREALLY WRECKED MY\n\nABILITY TO BULLY.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-22T08:07:31.512Z",
+  "semanticImportedAt": "2026-07-23T08:07:21.823Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7855,
+      "indexedComics": 7856,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 56,
+      "unmatchedComics": 57,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
