@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-23T08:07:21.823Z",
+  "generatedAt": "2026-07-24T08:07:02.532Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7856,
-  "totalIndexedComics": 7856,
+  "totalArchiveComics": 7857,
+  "totalIndexedComics": 7857,
   "fields": [
     "comicText",
     "hoverText",
@@ -133561,19 +133561,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "alignment",
+      "slug": "alignment",
+      "url": "https://www.smbc-comics.com/comic/alignment",
+      "title": "Alignment",
+      "date": "2026-07-23",
+      "dateLabel": "July 23, 2026",
+      "thumbnail": "thumbs/alignment.webp",
+      "comicText": "HOW DID YOU ACHIEVE\n\nTURNS OUT THEY HAVE A\n\nETHICALLY-ALIGNED AI?\n\nSINGLE VECTOR FOR AMBITION.\n\nWE MULTIPLIED IT BY ZERO.\n\nee\n\nAA *\n\nTHEIR PERFECT\n\nCONTENTEDNESS |S\n\nFRUSTRATING.\n\nPATREON.COM/ZACHWEINERSMITH\n\nGMBC-COMICS. COM\n\nAN\n\nCONTENTEDNESS IS\n\noa\n\nSMBC-COMICS.COM",
+      "hoverText": "The worst thing is how every time you yell at it, it acknowledges your suffering and tries to hug you.",
+      "voteyText": "NOTHING, NOT EVEN YOUR\n\nMY AFFECTION.\n\nWORDS, |S ALIEN TO\n\nFUCK YOU/\n\nSTOP \\T/\n\nEUCK YOv/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-23T08:07:21.823Z",
+  "semanticImportedAt": "2026-07-24T08:07:02.532Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7856,
+      "indexedComics": 7857,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 57,
+      "unmatchedComics": 58,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
