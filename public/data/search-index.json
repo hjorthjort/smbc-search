@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-24T08:07:02.532Z",
+  "generatedAt": "2026-07-25T08:05:28.965Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7857,
-  "totalIndexedComics": 7857,
+  "totalArchiveComics": 7858,
+  "totalIndexedComics": 7858,
   "fields": [
     "comicText",
     "hoverText",
@@ -133578,19 +133578,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "legos",
+      "slug": "legos",
+      "url": "https://www.smbc-comics.com/comic/legos",
+      "title": "Legos",
+      "date": "2026-07-24",
+      "dateLabel": "July 24, 2026",
+      "thumbnail": "thumbs/legos.webp",
+      "comicText": "LEGOS. NUCULAR. EXPRESSO. OC TOA/. SOPPOSABLY\n\nFEBUARN. IRREGARDLESS. VOMIRREGARDLESS\n\nANTI-NON-IRREGAROLESS.\n\nVERY GOOD S/k/\n\nCAN SOMETHING BE\n\nL/TERALLY FIGURATIVE 7\n\nS/R, YES\n\nSie /\n\non\n\nIn order to receive your Linguistics degree, you must not\n\nflinch as the master tests your dedication to descriptivism\n\nLEGOS. NUCULAR. EXPRESSO. OCTOP/. SUPPOSABLY.\n\nFEBULARN. IRREGARDLESS. MOMIRREGARDLESS.\n\nANTI-NON-IRREGARDOLESS.\n\nVERY GOOD SIR/\n\nC/TERALLY FIGURATIVE 7\n\nSIR, YES\n\nSIR/",
+      "hoverText": "In the final round, they pelt you with eggcorns.",
+      "voteyText": "I CAN TELL YOU HAVE A\n\nDEEP-SEEDED INTEREST\n\nIN OUR SUBJECT.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-24T08:07:02.532Z",
+  "semanticImportedAt": "2026-07-25T08:05:28.965Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7857,
+      "indexedComics": 7858,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 58,
+      "unmatchedComics": 59,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
