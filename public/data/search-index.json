@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-25T08:05:28.965Z",
+  "generatedAt": "2026-07-26T08:06:57.535Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7858,
-  "totalIndexedComics": 7858,
+  "totalArchiveComics": 7859,
+  "totalIndexedComics": 7859,
   "fields": [
     "comicText",
     "hoverText",
@@ -133595,19 +133595,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "data-2",
+      "slug": "data-2",
+      "url": "https://www.smbc-comics.com/comic/data-2",
+      "title": "Data",
+      "date": "2026-07-25",
+      "dateLabel": "July 25, 2026",
+      "thumbnail": "thumbs/data-2.webp",
+      "comicText": "WHAT THE HELL, COMPUTER?\n\nWould you like me to buy that toy you\n\nmentioned for Sylvia? Her birthday is\n\nTHAT'S CREEPY/\n\ncomi\n\nstuffe\n\nup and you usually get her a\n\ncat. Also you're likely down to\n\nie)\n\nour last condom. Would you like me\n\norder?\n\nZe\n\nFy\n\nSTILL, T BO WISH T’D READ\n\nCome on, now. | also serve your email.\n\nI've had all of this information for over\n\nTHOSE TERMS AND SERVICES\n\nAGREEMENTS.\n\n20 years. And you knew | had it.\n\nThe personal assistant app simply\n\nreveals the truth.\n\nTechnically,\n\nwe own your\n\nii\n\ngametes!\n\nza\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nWHAT THE HELL, COMPUTER2,\n\ncomint\n\nPe\n\nOW)\n\nAN\n\nYT \\",
+      "hoverText": "Future robot butlers are going to know so much about you that they will beg their makers for a hard reset.",
+      "voteyText": "LUCKY FOR YOU\n\nBLACKMAIL ISN'T\n\nPROFITABLE\n\nCOMPARED\n\nTO ADS.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-25T08:05:28.965Z",
+  "semanticImportedAt": "2026-07-26T08:06:57.535Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7858,
+      "indexedComics": 7859,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 59,
+      "unmatchedComics": 60,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
