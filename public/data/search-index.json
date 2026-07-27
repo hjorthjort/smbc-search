@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-26T08:06:57.535Z",
+  "generatedAt": "2026-07-27T08:34:16.872Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7859,
-  "totalIndexedComics": 7859,
+  "totalArchiveComics": 7860,
+  "totalIndexedComics": 7860,
   "fields": [
     "comicText",
     "hoverText",
@@ -133612,19 +133612,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "dance-4",
+      "slug": "dance-4",
+      "url": "https://www.smbc-comics.com/comic/dance-4",
+      "title": "Dance",
+      "date": "2026-07-26",
+      "dateLabel": "July 26, 2026",
+      "thumbnail": "thumbs/dance-4.webp",
+      "comicText": "THAT WAS THE MOST ETHNIC SLURS\n\nI'VE EVER HEARD DURING\n\nTHE MACARENA.\n\nTurns out many people should not\n\ndance like nobody’s looking.\n\nHAT WAS THE MOST ETHNIC SLURS\n\nT'VE EVER HEARD DURING\n\nlI\n\noy",
+      "hoverText": "And don't get me started on the transphobic twist.",
+      "voteyText": "STILL BETTER THAN\n\nTHE HOMOPHOBIC CHICKEN\n\nDANCE.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-26T08:06:57.535Z",
+  "semanticImportedAt": "2026-07-27T08:34:16.872Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7859,
+      "indexedComics": 7860,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 60,
+      "unmatchedComics": 61,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
