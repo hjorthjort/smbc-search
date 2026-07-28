@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-27T08:34:16.872Z",
+  "generatedAt": "2026-07-28T08:09:25.076Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7860,
-  "totalIndexedComics": 7860,
+  "totalArchiveComics": 7861,
+  "totalIndexedComics": 7861,
   "fields": [
     "comicText",
     "hoverText",
@@ -133629,19 +133629,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "taxonomy-2",
+      "slug": "taxonomy-2",
+      "url": "https://www.smbc-comics.com/comic/taxonomy-2",
+      "title": "Taxonomy",
+      "date": "2026-07-27",
+      "dateLabel": "July 27, 2026",
+      "thumbnail": "thumbs/taxonomy-2.webp",
+      "comicText": "SCIENCE TIP:\n\nONCE YOU TELL PEOPLE DINOSAURS ARE CHICKENS,\n\nTHEY'LL BELIEVE YOU ABOUT ANYTHING.\n\nAND_ACTUALCLY,\n\nCHEESE |S A KIND\n\nOF DUCK.\n\nBUT HOW-—\n\nDON'T FOCUS ON\n\nHOW IT DOESN'T QUACK.\n\nTHINK CAREFULLY.\n\nWOWWWWW.\n\nAND _ACTUALLY,\n\nBLT HOW—",
+      "hoverText": "The key is to keep saying 'strictly speaking' over and over.",
+      "voteyText": "AND BY THE PROPERTY\n\nOF TAXONOMIC SYMMETRY,\n\nDINOSAURS ARE ALL\n\nTYPES OF CHICKEN.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-27T08:34:16.872Z",
+  "semanticImportedAt": "2026-07-28T08:09:25.076Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7860,
+      "indexedComics": 7861,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 61,
+      "unmatchedComics": 62,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
