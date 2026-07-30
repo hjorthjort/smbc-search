@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-29T08:12:04.760Z",
+  "generatedAt": "2026-07-30T08:07:23.667Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7862,
-  "totalIndexedComics": 7862,
+  "totalArchiveComics": 7863,
+  "totalIndexedComics": 7863,
   "fields": [
     "comicText",
     "hoverText",
@@ -133663,19 +133663,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "hashtag",
+      "slug": "hashtag",
+      "url": "https://www.smbc-comics.com/comic/hashtag",
+      "title": "Hashtag",
+      "date": "2026-07-29",
+      "dateLabel": "July 29, 2026",
+      "thumbnail": "thumbs/hashtag.webp",
+      "comicText": "THIS SUCKS! You turned turned a WARRIOR\n\ninto a MAMA’S BOY who talks to himself!\n\nDid you even READ the original story\n\nin the Gesta Danorum? #boycott\n\nBNaxt\n\nHappily, there was no Internet when Hamlet came out.",
+      "hoverText": "I can barely enjoy Amleth anymore.",
+      "voteyText": "AND DON'T EVEN GET ME\n\nSTARTED ON THE NEW\n\nODNSSEY. WHO |S THIS\n\n\"HOMER\" COBBLING\n\nTOGETHER OLD POEMS\n\nAND SONGS INTO 12,000\n\nLINES OF NON-TRADITIONAL\n\nBILGE,\n\na en\n\nODYSSEY. WHO IS THIS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-29T08:12:04.760Z",
+  "semanticImportedAt": "2026-07-30T08:07:23.667Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7862,
+      "indexedComics": 7863,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 63,
+      "unmatchedComics": 64,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
