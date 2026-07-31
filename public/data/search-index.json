@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-30T08:07:23.667Z",
+  "generatedAt": "2026-07-31T08:22:28.906Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7863,
-  "totalIndexedComics": 7863,
+  "totalArchiveComics": 7864,
+  "totalIndexedComics": 7864,
   "fields": [
     "comicText",
     "hoverText",
@@ -133680,19 +133680,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "crank",
+      "slug": "crank",
+      "url": "https://www.smbc-comics.com/comic/crank",
+      "title": "Crank",
+      "date": "2026-07-30",
+      "dateLabel": "July 30, 2026",
+      "thumbnail": "thumbs/crank.webp",
+      "comicText": "I WORRY INTELLECTUALS\n\nNOW, WOLLD YOU LIKE To\n\nLIKE ME ARE USELESS NOW\n\nTURN THE MATHEMATICS\n\nTHAT MACHINES ARE SO GOOD\n\nCRANK OR THE PHYSICS\n\nAT EVERYTHING.\n\nCRANK TODAY?\n\nNO, NO,\n\nDON'T FEEL BAD.\n\nYOU _CAN STILL\n\nCONTRIBUTE TO\n\nNEW DISCOVERIES/\n\ncS\n\nPHIL\n\nNO/ T REJECT ALL THIS/\n\nSHORTLY...\n\nI SHALL BE A PURE AESTHETE\n\nCONCERNED ONLY WITH MY\n\nSO... SELF-ACTUALIZED...\n\nOWN BEAUTIFUL CREATIONG/\n\nWw\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nT WORRY INTELLECTUALS\n\nNOW, WOULD YOU LIKE To\n\nme |\n\nFk\n\nI SHAUL BE A PURE AESTHETE,\n\nOWN BEAUTIFUL CREATIONS/\n\nPe\n\nor\n\nrm",
+      "hoverText": "The crank doesn't actually do anything, but it makes the humans happy.",
+      "voteyText": "I HOPE THE STEM\n\nCRANKERS DON'T\n\nLOOK DOWN ON ME.\n\nTHOPE THE STEM",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-30T08:07:23.667Z",
+  "semanticImportedAt": "2026-07-31T08:22:28.906Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7863,
+      "indexedComics": 7864,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 64,
+      "unmatchedComics": 65,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
