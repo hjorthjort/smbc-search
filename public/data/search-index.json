@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-31T08:22:28.906Z",
+  "generatedAt": "2026-08-01T08:07:47.039Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7864,
-  "totalIndexedComics": 7864,
+  "totalArchiveComics": 7865,
+  "totalIndexedComics": 7865,
   "fields": [
     "comicText",
     "hoverText",
@@ -133697,19 +133697,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "ev-2",
+      "slug": "ev-2",
+      "url": "https://www.smbc-comics.com/comic/ev-2",
+      "title": "EV",
+      "date": "2026-07-31",
+      "dateLabel": "July 31, 2026",
+      "thumbnail": "thumbs/ev-2.webp",
+      "comicText": "IF YOU HAD A CHOICE BETWEEN TEN TRILLION\n\nDOLLARS OR FLIPPING A COIN FOR A 50%\n\nCHANCE TO WIN TWENTY TRILLION DOLLARS\n\nANDO & SHINY BUTTON, WHAT WOULD YOU PICK?\n\nOBVIOUSLY\n\nTHE SECOND THING.\n\nCAN YOU EVEN\n\nMATH?\n\nPeople who think Expected Value maximization\n\nis always logical weird me out.\n\n\\F YOU HAD A CHOICE BETWEEN TEN TRILLION\n\nee",
+      "hoverText": "Ironically less crazy than that thing SBF said to Tyler Cowen.",
+      "voteyText": "HAVE YOU NOTICED\n\nTHAT THE EXPECTED\n\nVALLE OF USING\n\nEXPECTED VALUE\n\nFOR EVERYTHING\n\nIS NEGATIVE?\n\nVALUE OF USING:",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-07-31T08:22:28.906Z",
+  "semanticImportedAt": "2026-08-01T08:07:47.039Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7864,
+      "indexedComics": 7865,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 65,
+      "unmatchedComics": 66,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
