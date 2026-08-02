@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-01T08:07:47.039Z",
+  "generatedAt": "2026-08-02T08:06:34.379Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7865,
-  "totalIndexedComics": 7865,
+  "totalArchiveComics": 7866,
+  "totalIndexedComics": 7866,
   "fields": [
     "comicText",
     "hoverText",
@@ -133714,19 +133714,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "doc",
+      "slug": "doc",
+      "url": "https://www.smbc-comics.com/comic/doc",
+      "title": "Doc",
+      "date": "2026-08-01",
+      "dateLabel": "August 1, 2026",
+      "thumbnail": "thumbs/doc.webp",
+      "comicText": "I'M AFRAID I NEED TO STICK\n\nA CAMERA INTO YOUR ANUS.\n\nCO)\n\nI GUESS ITS MORE A\n\nWANT THAN A NEED.\n\nPy /K\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nI'M AFRAID T NEED TO STICK\n\niF\n\nI GUESS IT'S MORE A\n\noe",
+      "hoverText": "The weird part is that they're in a Burger King.",
+      "voteyText": "ALSO WHY'D YoU CALL Me\n\nDOC\n\nboc?",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-01T08:07:47.039Z",
+  "semanticImportedAt": "2026-08-02T08:06:34.379Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7865,
+      "indexedComics": 7866,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 66,
+      "unmatchedComics": 67,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
