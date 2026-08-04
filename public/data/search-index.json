@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-03T08:34:05.223Z",
+  "generatedAt": "2026-08-04T08:10:44.885Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7867,
-  "totalIndexedComics": 7867,
+  "totalArchiveComics": 7868,
+  "totalIndexedComics": 7868,
   "fields": [
     "comicText",
     "hoverText",
@@ -133748,19 +133748,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "proof-7",
+      "slug": "proof-7",
+      "url": "https://www.smbc-comics.com/comic/proof-7",
+      "title": "Proof",
+      "date": "2026-08-03",
+      "dateLabel": "August 3, 2026",
+      "thumbnail": "thumbs/proof-7.webp",
+      "comicText": "GOD, BO YOU HAVE\n\nMATHEMATICAL\n\nPROOFS THAT\n\nHUMANS CANNOT\n\nFATHOM?\n\nLIKE THE PROOF\n\nTHAT Va IS IRRATIONAL\n\nYOU JUST CHECK ALL\n\nTHE RATIONALS.\n\nNo?\n\nNONE OF THEM\n\nALL PROOFS\n\nARE 02.\n\nWORK THE\n\nSAME WAY.\n\nTHERE ARE INFINITE\n\nWOULDN'T THAT\n\nRATIONALS.\n\nTAKE INFINITE TIME?\n\nRIGHT\n\nAND YOU CHECK THEM\n\nLIKE HOW YOU PROVE\n\nPRIMES BY CHECKING\n\nALL OF THEM AND\n\nSEEING THAT THEY'RE\n\nINFINITE.\n\nTHIS |S GONNA\n\nHAUNT ME FOR\n\nTHE REST OF\n\nMY LIFE.\n\nITS OKAY.\n\nIN THE LIMIT,\n\nYOU DON'T EVEN\n\nEXIST/\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nIPROOFS THAT",
+      "hoverText": "Also you can solve the halting problem by just checking the state at infinity.",
+      "voteyText": "YOU, AS TIME GROWS\n\nLARGE, |S NOBODY/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-03T08:34:05.223Z",
+  "semanticImportedAt": "2026-08-04T08:10:44.885Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7867,
+      "indexedComics": 7868,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 68,
+      "unmatchedComics": 69,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
