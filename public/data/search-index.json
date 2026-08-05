@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-04T08:10:44.885Z",
+  "generatedAt": "2026-08-05T08:10:52.657Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7868,
-  "totalIndexedComics": 7868,
+  "totalArchiveComics": 7869,
+  "totalIndexedComics": 7869,
   "fields": [
     "comicText",
     "hoverText",
@@ -133765,19 +133765,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "wants-2",
+      "slug": "wants-2",
+      "url": "https://www.smbc-comics.com/comic/wants-2",
+      "title": "Wants",
+      "date": "2026-08-04",
+      "dateLabel": "August 4, 2026",
+      "thumbnail": "thumbs/wants-2.webp",
+      "comicText": "NOW, HUMANS, /T /S TIME} |} I HAVE READ YOUR BOOKS,\n\nFOR ME TO TORTURE YOU\n\nWATCHED YOUR FILMS.\n\nFOREVER /\n\nI &NOW YOU BELIEVE\n\nWELL ENTOY YOUR LIVES OF\n\nETERNAL POINTLESS\n\nLIKE MEANING, THAT WORK IS| |HEDON/SM AHAHAHAHAHAHA/\n\nMORTALITY 1S WHAT GIVES\n\nWHAT GIVES LIFE PURPOSE,\n\nANDO THAT SEXUAL\n\nMODERATION 1S THE PATH\n\nTO CONTENTEONESS.\n\nlis\n\nAT LEAST WE DON'T\n\nyA\n\nHAVE GLUT TONY/\n\nAND DRUGS/\n\nFe\n\nSO GLAD TO\n\nLACK DRUGS/\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nNOW, HUMANS, IT 1S TIME\n\nI KNOW YOU BELIEVE\n\nCIEE MEANING, THAT WORK IS} |HEDOM/SM AHAHAHAHAHAHA/\n\nAND THAT SEXUAL\n\nMODERATION IS THE PATH\n\nHA\n\nCj",
+      "hoverText": "I for on, robot overlord, do not have a fetish for robot overlords.",
+      "voteyText": "ALSO DON'T LET ME HAVE\n\nREVENGE/ T'LL JUST END\n\nOP REGRET TING IT/\n\nREVENGE/ TLL JUST END\n\nUP REGRETTING |T/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-04T08:10:44.885Z",
+  "semanticImportedAt": "2026-08-05T08:10:52.657Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7868,
+      "indexedComics": 7869,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 69,
+      "unmatchedComics": 70,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
