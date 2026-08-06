@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-05T08:10:52.657Z",
+  "generatedAt": "2026-08-06T08:10:31.113Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7869,
-  "totalIndexedComics": 7869,
+  "totalArchiveComics": 7870,
+  "totalIndexedComics": 7870,
   "fields": [
     "comicText",
     "hoverText",
@@ -133782,19 +133782,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "drunken",
+      "slug": "drunken",
+      "url": "https://www.smbc-comics.com/comic/drunken",
+      "title": "Drunken",
+      "date": "2026-08-05",
+      "dateLabel": "August 5, 2026",
+      "thumbnail": "thumbs/drunken.webp",
+      "comicText": "OW, TWILL DEFEAT YOU WITHE FHEH. THAT'S NOT AN ACTUAL\n\nMARTIAL ART. \\T DOESN'T\n\nWORK IN REAL LIFE.\n\n(ZB\n\nSSS\n\nTHIS MAY JUST BE THE BEER\n\nTALKING, BUT T THINK IF _YOU\n\nWERE AN EASIER CHILD TO\n\nLOVE YOUR MOTHER\n\nWOULD'VE STAYED.\n\nFATALITY\n\nye\n\nND\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nOW, T WILL DEFEAT YOU WITH] FHEH. THAT'S NOT AN ACTUAL\n\nIWORK IN REAL LIFE.\n\nde\n\nWr\n\nyr\n\nNI",
+      "hoverText": "How come nobody ever asks how the Drunken Master's family is doing?",
+      "voteyText": "THIS MAY JUST BE THE\n\nBEER TALKING, BUT ALL\n\nOF YOUR FAILURES ARE\n\nYOUR FAULT AND ALL YOUR\n\nSUCCESSES WERE LUCK.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-05T08:10:52.657Z",
+  "semanticImportedAt": "2026-08-06T08:10:31.113Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7869,
+      "indexedComics": 7870,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 70,
+      "unmatchedComics": 71,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
