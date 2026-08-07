@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-06T08:10:31.113Z",
+  "generatedAt": "2026-08-07T07:51:49.068Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7870,
-  "totalIndexedComics": 7870,
+  "totalArchiveComics": 7871,
+  "totalIndexedComics": 7871,
   "fields": [
     "comicText",
     "hoverText",
@@ -133799,19 +133799,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "butling",
+      "slug": "butling",
+      "url": "https://www.smbc-comics.com/comic/butling",
+      "title": "Butling",
+      "date": "2026-08-06",
+      "dateLabel": "August 6, 2026",
+      "thumbnail": "thumbs/butling.webp",
+      "comicText": "TLL SELL YOU THIS PERFECT\n\nROBOT BUTLER FOR A MERE\n\n100,000 DOLLARS.\n\nA\n\nSHORTLY...\n\nCLEAN MY ROOM.\n\nVERY GOOD, SIR.\n\nPLEASE DIRECT ME\n\nSON OF\n\nTO YOUR MAIDSERVANTS\n\n\\ B/TCH.\n\nAND T SHALL HAVE\n\nTHINGS ARRANGED,\n\nTechnically a butler is a chief of staff.\n\nTUL SELL YOU THIS PERFECT\n\nA BITCH.",
+      "hoverText": "If there are ever time travelers from the Regency period they will be so confused by our robot butler discourse.",
+      "voteyText": "UNTIL YOU ARE PREPARED\n\nTO HIRE, IT SHALL BE GLAD\n\nTO OBSERVE YOUR KOOMBA,\n\nSIR.\n\nTO OBSERVE YOUR ROOMBA,",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-06T08:10:31.113Z",
+  "semanticImportedAt": "2026-08-07T07:51:49.068Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7870,
+      "indexedComics": 7871,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 71,
+      "unmatchedComics": 72,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
