@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-07T07:51:49.068Z",
+  "generatedAt": "2026-08-08T07:38:17.756Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7871,
-  "totalIndexedComics": 7871,
+  "totalArchiveComics": 7872,
+  "totalIndexedComics": 7872,
   "fields": [
     "comicText",
     "hoverText",
@@ -133816,19 +133816,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "paracosm",
+      "slug": "paracosm",
+      "url": "https://www.smbc-comics.com/comic/paracosm",
+      "title": "Paracosm",
+      "date": "2026-08-07",
+      "dateLabel": "August 7, 2026",
+      "thumbnail": "thumbs/paracosm.webp",
+      "comicText": "WHATCHA DOING?\n\nWHAT ARE YOU\n\nBUILDING \\T\n\nOUT OF 7\n\nCONSTRUCTING\n\nA PARACOSM OF REALITY\n\nI WATCH A LOT\n\nIN WHICH I’M PART OF AN\n\nOF VIDEOS WHERE\n\nINTELLECTUAL MINORITY\n\nANY GROUP EFFORT\n\nWITH SOLE POSSESSION\n\nBY MY OPPONENTS\n\nOF THE TRUTH.\n\nIS PRESENTED\n\nAS SINISTER\n\nCONSPIRACY.\n\npe\n\nI ALSO LIMIT MYSELF TO\n\nMOST OF ALL THOUGH, T LIKE\n\nSHORT CLIPS, ESPECIALLY\n\nVIDEOS WHERE PEOPLE I\n\nONES WHERE ANY INDIVIDUAL\n\nDON'T LIKE TALK WHILE THE\n\nIN THE OPPOSITION CAN HAVE\n\nCONTRAST |S SET TO HIGH\n\nTHEIR WORST MOMENT LSED\n\nAND THERES CREEPY\n\nTO EMBODY THEIR ENTIRE\n\nMOVEMENT.\n\nTHEREMIN MUSIC\n\nee\n\nyr\n\nawh.\n\nYOU'RE REMARKABLY SELF -AWARE\n\nFOR BEING SUCH A COMPLETE DIPSHIT.\n\n/ HOLD ON.\n\nFIRING OP MY\n\nTHEREMIN APP\n\nA [AAZ\n\necw\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nWHATCHA DOING.2\n\nBUILDING IT\n\nOUT OFF\n\nT WATCH A LOT\n\n\\N_WHICH I’M PART OF AN\n\nea\n\nT ALSO LIMIT MYSELF TO\n\nCONTRAST IS SET TO HIGH\n\nTHEIR WORST MOMENT USED\n\n6a\n\nFIRING UP MY\n\ni ecco",
+      "hoverText": "Don't care if you like it; this comic was an excuse to say Paracosm.",
+      "voteyText": "NAH, T'M JUST MESSING\n\nWITH YOU.\n\nI'S ALL DEEPFAKES NOW.\n\nNAH, TIM JUST MESSING\n\nIT'S ALL DEEPFAKES NOW.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-07T07:51:49.068Z",
+  "semanticImportedAt": "2026-08-08T07:38:17.756Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7871,
+      "indexedComics": 7872,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 72,
+      "unmatchedComics": 73,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
