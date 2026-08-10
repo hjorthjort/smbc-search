@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-09T07:42:14.087Z",
+  "generatedAt": "2026-08-10T08:01:04.965Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7873,
-  "totalIndexedComics": 7873,
+  "totalArchiveComics": 7874,
+  "totalIndexedComics": 7874,
   "fields": [
     "comicText",
     "hoverText",
@@ -133850,19 +133850,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "simulation-6",
+      "slug": "simulation-6",
+      "url": "https://www.smbc-comics.com/comic/simulation-6",
+      "title": "Simulation",
+      "date": "2026-08-09",
+      "dateLabel": "August 9, 2026",
+      "thumbnail": "thumbs/simulation-6.webp",
+      "comicText": "WERE NOT LIVING IN\n\nDO YOU THINK ITS POSSIBLE\n\nLIKE ALL OF THIS IS \"REAL.\"\n\nA SIMULATION?\n\nI... SORRY,\n\nLIKE THINGS\n\nEXIST THAT HAVE\n\nTHAT SOUNDS CRAZY.\n\nFUNDAMENTAL\n\nWHAT WOULD THAT\n\nBOTTOM-LEVEL\n\nEVEN MEAN?\n\nINDEPENDENT\n\nSUBSTANCE.\n\noe\n\nA\n\nLe\n\nGOD, YOU PHILOSOPHERS\n\nI ALSO THINK THE PAST\n\nARE WEIRO,\n\nHAPPENED AND OTHER\n\nPEOPLE HAVE MINDS.\n\nA, (eee\n\nLa\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nUKE THINGS\n\nEUNDAMENTAL\n\nBOTTIOM-LEVEL\n\nTI ALSO THINK THE PAST\n\nARE WEIRD.\n\nPPENED AND OTHER\n\n4, ead",
+      "hoverText": "All I'm saying is that of all the ways reality could be, you think it just HAPPENED to be real?",
+      "voteyText": "IT HAVE SUBJECTIVE\n\nEXPERIENCES.\n\nTI HAVE SUBJECTIVE\n\nOO",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-09T07:42:14.087Z",
+  "semanticImportedAt": "2026-08-10T08:01:04.965Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7873,
+      "indexedComics": 7874,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 74,
+      "unmatchedComics": 75,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
