@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-10T08:01:04.965Z",
+  "generatedAt": "2026-08-11T07:49:45.561Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7874,
-  "totalIndexedComics": 7874,
+  "totalArchiveComics": 7875,
+  "totalIndexedComics": 7875,
   "fields": [
     "comicText",
     "hoverText",
@@ -133867,19 +133867,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "quantum-7",
+      "slug": "quantum-7",
+      "url": "https://www.smbc-comics.com/comic/quantum-7",
+      "title": "Quantum",
+      "date": "2026-08-10",
+      "dateLabel": "August 10, 2026",
+      "thumbnail": "thumbs/quantum-7.webp",
+      "comicText": "WHAT QUANTUM THEORY\n\nNAH. NO. QUANTUM THEORY IS\n\nIS TELLING US ABOUT THE\n\nTELLING US THAT TO\n\nNATURE OF REALITY HAS\n\nCALCULATE THE PATH OF AN\n\nSHAKEN SCIENCES\n\nINDIVIDUAL PARTICLE YOU HAVE\n\nCONFIDENCE THAT\n\nTO CONSIDER A KIND OF\n\nMATERIALISM CAN SERVE AS\n\nMATHEMATICAL PROBABILITY\n\nA STURDY METAPHYSICAL\n\nTHAT INVOLVES COMPLEX AND\n\nFOUNDATION.\n\nNEGATIVE NUMBERS.\n\nTHERE ARE PRECISE RULES\n\nNICE TRY, BUT RELATIVITY\n\nAND PREDICTIONS. THE WEIRD\n\nPROVED THAT SOMETIMES\n\nQUESTIONS, LIKE WHERE\n\nPEOPLE DISAGREE AND SO\n\nPROBABILITIES COME FROM\n\nNOTHING |S TRUE.\n\nAND WHY THEY WORK THIS\n\nWAY, ARE DEBATED, BUT NONE\n\nOF THEM INVOLVE ANYONE\n\nSAYING \"MAYBE IT WAS MAGIC.\"\n\nOO\n\nIN\n\n*SIGH* YOU PROBABLY HAVE A\n\nWE RE #1 IN SCIENCE\n\nVERY POPULAR PODCAST.\n\nAND NUMBER #73 IN\n\nSASQUATCH/AS TROLOGY/\n\nPATREON.COM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nISHAKEN SCIENCE'S\n\nICONFIDENCE THAT\n\nINEGATIVE NUMBERS.\n\nNOTHING IS TRUE.\n\nWAN, ARE DEBATED, BUT NONE\n\nSe\n\nSAGQUATCH/ASTROLOGY/",
+      "hoverText": "I await your hatemail telling me I too am wrong.",
+      "voteyText": "ALSO WE HAVE 4 SHOWS\n\nON THE HISTORY CHANNEL.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-10T08:01:04.965Z",
+  "semanticImportedAt": "2026-08-11T07:49:45.561Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7874,
+      "indexedComics": 7875,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 75,
+      "unmatchedComics": 76,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
