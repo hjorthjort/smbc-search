@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-11T07:49:45.561Z",
+  "generatedAt": "2026-08-12T07:55:59.091Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7875,
-  "totalIndexedComics": 7875,
+  "totalArchiveComics": 7876,
+  "totalIndexedComics": 7876,
   "fields": [
     "comicText",
     "hoverText",
@@ -133884,19 +133884,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "brave",
+      "slug": "brave",
+      "url": "https://www.smbc-comics.com/comic/brave",
+      "title": "Brave",
+      "date": "2026-08-11",
+      "dateLabel": "August 11, 2026",
+      "thumbnail": "thumbs/brave.webp",
+      "comicText": "DO YOU THINK A LIFE\n\nIMAGINE YOU'RE ON YOUR DEATHBED\n\nWELL LIVED IS ONE\n\nAFTER A LONG HAPPY LIFE. YOUR\n\nWHERE YOU BRAVELY\n\nPARTNER LEANS OVER YOU AND SAYS\n\nFACE THE TRUTH?\n\nI CHEATED ON YOU WITH THE DOCTOR\n\n“WHILE YOU WERE ANAESTHETIZED,\n\nWHO BOT YOUR SURGERY.\n\nGi\n\nDO YOU _ WANT THAT TO HAPPEN IN THE\n\nLAST 10 SECONDS YOU'RE ALIVE OR\n\nTHE FIRST TEN SECONDS\n\nAFTER YOURE DEAD?\n\n(VA SD\n\njy)\n\nLATE-IN-LIFE ANAESTHESIOLOGIST\n\nTHERE ARE MANY\n\nCUCKOLDRY IS MY FETISH.\n\nPATHS TO HUMAN\n\nFLOURISHING.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nWHO BOTCHED YOUR SURGERY.\n\nKJ\n\nul\n\nme\n\nCn Si)\n\nyy\n\nfo",
+      "hoverText": "The only thing more overrated than truth is beauty.",
+      "voteyText": "AND MOST OF THEM\n\nARE GROSS.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-11T07:49:45.561Z",
+  "semanticImportedAt": "2026-08-12T07:55:59.091Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7875,
+      "indexedComics": 7876,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 76,
+      "unmatchedComics": 77,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
