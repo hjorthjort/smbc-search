@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-12T07:55:59.091Z",
+  "generatedAt": "2026-08-13T07:57:33.153Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7876,
-  "totalIndexedComics": 7876,
+  "totalArchiveComics": 7877,
+  "totalIndexedComics": 7877,
   "fields": [
     "comicText",
     "hoverText",
@@ -133901,19 +133901,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "priority-2",
+      "slug": "priority-2",
+      "url": "https://www.smbc-comics.com/comic/priority-2",
+      "title": "Priority",
+      "date": "2026-08-12",
+      "dateLabel": "August 12, 2026",
+      "thumbnail": "thumbs/priority-2.webp",
+      "comicText": "UGH. \\T'S BARELY WORTH\n\nOH MY GOD. THAT PRINCIPLE\n\nDOING PHYSICS. NO MATTER\n\nDOESN'T APPLY MORE\n\nWHAT YOO THINK YOU HAVE,\n\nGENERALLY DOES IT?\n\nIT TORNS OUT SOME RUSSIAN\n\nGUY GOT THERE\n\n20 YEARS AGO.\n\nT HAVE\n\nTO GO.\n\nte\n\nLATER...\n\nI'M SORRN. \\T TURNS OUT\n\nMIKHAIL HAS PRIORITY.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nUGH. \\TS BARELY WORTH\n\nWHAT YOU THINK YOU HAVE,\n\n\\T TURNS OUT SOME RUSSIAN\n\nQO YEARS AGO.\n\nTHANE\n\nI",
+      "hoverText": "Hoping this will cause someone to surface an off-brand SMBC author from the midcentury USSR.",
+      "voteyText": "IT IS ALL RIGHT. SOME\n\nOTHER RUSSIAN GOY\n\nBEAT ME TO IT. AND SOME\n\nOTHER RUSSIAN GDY BEAT\n\nHIM. \\T IS ROSSIANG\n\nALL THE WAY DOWN.\n\nITS ALL RIGHT. SOME\n\nOTHER RUSSIAN GLY.\n\nOTHER RUSSIAN GLY BEAT\n\nHIM. (TIS RUSSIANS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-12T07:55:59.091Z",
+  "semanticImportedAt": "2026-08-13T07:57:33.153Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7876,
+      "indexedComics": 7877,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 77,
+      "unmatchedComics": 78,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
