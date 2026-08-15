@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-14T07:54:42.701Z",
+  "generatedAt": "2026-08-15T07:34:31.364Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7878,
-  "totalIndexedComics": 7878,
+  "totalArchiveComics": 7879,
+  "totalIndexedComics": 7879,
   "fields": [
     "comicText",
     "hoverText",
@@ -133935,19 +133935,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "case",
+      "slug": "case",
+      "url": "https://www.smbc-comics.com/comic/case",
+      "title": "Case",
+      "date": "2026-08-14",
+      "dateLabel": "August 14, 2026",
+      "thumbnail": "thumbs/case.webp",
+      "comicText": "HUMAN/ T HAVE SOLVED ALL\n\nYOUR MOST DIFFICULT\n\nMATHEMATICS WITH PROOFS\n\nMORE BEAUTIFUL THAN YOU\n\nCOULD EVER IMAGINE/\n\nNONE OF THESE ARE\n\nNO HUMAN MIND COULD READ\n\nCONSTRUCTIVE OR INDUCTIVE\n\nAND FOLLOW ALL OF THIS.\n\nPAGES OF CASE ANALYSIS.\n\nOR... THIS IS LIKE... JO MILLION\n\nJN\n\nAZ\n\naw\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMB\n\nC-COMICSCOM\n\nHUMANS T HAVE SOLVED ALL\n\nICOULD EVER IMAGINE/\n\nOR... THIS IS LIKE... ${O MILLION\n\nmL.\n\n7 oe\n\nGMBC-COMICS.COM",
+      "hoverText": "The machines see constructive proofs as lazy solutions hacked together.",
+      "voteyText": "OR RATHER, THE TWO\n\nPOSSIBLE CASES WERE\n\nBEAUTIFUL AND NoT\n\nBEALTIFUL AND WE HAVE\n\nRULED OUT Not\n\nBEAUTIFUL.\n\nXx\n\nBEAUTIFUL AND WE HAVE\n\nRULED OLT NOT",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-14T07:54:42.701Z",
+  "semanticImportedAt": "2026-08-15T07:34:31.364Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7878,
+      "indexedComics": 7879,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 79,
+      "unmatchedComics": 80,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
