@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-15T07:34:31.364Z",
+  "generatedAt": "2026-08-16T07:34:09.170Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7879,
-  "totalIndexedComics": 7879,
+  "totalArchiveComics": 7880,
+  "totalIndexedComics": 7880,
   "fields": [
     "comicText",
     "hoverText",
@@ -133952,19 +133952,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "r",
+      "slug": "r",
+      "url": "https://www.smbc-comics.com/comic/r",
+      "title": "R",
+      "date": "2026-08-15",
+      "dateLabel": "August 15, 2026",
+      "thumbnail": "thumbs/r.webp",
+      "comicText": "WORDS CANNOT DESCRIBE\n\nASSIGN YOUR CURRENT\n\nMY FEELINGS FOR YOU.\n\nFEELINGS TO THE VARIABLE R.\n\nTHEN SAY R. PROBLEM SOLVED.\n\nNn\n\nar\n\nYOU HAVE NO\n\nPHENOMENOLOGICAL\n\nACCESS TO THAT\n\nCONCEPT.\n\nia}\n\nmA\n\nhiy\\\\y\n\nPATREON.COM/ZACHWEINERSMITH\n\nSM6BC-COMICS.COM\n\nTHEN SAY 8. PROBLEM SOLVED.\n\nal\n\na1 2\n\niS\n\nyD\n\nDe /\n\nSMBC-COMICS.COM",
+      "hoverText": "As he walks away she begins frantically calling out symbols in the hope that one will reach him.",
+      "voteyText": "I HAVE SENSE DATA\n\nINDICATING THAT & IS\n\nEQUIVALENT TO HORNY.\n\nYO\n\nT HAVE SENSE DATA\n\nINDICATING THAT RAS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-15T07:34:31.364Z",
+  "semanticImportedAt": "2026-08-16T07:34:09.170Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7879,
+      "indexedComics": 7880,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 80,
+      "unmatchedComics": 81,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
