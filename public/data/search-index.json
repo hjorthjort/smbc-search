@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-16T07:34:09.170Z",
+  "generatedAt": "2026-08-17T07:41:02.069Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7880,
-  "totalIndexedComics": 7880,
+  "totalArchiveComics": 7881,
+  "totalIndexedComics": 7881,
   "fields": [
     "comicText",
     "hoverText",
@@ -133969,19 +133969,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "gathered",
+      "slug": "gathered",
+      "url": "https://www.smbc-comics.com/comic/gathered",
+      "title": "Gathered",
+      "date": "2026-08-16",
+      "dateLabel": "August 16, 2026",
+      "thumbnail": "thumbs/gathered.webp",
+      "comicText": "USELESS? IMAGINE\n\nTAKING ALL THE MOST ANNOYINGLY\n\nARGUMENTATIVE PEOPLE ON EARTH\n\nCONFINING THEM TO TINY SHARED OFFICE SPACES,\n\nAND CONVINCING THEM IT'S NOT\n\nAN ASYLUM.\n\nee\n\nWe must concern ourselves not with what Ethics is,\n\nbut what Ethics does.",
+      "hoverText": "People who want to defund universities don't appreciate the role they play in keeping rogue ethicists out of your backyard.",
+      "voteyText": "I'S ACTUALLY WHY\n\nMETAPHNSICS WAG\n\nINVENTED,\n\nWHOAAAAAARA\n\n(‘yy\n\nSN\n\nIT'S ACTUALLY WHY\n\nMETAPHYSICS WAS\n\nWHOAAAAAAAY\n\ncy",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-16T07:34:09.170Z",
+  "semanticImportedAt": "2026-08-17T07:41:02.069Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7880,
+      "indexedComics": 7881,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 81,
+      "unmatchedComics": 82,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
