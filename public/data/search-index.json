@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-18T07:35:48.185Z",
+  "generatedAt": "2026-08-19T07:36:17.034Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7882,
-  "totalIndexedComics": 7882,
+  "totalArchiveComics": 7883,
+  "totalIndexedComics": 7883,
   "fields": [
     "comicText",
     "hoverText",
@@ -134003,19 +134003,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "genie-4",
+      "slug": "genie-4",
+      "url": "https://www.smbc-comics.com/comic/genie-4",
+      "title": "Genie",
+      "date": "2026-08-18",
+      "dateLabel": "August 18, 2026",
+      "thumbnail": "thumbs/genie-4.webp",
+      "comicText": "HAHAHA/ T’M ONE OF THOSE\n\nI WISH NOBODY EVER\n\nGENIES WHO GIVES YOU YOUR f JEXPERIENCED REGRET.\n\nUNEXPECTED\n\nWISH, BUT WITH TERRIBLE\n\nCONSEQUENCES /\n\nuA\n\neS\n\nil\n\na>» Nee\n\nHAHAHA/ BEHOLD, THE NEWS/\n\nWITHOUT THE ABILITY TO\n\nREGRET, WORLD LEADERS\n\nHAVE ENGAGED IN HORRIFIC\n\nACTS OF MOLENCE/\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nGENIES WHO GIVES YOU YOUR J JEXPERIENCED REGRET.\n\nCe\n\nca\n\nACTS OF VIOLENCE/\n\nMZ\n\nWA\n\nPATREON COM/ZACHWEINERGMITH",
+      "hoverText": "If a creature gives you a wish, wish to not regret the wish. Trust me, you won't regret it.",
+      "voteyText": "I WISH IT COULD REGRET\n\nGRANTING THAT WISH.\n\nI WISH T COULD REGRET\n\naa\n\nLe",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-18T07:35:48.185Z",
+  "semanticImportedAt": "2026-08-19T07:36:17.034Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7882,
+      "indexedComics": 7883,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 83,
+      "unmatchedComics": 84,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
