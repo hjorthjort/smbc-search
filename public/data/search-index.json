@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-21T07:36:13.579Z",
+  "generatedAt": "2026-08-22T07:34:36.236Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7885,
-  "totalIndexedComics": 7885,
+  "totalArchiveComics": 7886,
+  "totalIndexedComics": 7886,
   "fields": [
     "comicText",
     "hoverText",
@@ -134054,19 +134054,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "classic",
+      "slug": "classic",
+      "url": "https://www.smbc-comics.com/comic/classic",
+      "title": "Classic",
+      "date": "2026-08-21",
+      "dateLabel": "August 21, 2026",
+      "thumbnail": "thumbs/classic.webp",
+      "comicText": "I DON'T READ THIS\n\nOH YEAH, WELL T\n\nSTUFF EVER AND\n\nDON’T READ THIS\n\n/T 1S BORING AND\n\nOVER-RATED\n\n17 1S THE HIGHEST\n\nACHIEVEMENT OF\n\nOUR C/VIL/ZAT/ON\n\nA\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\n/T 1$ BORING ANDO\n\n/7 1S THE HIGHEST\n\nOUR CIVILIZATION",
+      "hoverText": "Just kidding, nobody talks about this stuff.",
+      "voteyText": "PROPOSED RULE:\n\nANYONE CLAIMING\n\nTO DEFEND THE\n\n\"WESTERN CANON\"\n\nIN AN INTERVIEW\n\nSHOULD BE OBLIGATED\n\nTO IMMEDIATELY COUGH UP\n\n10 MEMORIZED LINES OF\n\nCHAUCER, SHAKESPEARE,\n\nPOPE, WHITMAN,\n\nDICKINSON OR KIPLING.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-21T07:36:13.579Z",
+  "semanticImportedAt": "2026-08-22T07:34:36.236Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7885,
+      "indexedComics": 7886,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 86,
+      "unmatchedComics": 87,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
