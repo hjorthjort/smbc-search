@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-22T07:34:36.236Z",
+  "generatedAt": "2026-08-23T07:35:34.351Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7886,
-  "totalIndexedComics": 7886,
+  "totalArchiveComics": 7887,
+  "totalIndexedComics": 7887,
   "fields": [
     "comicText",
     "hoverText",
@@ -134071,19 +134071,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "chromo",
+      "slug": "chromo",
+      "url": "https://www.smbc-comics.com/comic/chromo",
+      "title": "Chromo",
+      "date": "2026-08-22",
+      "dateLabel": "August 22, 2026",
+      "thumbnail": "thumbs/chromo.webp",
+      "comicText": "WAIT, ITS CALLED QUANTUM\n\nTHIS |S AMAZ/NG/ ANY\n\nSUBJECT OR ACTIVITY WITH\n\nCHROMODNNAMICS BUT HAS\n\nTHREE POSSIBILITIES IS\n\nTHE \"CHROMO\" IS BECAUSE\n\nNOTHING TO DO WITH COLOR?\n\nOFFICIALLY CHROMO.\n\nLIKE COLORS THERE ARE\n\nTHREE THINGS AND THEY\n\nCAN BE COMBINED?\n\nGa\n\nOH MY GOD, IN SE\n\nX, THERE\n\nHEN, WANNA TRY SOME BLUE\n\nARE THREE PLACE\n\nS TO PUT...\n\nAND YELLOW MAKES GREEN\n\nTONIGHT?\n\nNO CHROMO.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nTHIS |S AMAZING/ RNY\n\nCHROMODYNAMICS BUT HAS\n\nTHE \"CHROMO\" |S BECAUSE\n\nae\n\nfo",
+      "hoverText": "Physicists are always complaining about latinate terms in biology, and then they pull this shit.",
+      "voteyText": "DON'T BE A CHROMOPHOBE.\n\nmn\n\nVy",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-22T07:34:36.236Z",
+  "semanticImportedAt": "2026-08-23T07:35:34.351Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7886,
+      "indexedComics": 7887,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 87,
+      "unmatchedComics": 88,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
