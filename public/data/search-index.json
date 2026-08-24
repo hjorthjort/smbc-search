@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-23T07:35:34.351Z",
+  "generatedAt": "2026-08-24T07:45:15.246Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7887,
-  "totalIndexedComics": 7887,
+  "totalArchiveComics": 7888,
+  "totalIndexedComics": 7888,
   "fields": [
     "comicText",
     "hoverText",
@@ -134088,19 +134088,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "beyond-2",
+      "slug": "beyond-2",
+      "url": "https://www.smbc-comics.com/comic/beyond-2",
+      "title": "Beyond",
+      "date": "2026-08-23",
+      "dateLabel": "August 23, 2026",
+      "thumbnail": "thumbs/beyond-2.webp",
+      "comicText": "DO YOU THINK HUMANS WILL\n\nHUMANS THINK THE CIRCLE\n\nKEEP EXPANDING THE\n\nGETS PUSHED OUT, BUT\n\n“CIRCLE OF MORAL CONCERN”\n\nACTUALLY IT GETS PULLED.\n\nTO FINALLY ENCOMPASS\n\nALL HUMANS?\n\nYOU MOVE BEYOND SELF IF _AN\n\nBUT YOU ONLY GET BEYOND\n\nOUTSIDER THREATENS YOUR\n\nNATIONG IF ALIENS ATTACK,\n\nFAMILY. BEYOND FAMILY IF AN\n\nWHICH WE WOULDN'T BECAUSE\n\nITD RLIN THE SHOW CALLED\n\nCOMMONITY. BEYOND\n\nEARTH WHICH IS VERY\n\nCOMMDONITY IF AN OUTSIDER\n\nPOPULAR ON PLANET ZORBLAX\n\nTHREATENS YOUR NATION.\n\nI... LGUESS IM GLAD\n\nITS NOT THAT\n\nOUR SUFFERING BRINGS\n\nPOPULAR.\n\nJOY TO BILLIONG.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICSCOM\n\nDO NOU THINK HUMANS WILL\n\na6\n\nNATIONS IF ALIENS ATTACK,\n\nIT'D RUIN THE SHOW CALLED\n\nCOMMUNITY. BEYOND\n\nCOMMUNITY IF AN OUTSIDER\n\naA\n\nLy\n\n(TS NOT THAT\n\nJOY TO BILLIONS.\n\nPATREON. COM/ZACHWIEINERSMITH\n\nSMBC-COMICS.COM",
+      "hoverText": "How about a rhombus of moral concern? Let's not be too ambitious.",
+      "voteyText": "ANYWAY, WEVE ALMOST\n\nGOT AN AT VERSION\n\nWORKING, AND THEN WE\n\nCAN SWITCH OFF THE SON.\n\nAq \\ &S\n\nANNWAY, WEVE ALMOST\n\nCAN SWITCH OFF THE SUN.\n\n<a Ss",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-23T07:35:34.351Z",
+  "semanticImportedAt": "2026-08-24T07:45:15.246Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7887,
+      "indexedComics": 7888,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 88,
+      "unmatchedComics": 89,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
