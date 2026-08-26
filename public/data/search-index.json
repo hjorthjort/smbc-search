@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-25T07:37:22.909Z",
+  "generatedAt": "2026-08-26T07:37:29.643Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7889,
-  "totalIndexedComics": 7889,
+  "totalArchiveComics": 7890,
+  "totalIndexedComics": 7890,
   "fields": [
     "comicText",
     "hoverText",
@@ -134122,19 +134122,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "jedi",
+      "slug": "jedi",
+      "url": "https://www.smbc-comics.com/comic/jedi",
+      "title": "Jedi",
+      "date": "2026-08-25",
+      "dateLabel": "August 25, 2026",
+      "thumbnail": "thumbs/jedi.webp",
+      "comicText": "LOOK, WHETHER THE RULING CLASS |S\n\nOFFICIALLY GOOD SPACE-WIZARDS OR EVIL\n\nSPACE-WIZARDS DOESN'T MATTER. KNOW WHAT\n\nPREDICTS LOWER INFANT MORTALITY\n\nAND GREATER RIGHTS? GROSS DOMESTIC\n\nPRODUCT PER CAPITA.\n\nfo\n\nNN\n\n4) Fee\n\ne0\n\naa\n\nKI\n\nel\n\nyy\n\nne\n\n=a i\n\nLater, the dark and light Jedis banded together\n\nto cast out the neoliberal faction.\n\nLOOK, WHETHER THE RULING CLASS IS\n\nSPACE-WWIZARDS DOESN'T MATTER. KNOW WHAT\n\n2 oo",
+      "hoverText": "Later he returns as Darth Flation.",
+      "voteyText": "STRIKE ME DOWN, AND T\n\nSHALL RETURN MARGINALLY\n\nMORE POWERFUL/\n\n~~ ae\"",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-25T07:37:22.909Z",
+  "semanticImportedAt": "2026-08-26T07:37:29.643Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7889,
+      "indexedComics": 7890,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 90,
+      "unmatchedComics": 91,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
