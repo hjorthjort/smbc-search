@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-26T07:37:29.643Z",
+  "generatedAt": "2026-08-27T10:39:17.271Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7890,
-  "totalIndexedComics": 7890,
+  "totalArchiveComics": 7891,
+  "totalIndexedComics": 7891,
   "fields": [
     "comicText",
     "hoverText",
@@ -134139,19 +134139,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "psy",
+      "slug": "psy",
+      "url": "https://www.smbc-comics.com/comic/psy",
+      "title": "Psy",
+      "date": "2026-08-26",
+      "dateLabel": "August 26, 2026",
+      "thumbnail": "thumbs/psy.webp",
+      "comicText": "THANKG, MAN. I REALLY APPRECIATE YOUR\n\nINSIGHTS ABOUT MODERN POLITICS.\n\nHA/\n\nNICE TRY, AREMLIN/\n\nWHO PAID YOU.7/\n\nZe\n\nHow come nobody ever assumes the people\n\nwho agree with them are a foreign psyop?\n\nTHANKS, MAN. IT REALLY APPRECIATE YOUR\n\nHAS\n\nNICE TRY, AREMLIV/\n\nLe\n\nsg",
+      "hoverText": "This is of course an SMBC psyop.",
+      "voteyText": "UNLESS... T MYSELF\n\nAM THE PSYOP/\n\nN Sf\n\nONLESG... T MYSELF\n\nN fA\n\ny e",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-26T07:37:29.643Z",
+  "semanticImportedAt": "2026-08-27T10:39:17.271Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7890,
+      "indexedComics": 7891,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 91,
+      "unmatchedComics": 92,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
