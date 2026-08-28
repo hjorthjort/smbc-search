@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-27T10:39:17.271Z",
+  "generatedAt": "2026-08-28T11:02:53.257Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7891,
-  "totalIndexedComics": 7891,
+  "totalArchiveComics": 7892,
+  "totalIndexedComics": 7892,
   "fields": [
     "comicText",
     "hoverText",
@@ -134156,19 +134156,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "satan-2",
+      "slug": "satan-2",
+      "url": "https://www.smbc-comics.com/comic/satan-2",
+      "title": "Satan",
+      "date": "2026-08-27",
+      "dateLabel": "August 27, 2026",
+      "thumbnail": "thumbs/satan-2.webp",
+      "comicText": "SATAN PUT FOSSILS THERE TO CONFOUND US/\n\nDID A GREAT JOB TOO. THIS IS A 4 BILLION YEAR\n\nSTORY/ IT MEAN, THE CONSISTENCY. WOW/\n\nSa\n\nmin\n\nane\n\n“sf f)\n\na a\n\naS\n\nVS\n\nws B\n\nwie\n\nC25\n\nLe\n\npce.\n\nyO\n\nPastor Anderson kept raving about\n\nThe Devil's worldbuilding skills.\n\nSTORY/ T MEAN, THE CONSISTENCY. WOW/\n\nGa\n\nVi\n\nsr\n\nve\n\narr Lf)\n\ney\n\nNO p\n\nCc\n\nCr\n\nC37 tS\n\n2b\n\nye\n\neo\n\nwe",
+      "hoverText": "And look where he put the anus. I mean it's right in the middle of the action. This guy is brilliant!",
+      "voteyText": "I CANNOT WAIT FOR\n\nTHE SEQUEL/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-27T10:39:17.271Z",
+  "semanticImportedAt": "2026-08-28T11:02:53.257Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7891,
+      "indexedComics": 7892,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 92,
+      "unmatchedComics": 93,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
