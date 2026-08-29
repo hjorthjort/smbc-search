@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-28T11:02:53.257Z",
+  "generatedAt": "2026-08-29T07:28:49.597Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7892,
-  "totalIndexedComics": 7892,
+  "totalArchiveComics": 7893,
+  "totalIndexedComics": 7893,
   "fields": [
     "comicText",
     "hoverText",
@@ -134173,19 +134173,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "experience-7",
+      "slug": "experience-7",
+      "url": "https://www.smbc-comics.com/comic/experience-7",
+      "title": "Experience",
+      "date": "2026-08-28",
+      "dateLabel": "August 28, 2026",
+      "thumbnail": "thumbs/experience-7.webp",
+      "comicText": "IF YOU COULD GET INTO\n\nAN EXPERIENCE MACHINE\n\nWHERE YOU LIVE IN A WORLD\n\nNEVER.\n\nWOULD YOu?\n\nOF FALSE BLISS,\n\nI WANT\n\nAUTHENTIC\n\nCILE.\n\nEXPERIENCE MACHINE IN MY\n\nI WOULD HOWEVER KEEP THE\n\nNOW AND THEN 1'D PROBABLY\n\nFAKE A SICK DAY TO USE IT\n\nAND A LOT OF MY SOCIAL TIME\n\nDEN, AND USE |T MOST OF\n\nTHE WEEKEND AND\n\nWOULD BE SPENT TALKING\n\nSOMETIMES AFTER WORK\n\nWITH FRIENDS ABOUT THEIR\n\nWHEN T FELT EXHAUSTED\n\nEXPERIENCE MACHINES.\n\nOR STRESSED.\n\nOK\n\noe\n\nBa\n\nAND OF COURSE WHEN TI\n\nBUT OTHER THAN THAT,\n\nRETIRED, MAN, I'D LOVE TO\n\nI WOULD FACE REALITY\n\nJUST EXPERIENCE MACHINE\n\nFORTHRIGHTLY WHEN NOT\n\nFOR LIKE 10 HOURS A DAY,\n\nUSING IT TO WANK/\n\nTHEN GO TO THE POOL.\n\nDe\n\nPi\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\n\\F YOU COULD GET INTO\n\nT WANT\n\nLICE.\n\nNOW AND THEN T'D PROBABLY\n\nFAKE A SICK DAY TO USE 17,\n\nCxO\n\nYO\n\nan\n\naI\n\nAND OF COURSE WHEN T\n\nSO, SO\n\nBRAVE.\n\nLs",
+      "hoverText": "Somehow it become Experience Machine month?",
+      "voteyText": "ALSO WHEN MY BOSS\n\nWASN'T LOOKING. WHICH\n\nHE WOULDN'T BECAUSE\n\nHED BE IN HIS OWN\n\nEXPERIENCE MACHINE.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-28T11:02:53.257Z",
+  "semanticImportedAt": "2026-08-29T07:28:49.597Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7892,
+      "indexedComics": 7893,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 93,
+      "unmatchedComics": 94,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
