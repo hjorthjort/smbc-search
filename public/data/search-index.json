@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-29T07:28:49.597Z",
+  "generatedAt": "2026-08-30T07:29:42.652Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7893,
-  "totalIndexedComics": 7893,
+  "totalArchiveComics": 7894,
+  "totalIndexedComics": 7894,
   "fields": [
     "comicText",
     "hoverText",
@@ -134190,19 +134190,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "echo",
+      "slug": "echo",
+      "url": "https://www.smbc-comics.com/comic/echo",
+      "title": "Echo",
+      "date": "2026-08-29",
+      "dateLabel": "August 29, 2026",
+      "thumbnail": "thumbs/echo.webp",
+      "comicText": "I NEED TO CONVINCE MY\n\nBOYFRIEND HES GOOD AT SEX,\n\nTRY IMAGINING\n\nTONIGHT,\n\nYOU'RE A BAT THAT\n\nKEEPS ECHOLOCATING\n\nSTUFF IN THE ROOM.\n\nSs\n\nYY\n\neZ\n\nLATER, AFTER DARKNESS FALLS...\n\nAAAA/ AAAA/\n\nRIGHT THERE /\n\nAAAA/ THAT'S (77\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nAAAA/ AAAAS\n\nAAAA/ THAT'S IT/",
+      "hoverText": "This is but one entry in my future guide to sex.",
+      "voteyText": "HOW DID YOU KNOW ABOUT\n\nMY ECHOLOATION\n\nFETISH?",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-29T07:28:49.597Z",
+  "semanticImportedAt": "2026-08-30T07:29:42.652Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7893,
+      "indexedComics": 7894,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 94,
+      "unmatchedComics": 95,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
