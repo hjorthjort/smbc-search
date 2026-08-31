@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-08-30T07:29:42.652Z",
+  "generatedAt": "2026-08-31T07:40:15.836Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7894,
-  "totalIndexedComics": 7894,
+  "totalArchiveComics": 7895,
+  "totalIndexedComics": 7895,
   "fields": [
     "comicText",
     "hoverText",
@@ -134207,19 +134207,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "secret",
+      "slug": "secret",
+      "url": "https://www.smbc-comics.com/comic/secret",
+      "title": "Secret",
+      "date": "2026-08-30",
+      "dateLabel": "August 30, 2026",
+      "thumbnail": "thumbs/secret.webp",
+      "comicText": "A REVOLVING BOOKSHELF\n\nIT HAVE ENOUGH MONEN FOR\n\nTO HIDE SECRETS, BUT ALL\n\nOF MY SECRETS ARE JUST\n\nSAD THINGS THAT HAVE\n\nHAPPENED TO ME.\n\nih\n\nah\n\nov’\n\nly\n\nes,\n\nMW,\n\nll\n\n1a\n\n2 ee ee\n\nBeing an adult is Hell.\n\nT HAVE ENOUGH MONEY FOR\n\nTe a\n\nre)\n\nay\n\nrl\n\nLt |\n\nwe",
+      "hoverText": "The good news is you can put beer back there.",
+      "voteyText": "ALSO NOW T CAN EAT\n\nWHATEVER I CHOOSE\n\nEXCEPT THAT I CAN'T.\n\nALSO NOW TI CAN EAT\n\nWHATEVER T CHOOSE\n\nEXCEPT THAT T CAN'T.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-08-30T07:29:42.652Z",
+  "semanticImportedAt": "2026-08-31T07:40:15.836Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7894,
+      "indexedComics": 7895,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 95,
+      "unmatchedComics": 96,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
