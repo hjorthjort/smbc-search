@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-02T07:33:56.634Z",
+  "generatedAt": "2026-09-03T07:32:43.835Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7897,
-  "totalIndexedComics": 7897,
+  "totalArchiveComics": 7898,
+  "totalIndexedComics": 7898,
   "fields": [
     "comicText",
     "hoverText",
@@ -134258,19 +134258,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "dilemma-5",
+      "slug": "dilemma-5",
+      "url": "https://www.smbc-comics.com/comic/dilemma-5",
+      "title": "Dilemma",
+      "date": "2026-09-02",
+      "dateLabel": "September 2, 2026",
+      "thumbnail": "thumbs/dilemma-5.webp",
+      "comicText": "YOU HAVE TO EAT\n\nYOU HAVE TO\n\n10 BABIES, BUT ARE\n\nEAT 10 BABIES\n\nGUARANTEED WORLD\n\nBUT—\n\nPEACE FORS=\n\nYES YES,\n\nWHAT /S\n\nGET TO THE\n\nTHE MATTER\n\nWITH YOU?\n\nINTERESTING\n\nPART.\n\nBLT",
+      "hoverText": "Honestly, you can just assume eating ten as a given and move on.",
+      "voteyText": "THERE BETTER BEA\n\nPRETTY BIG NEGATIVE\n\nTO BALANCE OUT THOSE\n\nDELICIOUS BABIES.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-02T07:33:56.634Z",
+  "semanticImportedAt": "2026-09-03T07:32:43.835Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7897,
+      "indexedComics": 7898,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 98,
+      "unmatchedComics": 99,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
