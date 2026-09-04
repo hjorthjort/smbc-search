@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-03T07:32:43.835Z",
+  "generatedAt": "2026-09-04T07:38:59.391Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7898,
-  "totalIndexedComics": 7898,
+  "totalArchiveComics": 7899,
+  "totalIndexedComics": 7899,
   "fields": [
     "comicText",
     "hoverText",
@@ -134275,19 +134275,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "meaning-9",
+      "slug": "meaning-9",
+      "url": "https://www.smbc-comics.com/comic/meaning-9",
+      "title": "Meaning",
+      "date": "2026-09-03",
+      "dateLabel": "September 3, 2026",
+      "thumbnail": "thumbs/meaning-9.webp",
+      "comicText": "DEAR GOD\n\nNO MORE/ STOP ASKING WHY\n\nHOW COME—\n\nBAD THINGS HAPPEN TO GOOD\n\nPEOPLE OR WHETHER LIFE\n\nHAS A PURPOSE OR WHAT YOU\n\nSHOULD—\n\nHOW COME_WHEN YOU\n\nPUT UNDERWEAR ON A DOG\n\nIT LOOKS MORE PRURIENT,\n\nNOT LESS?\n\nLIKE YOU COVER\n\nUP THE NIPPLES\n\nBUT SOMEHOW\n\nIT LOOKS\n\nWHAT WAS\n\nTHAT ABOUT\n\nTHE MEANING\n\nAGAIN@\n\nOF LIFE\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nHOW COME WHEN Vi\n\nPN\n\nOP THE NIPPLES\n\n\\T LOOKS",
+      "hoverText": "Is it the thong? Is the problem that I use a thong?",
+      "voteyText": "DON'T EVEN GET ME\n\nSTARTED ON VARIOUS\n\nANIMALS ANUSESESG/\n\nANIMALS ANUSESES/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-03T07:32:43.835Z",
+  "semanticImportedAt": "2026-09-04T07:38:59.391Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7898,
+      "indexedComics": 7899,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 99,
+      "unmatchedComics": 100,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
