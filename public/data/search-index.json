@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-04T07:38:59.391Z",
+  "generatedAt": "2026-09-05T07:28:30.370Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7899,
-  "totalIndexedComics": 7899,
+  "totalArchiveComics": 7900,
+  "totalIndexedComics": 7900,
   "fields": [
     "comicText",
     "hoverText",
@@ -134292,19 +134292,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "money",
+      "slug": "money",
+      "url": "https://www.smbc-comics.com/comic/money",
+      "title": "Money",
+      "date": "2026-09-04",
+      "dateLabel": "September 4, 2026",
+      "thumbnail": "thumbs/money.webp",
+      "comicText": "YOU/ YOU'RE ONE OF THOSE\n\nYOU VILE, SHITSUCKING,\n\nEVIL MONEY GUYS/\n\nBABYKILLING, SON OF A\n\nBITCH'S BASTARD'S WH-\n\nOHHH,\n\nNo, No, I’M AN\n\nECONOMIST.\n\nWs\n\nYOU'RE THINKING\n\nTERRIBLY SORRY SIR.\n\nOF FINANCE.\n\nNo, I(T HAPPENS\n\nALL THE TIME.\n\n‘es\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nYOU/ YOURE ONE OF THOSE\n\nBITCH'S BASTARDS WH—\n\nWe\n\npe\n\nNO, IT HAPPENS\n\nve\n\naes\n\nf 4",
+      "hoverText": "It's the ones who go on TV that you really need to look out for.",
+      "voteyText": "THEY'RE NOT EVIL, THEY'RE\n\nHELPING ALLOCATE CAPITAL\n\nTO \\V'S MOST, NAH I'M\n\nJUST KIDDING.\n\nOY\n\nTO (T'S MOST, NAH I'M\n\nOO",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-04T07:38:59.391Z",
+  "semanticImportedAt": "2026-09-05T07:28:30.370Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7899,
+      "indexedComics": 7900,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 100,
+      "unmatchedComics": 101,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
