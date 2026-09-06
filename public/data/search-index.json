@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-05T07:28:30.370Z",
+  "generatedAt": "2026-09-06T07:29:44.008Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7900,
-  "totalIndexedComics": 7900,
+  "totalArchiveComics": 7901,
+  "totalIndexedComics": 7901,
   "fields": [
     "comicText",
     "hoverText",
@@ -134309,19 +134309,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "imagine-2",
+      "slug": "imagine-2",
+      "url": "https://www.smbc-comics.com/comic/imagine-2",
+      "title": "Imagine",
+      "date": "2026-09-05",
+      "dateLabel": "September 5, 2026",
+      "thumbnail": "thumbs/imagine-2.webp",
+      "comicText": "AT LAST WEVE OVERTHROWN\n\nTHE ECONOMISTS/ FROM NOW\n\nON THE NATION'S FINANCES\n\nAS OF TODAY, MONEY WILL BE\n\nSHALL BE _RUN BY\n\nDENOMINATED IN COMPLEX\n\nMATHEMATICIANS /\n\nNUMBERS. THE PUBLIC'S LONG\n\nWAIT FOR AN ALGEBRAICALLY\n\nCLOSED CURRENCY IS\n\nAT AN END/\n\nee\n\noe\n\nAND INEVITABLY...\n\nWw\n\nCR\n\nNoyes\n\nONO\n\nNot\n\n1g money\n\nMy\n\nacct\n\nted IO\n\nror\n\nnow\n\nde\n\nees,\n\nWri aQ!\n\nnory\n\n“Colm dow\n\nny,\n\nKcial\n\nchang\n\nute V\n\nal\n\ne ut\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nAT LAST WEVE OVER THROWN\n\nre\n\nony\n\nnonce\n\nmoney\n\niderito)\n\ned 90\n\nota\n\n25, iow\n\ndegre\n\nmag\"\n\nnary\n\n“Calin GOW!\n\nygcians'\n\nte value",
+      "hoverText": "They actually say modulus, but journalists dumb it down.",
+      "voteyText": "ROTATE IT AGAIN? YOU\n\nWANT TO GO NEGATIVE?\n\nIDIOTS/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-05T07:28:30.370Z",
+  "semanticImportedAt": "2026-09-06T07:29:44.008Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7900,
+      "indexedComics": 7901,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 101,
+      "unmatchedComics": 102,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
