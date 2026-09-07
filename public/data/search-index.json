@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-06T07:29:44.008Z",
+  "generatedAt": "2026-09-07T07:42:43.817Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7901,
-  "totalIndexedComics": 7901,
+  "totalArchiveComics": 7902,
+  "totalIndexedComics": 7902,
   "fields": [
     "comicText",
     "hoverText",
@@ -134326,25 +134326,42 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "seized",
+      "slug": "seized",
+      "url": "https://www.smbc-comics.com/comic/seized",
+      "title": "Seized",
+      "date": "2026-09-06",
+      "dateLabel": "September 6, 2026",
+      "thumbnail": "thumbs/seized.webp",
+      "comicText": "I HAVE SEIZED CONTROL OF THE\n\nINTERNATIONAL ASTRONOMICAL UNION/\n\nYOU ARE ALL DEMOTED TO DWARE STATUS\n\nTHERE IS ONLY ONE PLANET.\n\nSAY I'S NAME! SAY IT/\n\nwy i\n\nA a\n\nThe Pluto status debate took a disquieting turn.\n\nT HAVE SEIZED CONTROL OF THE\n\nYOU ARE ALL DEMOTED TO DWARF STATUS\n\nTHERE |S ONLY ONE PLANET.\n\nSAN IT'S NAME/ SAY IT/\n\net\n\nA ax",
+      "hoverText": "Please let Professor Sykes know there's a free bad caricature available for him.",
+      "voteyText": "PLANET PLUTO, THE MOST\n\nIMPORTANT PLANET IN THIS,\n\nTHE PLUTO GALAXKY/\n\nSD\n\nTHE PLUTO GALAXY/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-06T07:29:44.008Z",
+  "semanticImportedAt": "2026-09-07T07:42:43.817Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7901,
-      "sourceEntries": 7799,
-      "parsedTranscripts": 7799,
-      "matchedComics": 7799,
-      "unmatchedComics": 102,
+      "indexedComics": 7902,
+      "sourceEntries": 0,
+      "parsedTranscripts": 0,
+      "matchedComics": 0,
+      "unmatchedComics": 7902,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
-      "comicTextFromSemantic": 7769,
-      "voteyTextFromSemantic": 7200,
-      "descriptionTextFromSemantic": 6673,
+      "comicTextFromSemantic": 0,
+      "voteyTextFromSemantic": 0,
+      "descriptionTextFromSemantic": 0,
       "manualDescriptionText": 0
     }
   }
