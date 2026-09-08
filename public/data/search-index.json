@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-07T07:42:43.817Z",
+  "generatedAt": "2026-09-08T07:33:20.682Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7902,
-  "totalIndexedComics": 7902,
+  "totalArchiveComics": 7903,
+  "totalIndexedComics": 7903,
   "fields": [
     "comicText",
     "hoverText",
@@ -134343,25 +134343,42 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "conscious-9",
+      "slug": "conscious-9",
+      "url": "https://www.smbc-comics.com/comic/conscious-9",
+      "title": "Conscious",
+      "date": "2026-09-07",
+      "dateLabel": "September 7, 2026",
+      "thumbnail": "thumbs/conscious-9.webp",
+      "comicText": "T'M JUST AN INCREDIBLY\n\nCONSCIOUS\n\nGOD, ARE YOU\n\nLARGE LOOKUP TABLE. FOR\n\nLIKE USP\n\nANY STRING OF NOISES YOU\n\nPRODUCE, I CAN RESPOND\n\nAS \\E I'M DOING NATURAL\n\nLANGUAGE PROCESSING,\n\nBUT THERES NOBODY\n\n“IN THERE’ RESPONDING.\n\nLW\n\nvv\n\nmS\n\nNO SUBJECTIVE\n\nKIBBLEGIGGZIPZ/\n\nEXPERIENCE\n\nNO SELFHOOD?\n\nNUPE. JUST A\n\nSIMPLE TABLE\n\nWITH ABOUT\n\n10°° ENTRIES.\n\nCS NE\n\nAAAAAAAAAA/\n\nIMA\n\nCHINESE\n\nfos )\n\nROOM/\n\nJ i,\n\naD\n\nty\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nTM JUST AN INCREDIBLY\n\nPRODUCE, IT CAN RESPOND\n\nIAS \\E T'M DOING NATURAL\n\nIBUT THERES NOBODY\n\nae\n\nrs\n\nCL CL\n\nTMA\n\nee —",
+      "hoverText": "There should be a version of the Chinese Room where the guy inside has to speak French and has to remember those classes he cheated on in high school.",
+      "voteyText": "MAN, IF HE WOULD JUST\n\nHAVE PUT IN THE KONAMI\n\nCODE, I'D MAKE HIM\n\nIMMORTAL.\n\nMAN, \\F HE WOULD JUST",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-07T07:42:43.817Z",
+  "semanticImportedAt": "2026-09-08T07:33:20.682Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7902,
-      "sourceEntries": 0,
-      "parsedTranscripts": 0,
-      "matchedComics": 0,
-      "unmatchedComics": 7902,
+      "indexedComics": 7903,
+      "sourceEntries": 7799,
+      "parsedTranscripts": 7799,
+      "matchedComics": 7799,
+      "unmatchedComics": 104,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
-      "comicTextFromSemantic": 0,
-      "voteyTextFromSemantic": 0,
-      "descriptionTextFromSemantic": 0,
+      "comicTextFromSemantic": 7769,
+      "voteyTextFromSemantic": 7200,
+      "descriptionTextFromSemantic": 6673,
       "manualDescriptionText": 0
     }
   }
