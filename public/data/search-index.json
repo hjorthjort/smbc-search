@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-08T07:33:20.682Z",
+  "generatedAt": "2026-09-09T07:33:08.504Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7903,
-  "totalIndexedComics": 7903,
+  "totalArchiveComics": 7904,
+  "totalIndexedComics": 7904,
   "fields": [
     "comicText",
     "hoverText",
@@ -134360,19 +134360,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "major",
+      "slug": "major",
+      "url": "https://www.smbc-comics.com/comic/major",
+      "title": "Major",
+      "date": "2026-09-08",
+      "dateLabel": "September 8, 2026",
+      "thumbnail": "thumbs/major.webp",
+      "comicText": "A PHILOSOPHY MAJOR/\n\nFOR MY CRITICAL THINKING\n\nGREAT. YOU'RE HIRED.\n\nAND LOGIC?\n\n(Y= | (iY \\\n\nTHE JOB IS _ TO BE THE\n\nTHE STEM MAJORS GO MAD\n\nLEGALLY DESIGNATED HUMAN\n\nIN THE NIGHT AND THE ARTS\n\nIN A COMPLETELY AUTOMATED\n\nMAJORS START BREAKING\n\nDATACENTER WHERE WE DON'T\n\nTHINGS AND TWEETING ABOUT\n\nPAY FOR LIGHTING.\n\nIT, BUT YOU. NOU WILL FIND A\n\nWAY THROUGH.\n\nLOGIC YOUR\n\nWAY INTO DECIDING\n\nTHAT'S FINE.\n\n\"ALL FORTUNE IS GOOD FORTUNE;\n\nHEALTH INSURANCE\n\nFOR IT EITHER REWARDS, DISCIPLINES,\n\nIS NOT INCLUDED.\n\nAMENDS, OR PUNISHES, AND SO IS\n\nEITHER USEFUL OR JUST.”\n\nAl\n\n| ait\n\nA\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nbv,\n\nSs\n\nay, ‘a\n\n\\T, BUT YOU. NOU WILL FIND A\n\nin\n\n|S NOT INCLUDED.\n\noe\n\ney\n\nGQ",
+      "hoverText": "The MBAs are no good because when the lights are off they think it's nighttime and go to sleep.",
+      "voteyText": "BY THE WAY, THIS IS\n\nAN INTERNGHIP \"JOB\" IS AN\n\nACRONYM FOR\n\n\"JETTISONED ONCE\n\nBILLING.\"\n\n~\\ OD\n\nAN INTERNSHIP \"JOB\" IS AN\n\nee)",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-08T07:33:20.682Z",
+  "semanticImportedAt": "2026-09-09T07:33:08.504Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7903,
+      "indexedComics": 7904,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 104,
+      "unmatchedComics": 105,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
