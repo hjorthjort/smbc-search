@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-09T07:33:08.504Z",
+  "generatedAt": "2026-09-10T07:33:19.317Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7904,
-  "totalIndexedComics": 7904,
+  "totalArchiveComics": 7905,
+  "totalIndexedComics": 7905,
   "fields": [
     "comicText",
     "hoverText",
@@ -134377,19 +134377,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "club-2",
+      "slug": "club-2",
+      "url": "https://www.smbc-comics.com/comic/club-2",
+      "title": "Club",
+      "date": "2026-09-09",
+      "dateLabel": "September 9, 2026",
+      "thumbnail": "thumbs/club-2.webp",
+      "comicText": "HUMANS HATE\n\nNEEDING EACH OTHER.\n\nHUMANS GET SAD WHEN\n\nTHEY DON'T NEED\n\nEACH OTHER.\n\nGod’s standup routine didn’t go over,\n\nbut it sure made Him laugh.\n\nNa *",
+      "hoverText": "God also has a joke about how both oblivion and eternal recurrence are terrifying, and there is no middle ground.",
+      "voteyText": "THE MOST IMPORTANT\n\nTHINGS TO GAY TO EACH\n\nOTHER CANNOT BE\n\nEXPRESSED AM I RIGHT/\n\nHE MOST IMPORTANT\n\nOTHER CAI",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-09T07:33:08.504Z",
+  "semanticImportedAt": "2026-09-10T07:33:19.317Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7904,
+      "indexedComics": 7905,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 105,
+      "unmatchedComics": 106,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
