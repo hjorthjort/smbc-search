@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-10T07:33:19.317Z",
+  "generatedAt": "2026-09-11T07:34:21.234Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7905,
-  "totalIndexedComics": 7905,
+  "totalArchiveComics": 7906,
+  "totalIndexedComics": 7906,
   "fields": [
     "comicText",
     "hoverText",
@@ -134394,19 +134394,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "shilling",
+      "slug": "shilling",
+      "url": "https://www.smbc-comics.com/comic/shilling",
+      "title": "Shilling",
+      "date": "2026-09-10",
+      "dateLabel": "September 10, 2026",
+      "thumbnail": "thumbs/shilling.webp",
+      "comicText": "YOU'RE NOT FROM HERE/\n\nI AM NOT/ I'VE NEVER\n\nYOU'RE A PAID SHILL/\n\nTAKEN A CENT/\n\ntie\n\nOs\n\nawe\n\nSORRY, YOU'VE\n\nBEEN REPLACED\n\nBY AT.\n\nBOSS, DO YOU THINK YOU'LL\n\nEND UP HIRING ME AFTER\n\nAS A LOCAL\n\nPEOPLE\n\nTHIS SHILL INTERNSHIP?\n\nI SUPPORT\n\nTHE THING.\n\nie\n\njaa)\n\nPN A\n\nli\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nTAM NOT/ IVE NEVER\n\nSs\n\nbei’\n\naw\n\nBY AL\n\nLI SUPPORT\n\nPO",
+      "hoverText": "I really do wonder if paid disinformation orgs have the same office politics as everywhere else.",
+      "voteyText": "OR OPPOSE. WHATEVER IS\n\nMOST DAMAGING TO THE\n\nSOCIAL FABRIC.\n\nLA\n\npA",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-10T07:33:19.317Z",
+  "semanticImportedAt": "2026-09-11T07:34:21.234Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7905,
+      "indexedComics": 7906,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 106,
+      "unmatchedComics": 107,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
