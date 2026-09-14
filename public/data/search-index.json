@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-13T07:30:24.651Z",
+  "generatedAt": "2026-09-14T07:44:28.614Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7908,
-  "totalIndexedComics": 7908,
+  "totalArchiveComics": 7909,
+  "totalIndexedComics": 7909,
   "fields": [
     "comicText",
     "hoverText",
@@ -134445,19 +134445,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "scratchpad",
+      "slug": "scratchpad",
+      "url": "https://www.smbc-comics.com/comic/scratchpad",
+      "title": "Scratchpad",
+      "date": "2026-09-13",
+      "dateLabel": "September 13, 2026",
+      "thumbnail": "thumbs/scratchpad.webp",
+      "comicText": "DO YOU THINK P-ZOMBIES ARE\n\nJUST TAKE YOUR P-ZOMBIE\n\nPOSSIBLE? BEINGS THAT ARE\n\nAND PUT IT IN A HARNESS\n\nOUTWARDLY CONSCIOUS BUT\n\nWITH A SCRATCHPAD.\n\nWITH NO INTERNAL WORLD?\n\nNOT FOR\n\nLONG, NO.\n\nNOW IT_HAS A PHYSICAL\n\nI DON’T KNOW IF THAT LAST\n\nRECORD OF INTERIORITY.\n\nPART IS OKAY.\n\nALL YOU HAVE TO DO \\S TAKE\n\nTHAT RECORD, SHOVE IT UP\n\nTHE P-ZOMBIES ASS, AND\n\nNOW IT IS LITERALLY\n\nNO, NO, [TISN'T\n\nINTERNAL.\n\nCONSCIOUS\n\nUNTIL AFTER.\n\nCO)\n\nem\n\noe\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nif\n\nPART |S OKAY.\n\nALL YOU HAVE TO DO IS TAKE\n\nNOW IT \\S LITERALLY\n\nNO, NO, IT ASN'T\n\neS",
+      "hoverText": "Never thought software would ruin a philosophy problem, but here we are.",
+      "voteyText": "COULD YOU JUST\n\nUPLOAD IT\n\nTHROUGH\n\nTHE ASG,\n\nYEAH.\n\nCOULD NOU JUST\n\nyO",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-13T07:30:24.651Z",
+  "semanticImportedAt": "2026-09-14T07:44:28.614Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7908,
+      "indexedComics": 7909,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 109,
+      "unmatchedComics": 110,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
