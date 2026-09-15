@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-14T07:44:28.614Z",
+  "generatedAt": "2026-09-15T07:35:41.932Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7909,
-  "totalIndexedComics": 7909,
+  "totalArchiveComics": 7910,
+  "totalIndexedComics": 7910,
   "fields": [
     "comicText",
     "hoverText",
@@ -134462,19 +134462,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "balance",
+      "slug": "balance",
+      "url": "https://www.smbc-comics.com/comic/balance",
+      "title": "Balance",
+      "date": "2026-09-14",
+      "dateLabel": "September 14, 2026",
+      "thumbnail": "thumbs/balance.webp",
+      "comicText": "WHY DO YOU THINK HUMANS\n\nTHERES THIS WHOLE GENRE\n\nARE OF TEN UNHAPPY?\n\nOF “DR. FAUST\" MYTHS WHERE\n\nA GUY LEARNS EVERYTHING\n\nTRUE BUT HIS LIFE IS\n\nSTILL BAD.\n\nLACK OF\n\nBALANCE.\n\nfh\n\nih\n\n| yy\n\nTHEN THERES THE\n\nTHE ONLY WAY TO GET\n\n\"EXPERIENCE MACHINE’\n\nTHROUGH THIS LIFE\n\nTHOUGHT EXPERIMENT.\n\nHAPPILY IS TO CONSUME\n\nWITH THE SAME OUTCOME:\n\nIT'S THE EXACT REVERSE BUT\n\nPARTIAL TRUTH BLENDED\n\nGUY HAG TOTALLY FALSE\n\nTHOROUGHLY WITH\n\nBELIEFS, AND THAT MAKES\n\nSTEAMING HOGWAGH.\n\nHIS LIFE BAD.\n\nea\n\nI REALLY NEED\n\nWE ALL DO.\n\nTO WATCH MORE\n\nYOUTUBE.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSM6C-COMICS.COM\n\n| YS\n\naN\n\nITS THE EXACT REVERSE BUT\n\nGUY HAS TOTALLY FALSE\n\nT REALLY NEED\n\nSMBC-COMICS.COM",
+      "hoverText": "Do all of history's obsessive truth seekers seem happy to you?",
+      "voteyText": "TOO BAD WERE\n\nGOING TO DIE\n\nOUT HERE BEFORE\n\nWE GET HOME.\n\nJOO BAD WERE",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-14T07:44:28.614Z",
+  "semanticImportedAt": "2026-09-15T07:35:41.932Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7909,
+      "indexedComics": 7910,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 110,
+      "unmatchedComics": 111,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
