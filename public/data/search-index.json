@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-16T07:35:03.089Z",
+  "generatedAt": "2026-09-17T07:35:24.867Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7911,
-  "totalIndexedComics": 7911,
+  "totalArchiveComics": 7912,
+  "totalIndexedComics": 7912,
   "fields": [
     "comicText",
     "hoverText",
@@ -134496,19 +134496,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "lake",
+      "slug": "lake",
+      "url": "https://www.smbc-comics.com/comic/lake",
+      "title": "Lake",
+      "date": "2026-09-16",
+      "dateLabel": "September 16, 2026",
+      "thumbnail": "thumbs/lake.webp",
+      "comicText": "I'M GORRY,\n\nMY PUBLICATIONS AND ADVOCACY\n\nSAVE A LIFE EVERY FIVE MINUTES,\n\nAND IT'D TAKE SIK MINUTES\n\nTO SAVE YOU/\n\nIronically, Peter Singer is the only person not\n\nethically permitted to save a drowning child.\n\nI'M SORRY,\n\nAND IT'D TAKE SIX MINUTES",
+      "hoverText": "You can't see it but he's typing an essay with his right hand.",
+      "voteyText": "For the\n\ngreater\n\ngood",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-16T07:35:03.089Z",
+  "semanticImportedAt": "2026-09-17T07:35:24.867Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7911,
+      "indexedComics": 7912,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 112,
+      "unmatchedComics": 113,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
