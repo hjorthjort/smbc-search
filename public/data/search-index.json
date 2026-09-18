@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-17T07:35:24.867Z",
+  "generatedAt": "2026-09-18T07:33:29.656Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7912,
-  "totalIndexedComics": 7912,
+  "totalArchiveComics": 7913,
+  "totalIndexedComics": 7913,
   "fields": [
     "comicText",
     "hoverText",
@@ -134513,19 +134513,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "waste-2",
+      "slug": "waste-2",
+      "url": "https://www.smbc-comics.com/comic/waste-2",
+      "title": "Waste",
+      "date": "2026-09-17",
+      "dateLabel": "September 17, 2026",
+      "thumbnail": "thumbs/waste-2.webp",
+      "comicText": "WE HAVE ASSEMBLED THE WORLD'S\n\nWE ARE HERE TO FINDA\n\nMOST PRE-EMINENT SCIENTISTS,\n\nWAY TO TELL ANYONE\n\nPHILOSOPHERS, LINGUISTS,\n\nANYTIME IN THE NEXT\n\nARTISTS, AND ARCHITECTS.\n\n10,000 YEARS TO STAY\n\nAWAY FROM THIS PLACE\n\nOF BURIAL OF NUCLEAR\n\nWASTE.\n\nOKC\n\nN iA\n\nWE MAY NOT OSE CORRENT LANGUAGE,\n\nWHICH MAY DRIFT, NOR SYMBOLS, WHICH\n\nMAY INVERT, AND YET=\n\nCOOK LIKE\n\nMAKE /T\n\nA DOG'S\n\nBUTTHOLE.\n\nTHE ENTRYWAY. MAKE IT LIKE\n\nCANCEL THE CONFERENCE/\n\nA BUTTHOLE. THE BUTTHOLE\n\nCANCEL EVERYTHING/\n\nOF A DOG.\n\n(Oy\n\n} of\n\nDAILY\n\nPAPE I?\n\nLOCAL JANITOR SAVES\n\nGOVERNMENT $14,000,000\n\nae a butthole.”\n\nOK)\n\nLN A\n\nWE MAY NOT USE CURRENT LANGUAGE,\n\nMAKE IT\n\nLOOK LIKE\n\nTHE ENTRYWAY. MAKE \\T LIKE\n\noe\n\nla)\n\n(eh\n\nLOCAL JAN\n\nSAVES\n\n“Like a butthole.”\n\nes",
+      "hoverText": "Seriously though, next time there's a problem like this just call me.",
+      "voteyText": "IT APPEARS\n\nTO BE THE LOGO\n\nOF A PRIMITIVE\n\nA\\ COMPANY.\n\nan\n\n\\T APPEARS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-17T07:35:24.867Z",
+  "semanticImportedAt": "2026-09-18T07:33:29.656Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7912,
+      "indexedComics": 7913,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 113,
+      "unmatchedComics": 114,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
