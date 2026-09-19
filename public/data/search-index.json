@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T07:33:29.656Z",
+  "generatedAt": "2026-09-19T07:30:08.038Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7913,
-  "totalIndexedComics": 7913,
+  "totalArchiveComics": 7914,
+  "totalIndexedComics": 7914,
   "fields": [
     "comicText",
     "hoverText",
@@ -134530,19 +134530,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "citation-2",
+      "slug": "citation-2",
+      "url": "https://www.smbc-comics.com/comic/citation-2",
+      "title": "Citation",
+      "date": "2026-09-18",
+      "dateLabel": "September 18, 2026",
+      "thumbnail": "thumbs/citation-2.webp",
+      "comicText": "GOD. (4004 BC-8)\n\nGOD. (4004 BC-A)\n\nGOD. (4004 BC-C\n\nGOD. (4004 BC-D\n\nGOD. (4004 BC-E)\n\nGOD. (4004 BC-F\n\nGOD. (4004 BC\n\nGOD. (4004 BC-H)\n\nGOD. (4004 BC-l)\n\nGOD. (4004 BC-J)\n\nGOD. (4004 BC-K)\n\nGOD. (4004 BC-M).\n\nGOD. (4004 BC-N).\n\nGOD. (4004 BC-0).\n\nGOD. (4004 BC-P)\n\nGOD. (4004 BC-Q)\n\nGOD. (PERSONAL COMMUNICATION)\n\nGOD. (4004 BC-R)\n\nGOD. (4004 BC-S\n\nGOD. (4004 BC-T\n\nBecoming a Creationist really streamlined\n\nmy Reference-gathering process\n\nGOD. (4004 BC-B)\n\nGOD. (4004 BC-G\n\nGOD. (4004 BC-I).\n\nGOD. (40904 BC-M)\n\nGOD. (4004 BC-O).\n\nGOD. (4004 BC-v).",
+      "hoverText": "There's a thing in the paper about the forthcoming End Times but it's still in press.",
+      "voteyText": "SATAN. (NEAR FUTURE)",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-18T07:33:29.656Z",
+  "semanticImportedAt": "2026-09-19T07:30:08.038Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7913,
+      "indexedComics": 7914,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 114,
+      "unmatchedComics": 115,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
