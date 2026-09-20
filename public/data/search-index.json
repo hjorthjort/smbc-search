@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-19T07:30:08.038Z",
+  "generatedAt": "2026-09-20T07:31:19.053Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7914,
-  "totalIndexedComics": 7914,
+  "totalArchiveComics": 7915,
+  "totalIndexedComics": 7915,
   "fields": [
     "comicText",
     "hoverText",
@@ -134547,19 +134547,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "roach-2",
+      "slug": "roach-2",
+      "url": "https://www.smbc-comics.com/comic/roach-2",
+      "title": "Roach",
+      "date": "2026-09-19",
+      "dateLabel": "September 19, 2026",
+      "thumbnail": "thumbs/roach-2.webp",
+      "comicText": "OH MAN/ THE STUPID HUMAN\n\nI'M GONNA GIVE IT\n\nPUT FOOD IN HERE. FOOL/\n\nTO EVERYONE/\n\nTHIS STUPID COMPANY MADE\n\nBETTER SHARE WITH ALL MY\n\nA CONTROVERSIAL AD_ HOW\n\nFRIENDS AND FAMILY SO\n\nEMBARRASSING FOR THEM/\n\nEVIERYONE KNOWS WHICH\n\nAD NOT TO LOOK AT.\n\nSs\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nfoacH \\\n\n\\ POISON\n\nERIENDS AND FAMILY SO\n\nEVERYONE KNOWS WHICH\n\nax 2",
+      "hoverText": "This isn't a metaphor. Just a story about a roach.",
+      "voteyText": "(COMICS ARE\n\nFINE TO SHARE,\n\nTHOUGH)",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-19T07:30:08.038Z",
+  "semanticImportedAt": "2026-09-20T07:31:19.053Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7914,
+      "indexedComics": 7915,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 115,
+      "unmatchedComics": 116,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
