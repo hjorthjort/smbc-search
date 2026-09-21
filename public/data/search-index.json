@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-20T07:31:19.053Z",
+  "generatedAt": "2026-09-21T07:45:04.143Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7915,
-  "totalIndexedComics": 7915,
+  "totalArchiveComics": 7916,
+  "totalIndexedComics": 7916,
   "fields": [
     "comicText",
     "hoverText",
@@ -134564,19 +134564,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "civilization-2",
+      "slug": "civilization-2",
+      "url": "https://www.smbc-comics.com/comic/civilization-2",
+      "title": "Civilization",
+      "date": "2026-09-20",
+      "dateLabel": "September 20, 2026",
+      "thumbnail": "thumbs/civilization-2.webp",
+      "comicText": "DURING THE NIGHT AN ENTIRE CIVILIZATION\n\nOF BACTERIA HAG ARISEN, PROSPERED,\n\nAND TAKEN THEIR GOOD FORTUNE\n\nFOR GRANTED. AWMWIH/I/LATE THEM.\n\nee\n\niw)\n\noO?\n\nI found a way to get kids to brush their teeth\n\nOF BACTERIA HAS ARISEN, PROSPERED,\n\nFOR GRANTED. AWWIHILATE THEM.\n\nCC)\n\nP 0°?",
+      "hoverText": "It's surprising how into murder 7 year olds are.",
+      "voteyText": "FOES TO THE REDOUBTS\n\nYOU HAVE SCATTERED YOUR\n\nBETWEEN YOUR TEETH.\n\nIT'S TIME TO FINISH\n\nTHE JOB.\n\nOO\n\n(T'S TIME TO FINISH",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-20T07:31:19.053Z",
+  "semanticImportedAt": "2026-09-21T07:45:04.143Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7915,
+      "indexedComics": 7916,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 116,
+      "unmatchedComics": 117,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
