@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-21T07:45:04.143Z",
+  "generatedAt": "2026-09-22T07:35:42.711Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7916,
-  "totalIndexedComics": 7916,
+  "totalArchiveComics": 7917,
+  "totalIndexedComics": 7917,
   "fields": [
     "comicText",
     "hoverText",
@@ -134581,19 +134581,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "in",
+      "slug": "in",
+      "url": "https://www.smbc-comics.com/comic/in",
+      "title": "In",
+      "date": "2026-09-21",
+      "dateLabel": "September 21, 2026",
+      "thumbnail": "thumbs/in.webp",
+      "comicText": "WAIT. HE WAS CALLED DARTH\n\nAND THEN THERE WAS DARTH\n\nVADER. VADER LIKE VADER.\n\nSIDIOUG. LIKE WVSIDIOUS.\n\neC)\n\nSAX\n\nHOH. GOOD THING THAT JEDI\n\nWHO KISSED HIS OWN SISTER\n\nNEVER BECAME A SITH LORD.\n\nik\n\nA\n\noe\n\nflea\n\nPATREON.COM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nVADER. VADER LIKE /V/VADER.\n\nSIDIOUS. LIKE WVSIDIOUS.\n\nay\n\nOS\n\nHUH. GOOD THING THAT JEDI\n\ngu\n\nPATREONCOM/ ZACHWEINERSMITH",
+      "hoverText": "With apologies if this has been a joke in the fandom for decades.",
+      "voteyText": "STILL BETTER THAN\n\nDARTH CEL/",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-21T07:45:04.143Z",
+  "semanticImportedAt": "2026-09-22T07:35:42.711Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7916,
+      "indexedComics": 7917,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 117,
+      "unmatchedComics": 118,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
