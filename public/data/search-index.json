@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-22T07:35:42.711Z",
+  "generatedAt": "2026-09-23T07:36:02.494Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7917,
-  "totalIndexedComics": 7917,
+  "totalArchiveComics": 7918,
+  "totalIndexedComics": 7918,
   "fields": [
     "comicText",
     "hoverText",
@@ -134598,19 +134598,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "taken",
+      "slug": "taken",
+      "url": "https://www.smbc-comics.com/comic/taken",
+      "title": "Taken",
+      "date": "2026-09-22",
+      "dateLabel": "September 22, 2026",
+      "thumbnail": "thumbs/taken.webp",
+      "comicText": "SORRY YOUR WORK WAS\n\nTAKEN OVER BY MACHINES.\n\nWELCOME TO QUANTITATIVE\n\nFINANCE. HERES YOUR\n\nSACKS OF DOLLARS.\n\n(tS\n\nsS\n\nPure mathematicians’ nightmares are different.\n\n(3S",
+      "hoverText": "The worst part is how she's wearing a suit instead of an event t-shirt with holes in it.",
+      "voteyText": "MONEY THAN YOU NEED\n\nTHERE WILL BE MORE\n\nFOR PENCILS.\n\nA",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-22T07:35:42.711Z",
+  "semanticImportedAt": "2026-09-23T07:36:02.494Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7917,
+      "indexedComics": 7918,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 118,
+      "unmatchedComics": 119,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
