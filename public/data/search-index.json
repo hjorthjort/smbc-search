@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-23T07:36:02.494Z",
+  "generatedAt": "2026-09-24T07:36:22.794Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7918,
-  "totalIndexedComics": 7918,
+  "totalArchiveComics": 7919,
+  "totalIndexedComics": 7919,
   "fields": [
     "comicText",
     "hoverText",
@@ -134615,19 +134615,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "wolf-5",
+      "slug": "wolf-5",
+      "url": "https://www.smbc-comics.com/comic/wolf-5",
+      "title": "Wolf",
+      "date": "2026-09-23",
+      "dateLabel": "September 23, 2026",
+      "thumbnail": "thumbs/wolf-5.webp",
+      "comicText": "Ub\n\nAWOLR\n\nCOMING\n\nSOON\n\nNWO\n\nIF\n\nUf\n\nye\n\nThe Boy Who Cried Wolf later had\n\nan extremely popular youtube channel\n\nOMIN\n\nNG\n\n00N\n\nLj\n\n(ila\n\n#437 OF THE.\n\nGx 9 Aeme Sox",
+      "hoverText": "The witch from Hansel and Gretel sells magic crystals.",
+      "voteyText": "(SIGYPHUS' CHANNEL\n\nHAS BEEN GOING FOR\n\nWAY LONGER, THOUGH)\n\n(SISYPHUS' CHANNEL",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-23T07:36:02.494Z",
+  "semanticImportedAt": "2026-09-24T07:36:22.794Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7918,
+      "indexedComics": 7919,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 119,
+      "unmatchedComics": 120,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
