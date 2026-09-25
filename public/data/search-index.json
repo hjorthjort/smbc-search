@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-24T07:36:22.794Z",
+  "generatedAt": "2026-09-25T07:36:33.974Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7919,
-  "totalIndexedComics": 7919,
+  "totalArchiveComics": 7920,
+  "totalIndexedComics": 7920,
   "fields": [
     "comicText",
     "hoverText",
@@ -134632,19 +134632,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "identity-3",
+      "slug": "identity-3",
+      "url": "https://www.smbc-comics.com/comic/identity-3",
+      "title": "Identity",
+      "date": "2026-09-24",
+      "dateLabel": "September 24, 2026",
+      "thumbnail": "thumbs/identity-3.webp",
+      "comicText": "YOUR GENERATION USED UP\n\nSORRY, YOU CAN'T BE MAD/\n\nALL RESOURCES AND RUINED\n\nEVIEN SLIGHT CHANGES TO\n\nTHE WORLD/\n\nHUMAN CHOICES ALTER\n\nTHE SET OF PEOPLE\n\nWHO GET BORN.\n\nCO\n\nTHE GENERATION THAT EXISTS\n\nNOW IS THE ONE THAT ARISES\n\nSON, IN A WORLD WHERE\n\nWE CAREFULLY HUSBANDED\n\nIN A WORLD WHERE WE USED\n\nD STUFF/\n\nEVEN EXIST/\n\nEARTH'S BOUNTY, YOU DON'T\n\nUP ALL THE GOO\n\nNa\n\nACC\n\nor\n\nUL\n\nYOU'RE PROBABLY WRONG BUT\n\nI DON'T KNOW HOWZ\n\n15 YEARS EARLIER...\n\nUy\n\nDENTITY\n\nMETAPHNSICS\n\nFOR\n\nEXPECTING\n\nZS\n\nPARENTS\n\n(po\n\nPATREON.COM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nEVEN SLIGHT CHANGES TO\n\nHOMAN CHOICES ALTER\n\nOK |\n\nEARTHS BOUNTY,\n\nYOU DON'T\n\nOP ALL THE GOOD STUFE/\n\nYOU'RE PROBABLY WRONG BLT,\n\nI DON'T KNOW HOW,\n\n_ SS\n\nIDENTITY\n\nMETAPHYSICS\n\nws",
+      "hoverText": "Seriously, Derek Parfit is an untapped comedy gold mine.",
+      "voteyText": "BY THE WAY YOU SHOULD\n\nALSO OPPOSE PROPER\n\nUSE OF BIRTH CONTROL.\n\nOSE OF BIRTH CONTROL.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-24T07:36:22.794Z",
+  "semanticImportedAt": "2026-09-25T07:36:33.974Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7919,
+      "indexedComics": 7920,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 120,
+      "unmatchedComics": 121,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
