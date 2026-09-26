@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-25T07:36:33.974Z",
+  "generatedAt": "2026-09-26T07:31:20.055Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7920,
-  "totalIndexedComics": 7920,
+  "totalArchiveComics": 7921,
+  "totalIndexedComics": 7921,
   "fields": [
     "comicText",
     "hoverText",
@@ -134649,19 +134649,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "suit-2",
+      "slug": "suit-2",
+      "url": "https://www.smbc-comics.com/comic/suit-2",
+      "title": "Suit",
+      "date": "2026-09-25",
+      "dateLabel": "September 25, 2026",
+      "thumbnail": "thumbs/suit-2.webp",
+      "comicText": "IS \\T BECAUSE I SPENT OLR\n\nLIFE SAVINGS BUILDING\n\nA CAMOUFLAGE SUIT SO\n\nIT COULD DUCK OUT OF\n\nAWKWARD CONVERSATIONS?\n\nGaN\n\nWV\n\naf\n\nAa\n\nanh\n\npa\n\nLone)\n\n-HE eA\n\nYES, THATS PRECISELY\n\n= ae\n\nTHE-CELIA/\n\nfi\n\nrat\n\nnt ated\n\nTe\n\nPATREON.COM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nIS \\T BECAUSE T SPENT OUR\n\nI COULD DUCK OUT OF\n\nAWKWARD CONVERSATIONS 2\n\nMi\n\npis\n\nBi\n\nYES, THAT'S PRECISELY\n\nMW",
+      "hoverText": "This is actually what the Predator was doing the whole movie.",
+      "voteyText": "HAND ME THE FACE\n\nMASK PART, PLEASE.\n\nMAGK PART, PLEASE.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-25T07:36:33.974Z",
+  "semanticImportedAt": "2026-09-26T07:31:20.055Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7920,
+      "indexedComics": 7921,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 121,
+      "unmatchedComics": 122,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
