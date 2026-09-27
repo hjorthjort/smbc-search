@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-26T07:31:20.055Z",
+  "generatedAt": "2026-09-27T07:33:32.857Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7921,
-  "totalIndexedComics": 7921,
+  "totalArchiveComics": 7922,
+  "totalIndexedComics": 7922,
   "fields": [
     "comicText",
     "hoverText",
@@ -134666,19 +134666,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "all-right",
+      "slug": "all-right",
+      "url": "https://www.smbc-comics.com/comic/all-right",
+      "title": "All Right",
+      "date": "2026-09-26",
+      "dateLabel": "September 26, 2026",
+      "thumbnail": "thumbs/all-right.webp",
+      "comicText": "HEY, THAT'S ALL RIGHT.\n\nHEY WE ALL MAKE MISTAKES.\n\nHEY, WHO COULD'VE\n\nTHAT'S IT. NAILED IT.\n\nSEEN IT COMING?\n\nREADY FOR THE\n\nINTERVIEW.\n\nbe\n\nThe last available human job was\n\nbeing the thing AI apologizes to\n\nHEN, THAT'S ALL RIGHT.\n\nHEN, WE ALL MAKE MISTAKES.\n\nHEY, WHO COLLD'VE",
+      "hoverText": "He's only given one final week to live but having a salary is nice.",
+      "voteyText": "MY SPECIAL TALENT |S\n\nSMILING, SMILING,\n\nSMILING THOUGH ALL\n\nIS LOST/\n\nMY SPECIAL TALENT IS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-26T07:31:20.055Z",
+  "semanticImportedAt": "2026-09-27T07:33:32.857Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7921,
+      "indexedComics": 7922,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 122,
+      "unmatchedComics": 123,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
