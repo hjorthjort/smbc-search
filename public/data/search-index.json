@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-28T07:51:16.487Z",
+  "generatedAt": "2026-09-29T07:42:24.429Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7923,
-  "totalIndexedComics": 7923,
+  "totalArchiveComics": 7924,
+  "totalIndexedComics": 7924,
   "fields": [
     "comicText",
     "hoverText",
@@ -134700,19 +134700,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "gift",
+      "slug": "gift",
+      "url": "https://www.smbc-comics.com/comic/gift",
+      "title": "Gift",
+      "date": "2026-09-28",
+      "dateLabel": "September 28, 2026",
+      "thumbnail": "thumbs/gift.webp",
+      "comicText": "My\n\nras\n\nBa\n\n“Ve\n\n4c\n\neat\n\nae\n\nbt\n\nta\n\nfoe\n\niY\n\nria\n\nat\n\nME ae:\n\nLE\n\nie\n\nte ¥\n\n‘note\n\nFrom the Ansel Adams Dick Pics series (1953)\n\nGelatin silver\n\nrint\n\nUnsolicited gift of the artist\n\nFis\n\nv2\n\nts\n\nzl",
+      "hoverText": "It's the one time this sort of thing worked.",
+      "voteyText": "THESE IMAGES CAUSED\n\nA COMPLETE\n\nREASSESSMENT OF\n\nHIS GEYSER PHOTOS.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-28T07:51:16.487Z",
+  "semanticImportedAt": "2026-09-29T07:42:24.429Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7923,
+      "indexedComics": 7924,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 124,
+      "unmatchedComics": 125,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
