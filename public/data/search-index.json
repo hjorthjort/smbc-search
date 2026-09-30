@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-29T07:42:24.429Z",
+  "generatedAt": "2026-09-30T07:42:33.405Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7924,
-  "totalIndexedComics": 7924,
+  "totalArchiveComics": 7925,
+  "totalIndexedComics": 7925,
   "fields": [
     "comicText",
     "hoverText",
@@ -134717,19 +134717,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "free-5",
+      "slug": "free-5",
+      "url": "https://www.smbc-comics.com/comic/free-5",
+      "title": "Free",
+      "date": "2026-09-29",
+      "dateLabel": "September 29, 2026",
+      "thumbnail": "thumbs/free-5.webp",
+      "comicText": "PAY ME BACK ON\n\nTIME \\F YOU CAN,\n\nBUT IF YOU CANNOT...\n\nFREE LIPOSUCTION.\n\nRead properly, The Merchant of Venice is very uplifting.\n\nBUT IE YOU CANNOT...\n\nae",
+      "hoverText": "It's just a more full service lending program.",
+      "voteyText": "IF YOU PRICK ME, DO I NOT\n\nBLEED NO/ I DON'T. WE\n\nHARVEST THAT TO FILL OUT\n\nMY BOTT.\n\nBLEED? NO/ T DON'T. We",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-29T07:42:24.429Z",
+  "semanticImportedAt": "2026-09-30T07:42:33.405Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7924,
+      "indexedComics": 7925,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 125,
+      "unmatchedComics": 126,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
