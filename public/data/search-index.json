@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-30T07:42:33.405Z",
+  "generatedAt": "2026-10-01T07:42:47.772Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7925,
-  "totalIndexedComics": 7925,
+  "totalArchiveComics": 7926,
+  "totalIndexedComics": 7926,
   "fields": [
     "comicText",
     "hoverText",
@@ -134734,19 +134734,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "scripture-2",
+      "slug": "scripture-2",
+      "url": "https://www.smbc-comics.com/comic/scripture-2",
+      "title": "Scripture",
+      "date": "2026-09-30",
+      "dateLabel": "September 30, 2026",
+      "thumbnail": "thumbs/scripture-2.webp",
+      "comicText": "SON, WHAT DO YOU HAVE TO\n\n“And there sat in a window a certain\n\nSPY FOR YOURSELF FOR\n\nyoung man named Eutychus, being\n\nFALLING ASLEEP IN CHURCH?\n\nfallen into a deep sleep: and as Paul\n\nwas long preachin\n\nhe sunk down\n\nwith sleep, and fel\n\ndown from the\n\nthird loft, and was taken up dead.\n\nACTS 20:9-11.\n\nVa\n\nte\n\n“And Paul went down, and fell on\n\n“When he therefore was come up\n\nhim, and embracin\n\nhim said,\n\nagain, and had broken bread, and\n\nTrouble not yourselves; for his\n\nlife is in him.\n\neaten, and talked a long while, even\n\ntill break of day, so he departed.”\n\nSs\n\nPa\n\nPAULUS PREACHING WAS SO\n\nBORING A KID LITERALLY FELL\n\nTHE SCRIPTURE ME\n\nMORIZATION\n\nOUT A THIRD STORY WINDOW\n\nPRIZE IS OFFICIALLY CANCELED,\n\nAND HAD TO BE RESURRECTED\n\nWE WILL NOW BE REWARDING\n\nJUST TO HEAR MORE SERMON,\n\nDOING WHAT T GAY.\n\nAND YOU'RE MAD AT ME FOR\n\nFINDING YOU BORING?\n\nes\n\nPATREON COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nSAY FOR YOURSELF FOR\n\nin;\n\nwas long preachi\n\nie\n\nlown from the\n\nmm\n\nCP\n\nfs\n\nhim, and embracing him said,\n\nLf\n\nPAULS PREACHING WAS SO\n\nAND SO.\n\nTHE SCRIPTURE MEMORIZATION\n\nPRIZE |S OFFICIALLY CANCELED.\n\nIWE WILL NOW BE REWARDING\n\nIDOING WHAT T SAY.\n\nrH\n\nen\n\nPRTREON COM ZACHWEINERSMITH",
+      "hoverText": "That whole section is unappreciated comedy gold.",
+      "voteyText": "GOD WOULD PREFER YOU\n\nSIM HIS WORKS FROM\n\nNOW ON.\n\nSKIM HIS WORKS FROM",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-09-30T07:42:33.405Z",
+  "semanticImportedAt": "2026-10-01T07:42:47.772Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7925,
+      "indexedComics": 7926,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 126,
+      "unmatchedComics": 127,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
