@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-01T07:42:47.772Z",
+  "generatedAt": "2026-10-02T07:40:33.554Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7926,
-  "totalIndexedComics": 7926,
+  "totalArchiveComics": 7927,
+  "totalIndexedComics": 7927,
   "fields": [
     "comicText",
     "hoverText",
@@ -134751,19 +134751,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "equations",
+      "slug": "equations",
+      "url": "https://www.smbc-comics.com/comic/equations",
+      "title": "Equations",
+      "date": "2026-10-01",
+      "dateLabel": "October 1, 2026",
+      "thumbnail": "thumbs/equations.webp",
+      "comicText": "po\n\nH*(x,C)= @ H?4(x)\n\nPrgek\n\nPt¢=\n\nFY HPa(X)™ Hi\n\n() = H4P(X)\n\ne dim” t(X)\n\nbe = yD!\n\nPasi’\n\nPigrk\n\nBuik\n\nAdi,\n\ntS Ct\n\nsl\n\nht\n\nSn i\n\nA\n\new\n\nis\n\n245\n\ni*(X,C)\n\nM Yes\n\noan’\n\nLy\n\nHPA(X\n\n@ Se\n\nr1\n\nKG\n\nKl\n\nyeu.\n\neee\n\n{|| GO\n\nmist\n\nNae\n\nNO\n\nHAN\n\nPATREONCOM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nee)\n\nH(x,€)- ©\n\n#(x,€)- ®@ H?4(x)\n\nPitek\n\npigs\n\nHia(X)= He\n\n=H) HP\n\neu\n\nt(n),\n\n2) 4-3!\n\nA panes\n\nAde,\n\nANF\n\nPB.\n\nyl\n\n~ hjgde; Adi\n\n| hit\n\nhaul\n\n*(x,€)- D yrs\n\nVaaaN\n\nde\n\nD HPUX\n\nrail\n\nul\n\nCX EG\n\nCane\n\nHR\n\n4] 90\n\nak\n\nmis\n\nHA\n\nNX\n\nps\n\nDb) \\Y\n\nPATREON.COM/ZACHWEINERSMITH",
+      "hoverText": "That janitor just goes from building to building helping people.",
+      "voteyText": "(THE FUN QUESTION\n\nIS WHICH CHARACTER\n\nIS ASKING WHICH FOR\n\nA JOB AFTER THIS\n\nSCENE)\n\n\\S WHICH CHARACTER",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-01T07:42:47.772Z",
+  "semanticImportedAt": "2026-10-02T07:40:33.554Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7926,
+      "indexedComics": 7927,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 127,
+      "unmatchedComics": 128,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
