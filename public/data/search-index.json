@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-02T07:40:33.554Z",
+  "generatedAt": "2026-10-03T07:40:29.916Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7927,
-  "totalIndexedComics": 7927,
+  "totalArchiveComics": 7928,
+  "totalIndexedComics": 7928,
   "fields": [
     "comicText",
     "hoverText",
@@ -134768,19 +134768,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "interesting-5",
+      "slug": "interesting-5",
+      "url": "https://www.smbc-comics.com/comic/interesting-5",
+      "title": "Interesting",
+      "date": "2026-10-02",
+      "dateLabel": "October 2, 2026",
+      "thumbnail": "thumbs/interesting-5.webp",
+      "comicText": "Crs\n\nTHE MAIN RADIOACTIVE\n\nELEMENT IN THE HUMAN BODY\n\nYOU SHOULDN'T GET TO KNOW\n\nIS POTASSIUM-40, WHICH IS\n\nME, HONEY. I'M DANGEROUS.\n\nNEARLY ABSENT IN BODY FAT.\n\noN\n\nSSA\n\nNee\n\nae\n\nINTERESTING\n\nIN AN\n\nWAY?\n\nbY\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nSie\n\n\\S POTASSIUM-40, WHICH |S\n\nNEARLY ROSEN \\N BODY FAT.\n\nGates\n\nie\n\nlo\\N\n\nIN ns",
+      "hoverText": "But you wouldn't BELIEVE how many probably-true fun facts I know from youtube.",
+      "voteyText": "WOULD YOU LIKE TO HEAR\n\nABOUT ISOTOPES?",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-02T07:40:33.554Z",
+  "semanticImportedAt": "2026-10-03T07:40:29.916Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7927,
+      "indexedComics": 7928,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 128,
+      "unmatchedComics": 129,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
