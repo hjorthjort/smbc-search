@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-03T07:40:29.916Z",
+  "generatedAt": "2026-10-04T09:33:54.196Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7928,
-  "totalIndexedComics": 7928,
+  "totalArchiveComics": 7929,
+  "totalIndexedComics": 7929,
   "fields": [
     "comicText",
     "hoverText",
@@ -134785,19 +134785,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "specify",
+      "slug": "specify",
+      "url": "https://www.smbc-comics.com/comic/specify",
+      "title": "Specify",
+      "date": "2026-10-03",
+      "dateLabel": "October 3, 2026",
+      "thumbnail": "thumbs/specify.webp",
+      "comicText": "GOD, WHY IS IT POSSIBLE TO BE A GOOD PERSON,\n\nBUT IMPOSSIBLE TO SIMPLY SPECIFY ETHICAL\n\nRULES THAT ALWAYS RESULT\n\nIN GOOD BEHAVIOR?\n\nBECAUSE ETHICS\n\nIS LIKE ACMOST EVERY\n\nOTHER PROBLEM.\n\nTRY TO PERFECTLY SPECIFY\n\nHUMANS CAN HOLD ABOUT\n\nLANGUAGE-USE WITH A\n\nSEVEN THINGS IN WORKING\n\nSIMPLE RULE SET.\n\nOR BOARDGAME STRATEGY.\n\nMEMORY AT A TIME, AND SO\n\nHAVE DECIDED THAT ANYTHING\n\nOR DRIVING A CAR.\n\nREQUIRING EIGHT THINGS |S\n\nOR EATING SOUP\n\nPOORLY SPECIFIED/\n\naN\n\nWOQ0000000 A TALKING APEF FYOU'RE BEING\n\nCAN'T REDUCE SOMETHING\n\nMEAN, GOD.\n\nTO AN EVOLUTIONARILY\n\nARBITRARY QUANTITY OF\n\nCRITERIAAAAA. SOOOOOO0O\n\nARE YOU SURE?\n\nMYSTERIOUUUUUS.\n\nCAN YOU SPEC/E\n\nMEANNESS?\n\nW/000000000\n\nO0000000/\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\n\\S LIKE ALMOST EVERY\n\nMEMORY ATA TIME, AND. SO\n\nREQUIRING EIGHT THINGS IS\n\nWO00000000 A TALKING APE\n\nYOU'RE BEING\n\nCRITERIAAAAA. SOOOO0000\n\nMYSTERIOULUWUS.\n\nCAN YOU SPECIE\n\nW000000000\n\n00000000/",
+      "hoverText": "All these jokes about how it's hard to operationalize good values are gonna be really funny when the T-1000s start rolling out.",
+      "voteyText": "BOY I'M GLAD YOU'RE\n\nJUST A HALLUCINATION.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-03T07:40:29.916Z",
+  "semanticImportedAt": "2026-10-04T09:33:54.196Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7928,
+      "indexedComics": 7929,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 129,
+      "unmatchedComics": 130,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
