@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-04T09:33:54.196Z",
+  "generatedAt": "2026-10-05T07:55:41.056Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7929,
-  "totalIndexedComics": 7929,
+  "totalArchiveComics": 7930,
+  "totalIndexedComics": 7930,
   "fields": [
     "comicText",
     "hoverText",
@@ -134802,19 +134802,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "a-2",
+      "slug": "a-2",
+      "url": "https://www.smbc-comics.com/comic/a-2",
+      "title": "A",
+      "date": "2026-10-04",
+      "dateLabel": "October 4, 2026",
+      "thumbnail": "thumbs/a-2.webp",
+      "comicText": "A BUGGYFRIEND\n\nA PIDER\n\nA VERYGOOBOY\n\nA SNICKYSNEK\n\nCc\n\noN\n\nwea\n\nLp\n\nji\n\nis\n\nLife goal: Name a species in every genus\n\nthat starts with A.\n\n| at\n\nen\n\ntS\n\neo",
+      "hoverText": "Bonus points if you can figure out what the canine is.",
+      "voteyText": "FACT: THERE IS AN\n\nARSES GENUS, NONE\n\nOF WHICH IS NAMED\n\nHOLE. TEN POINTS\n\nTO WHOEVER DOES\n\nIT FIRST.\n\nFACT: THERE |S AN\n\n\\T FIRST.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-04T09:33:54.196Z",
+  "semanticImportedAt": "2026-10-05T07:55:41.056Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7929,
+      "indexedComics": 7930,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 130,
+      "unmatchedComics": 131,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
