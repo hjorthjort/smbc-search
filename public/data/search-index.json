@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-05T07:55:41.056Z",
+  "generatedAt": "2026-10-06T07:41:49.095Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7930,
-  "totalIndexedComics": 7930,
+  "totalArchiveComics": 7931,
+  "totalIndexedComics": 7931,
   "fields": [
     "comicText",
     "hoverText",
@@ -134819,19 +134819,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "birds",
+      "slug": "birds",
+      "url": "https://www.smbc-comics.com/comic/birds",
+      "title": "Birds",
+      "date": "2026-10-05",
+      "dateLabel": "October 5, 2026",
+      "thumbnail": "thumbs/birds.webp",
+      "comicText": "A SHITEPOKE/\n\nOH MY GOSH, LOOK,\n\neA\n\nMd\n\nCL\n\noy\n\nLOOK SALLY, A WINDFUCKER/\n\nOKAY FINE, YOU CAN GO BACK\n\nGO FUCK THAT WIND,\n\nTO SCIENTIFIC NOMENCLATURE\n\nLITTLE WINDEUCKER/\n\nAND I WON'T COMPLAIN.\n\nIT IS TOO LATE.\n\nTHE CHANGE |S\n\nCOMPLETE.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nmA\n\nI\n\ney\n\nay\n\nUITTLE WINDFUCKER/\n\nYY\n\niy\n\n\\T \\S TOO LATE.\n\naN\n\nNy",
+      "hoverText": "Aw, he's fucking off.",
+      "voteyText": "LOOK, AN\n\nASSBLASTER/\n\nTHAT'S\n\nNOT REAL/\n\nPy\n\n(Vane\n\nPe\n\ny “A",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-05T07:55:41.056Z",
+  "semanticImportedAt": "2026-10-06T07:41:49.095Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7930,
+      "indexedComics": 7931,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 131,
+      "unmatchedComics": 132,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
