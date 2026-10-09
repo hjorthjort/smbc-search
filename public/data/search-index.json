@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-08T07:45:48.629Z",
+  "generatedAt": "2026-10-09T07:45:13.927Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7933,
-  "totalIndexedComics": 7933,
+  "totalArchiveComics": 7934,
+  "totalIndexedComics": 7934,
   "fields": [
     "comicText",
     "hoverText",
@@ -134870,19 +134870,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "prompt-3",
+      "slug": "prompt-3",
+      "url": "https://www.smbc-comics.com/comic/prompt-3",
+      "title": "Prompt",
+      "date": "2026-10-08",
+      "dateLabel": "October 8, 2026",
+      "thumbnail": "thumbs/prompt-3.webp",
+      "comicText": "YOU CALL THAT ART? YOU'RE JUST\n\nBY YOURSELF PROMPTING A ROBOT\n\nTO MAKE STUFF.\n\nWHERES\n\nTHE W/TENT?\n\nHUH? THIS ISN'T\n\nWHY WE MAKE\n\nTHINGS.\n\nAG\n\nAI cannot create, because real Art comes from\n\nthe human need to impress the shy girl\n\nin figure-drawing class.\n\nTHE WTENT?.\n\nch",
+      "hoverText": "Back when I was in art school, we believed in this with all our hearts.",
+      "voteyText": "NOBODY |S IMPRESSED BY\n\nYOUR AI-GENERATED\n\nANIME GIRLS.\n\nMY AI-GENERKATED\n\nANIME GIRLS ARE/\n\nNOBODY IS IMPRESSED BY\n\nMY AI-GENERATED",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-08T07:45:48.629Z",
+  "semanticImportedAt": "2026-10-09T07:45:13.927Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7933,
+      "indexedComics": 7934,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 134,
+      "unmatchedComics": 135,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
