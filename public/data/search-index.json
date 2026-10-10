@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-09T07:45:13.927Z",
+  "generatedAt": "2026-10-10T07:37:28.709Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7934,
-  "totalIndexedComics": 7934,
+  "totalArchiveComics": 7935,
+  "totalIndexedComics": 7935,
   "fields": [
     "comicText",
     "hoverText",
@@ -134887,19 +134887,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "bet-2",
+      "slug": "bet-2",
+      "url": "https://www.smbc-comics.com/comic/bet-2",
+      "title": "Bet",
+      "date": "2026-10-09",
+      "dateLabel": "October 9, 2026",
+      "thumbnail": "thumbs/bet-2.webp",
+      "comicText": "WE HAVE NO CARDS LEFT\n\nONCE OUR STRIKE IS INBOUND\n\nTO PLAY. |T IS LOSS OR\n\nOUR FOES WILL RETURN FIRE.\n\nSTALEMATE. WE LAUNCH THE\n\nNUCLEAR ARSENAL. NOW.\n\naq\n\na4\n\nBILLIONS, UNSUSPECTING, REDUCED TO SHADOWS ON A\n\nCONCRETE WALL. IN THE YEARS THAT FOLLOW, CROPS WILL\n\nWITHER ONDER A BITUMINOUS SKY. AND THOSE CHILDREN WHO\n\nSURVIVE INFANCY WILL FOREVER BEAR THE MARK OF\n\nTHE ATOM IN THEIR BLOOD AND TISSUES.\n\nCi\n\nww\n\nWHATEVER WORLD\n\nMR. PRESIDENT, I ASK YOU TO\n\nEMERGES, CIVILIZATION\n\nHESITATE. JUST FOR A MOMENT.\n\nSHALL NOT.\n\nNS\n\niad\n\nZZ)\n\nWN\n\nDic 710 Ay\n\nTHE,\n\nMAeker\n\nkM\n\nOV,\n\nCL\n\nORL\n\nEAR\n\nCF\n\noy,\n\nAR\n\nOF\n\nOR\n\nCE,\n\nND\n\nCre\n\nYEA\n\nox\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nTO PLAN. [TIS LOSS OR\n\noe\n\nWITHER UNDER A BITUMINOUS SKY. AND THOSE CHILDREN WHO\n\nri\n\nMR. PRESIDENT, T ASK YOU TO\n\nwo}\n\nid\n\nDICT 1ony\n\nlO\n\nBE\n\nRE\n\nay\n\nYEAR\n\nDa\n\n(ee",
+      "hoverText": "The president is actually doing the same thing in the third to last panel.",
+      "voteyText": "WAIT/ CALL OFF THE\n\nARMAGEDDON/\n\ncm, X\n\na, X\n\nfi\n\nZo\n\nnS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-09T07:45:13.927Z",
+  "semanticImportedAt": "2026-10-10T07:37:28.709Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7934,
+      "indexedComics": 7935,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 135,
+      "unmatchedComics": 136,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
