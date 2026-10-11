@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-10T07:37:28.709Z",
+  "generatedAt": "2026-10-11T07:39:12.587Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7935,
-  "totalIndexedComics": 7935,
+  "totalArchiveComics": 7936,
+  "totalIndexedComics": 7936,
   "fields": [
     "comicText",
     "hoverText",
@@ -134904,19 +134904,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "relative",
+      "slug": "relative",
+      "url": "https://www.smbc-comics.com/comic/relative",
+      "title": "Relative",
+      "date": "2026-10-10",
+      "dateLabel": "October 10, 2026",
+      "thumbnail": "thumbs/relative.webp",
+      "comicText": "YOU'RE CHEATING\n\nTHAT (S NOT WHAT\n\nON ME/\n\nEINSTEIN SAYS/\n\nIS THAT BAD?\n\nWHO CAN SAYP\n\nEINSTEIN PROVED\n\nEVERYTHING IS\n\nRELATIVE.\n\naa\n\nSORRY, I MEAN,\n\nMY CH\n\nATING ON YOU\n\nONLY HOLDS FOR LOW\n\nRELATIVE VELOCITY\n\nAND WEAK GRAVITY.\n\nLU\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nTHAT IS NOT WHAT\n\n\\S THAT BAD\n\nWHO CAN SAY?\n\nEVERYTHING |S\n\nSORRY, T MEAN,\n\nMY CHEATING ON YOU",
+      "hoverText": "It is now only cheating in your reference frame.",
+      "voteyText": "WOULD Yov LIKE A PRECISE\n\nSOLUTION TO THE THREE\n\nBODY PROBLEMA\n\nWOULD You LIKE A PRECISE\n\nBODY PROBLEM?",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-10T07:37:28.709Z",
+  "semanticImportedAt": "2026-10-11T07:39:12.587Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7935,
+      "indexedComics": 7936,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 136,
+      "unmatchedComics": 137,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
