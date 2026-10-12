@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-11T07:39:12.587Z",
+  "generatedAt": "2026-10-12T08:01:02.533Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7936,
-  "totalIndexedComics": 7936,
+  "totalArchiveComics": 7937,
+  "totalIndexedComics": 7937,
   "fields": [
     "comicText",
     "hoverText",
@@ -134921,19 +134921,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "blog",
+      "slug": "blog",
+      "url": "https://www.smbc-comics.com/comic/blog",
+      "title": "Blog",
+      "date": "2026-10-11",
+      "dateLabel": "October 11, 2026",
+      "thumbnail": "thumbs/blog.webp",
+      "comicText": "BEFORE WE HAVE AN ARGUMENT SHOULD\n\nWE DEFINE WHAT WE RE ARGUING ABOUT\n\nAND AGREE ON WHAT WE WANT OUT OF\n\nTHE DISCUSSION HELLO? HOH.\n\nMY SIGNAL |S BUSTED.\n\n—Yyr\n\nLittle known fact:\n\nSince the early 1990s there’s been an automatic way\n\nto get permanently kicked off the Internet.\n\nWE DEFINE WHAT WERE ARGUING ABOUT\n\noo",
+      "hoverText": "I feel like if you said this on twitter someone wearing a shirt that reads INTERNET would come into your house and take an ax to your router.",
+      "voteyText": "BUT HOW COME T NEVER\n\nGOT OHHHUHHHHHH",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-11T07:39:12.587Z",
+  "semanticImportedAt": "2026-10-12T08:01:02.533Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7936,
+      "indexedComics": 7937,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 137,
+      "unmatchedComics": 138,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
