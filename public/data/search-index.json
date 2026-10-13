@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-12T08:01:02.533Z",
+  "generatedAt": "2026-10-13T07:48:23.859Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7937,
-  "totalIndexedComics": 7937,
+  "totalArchiveComics": 7938,
+  "totalIndexedComics": 7938,
   "fields": [
     "comicText",
     "hoverText",
@@ -134938,19 +134938,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "random",
+      "slug": "random",
+      "url": "https://www.smbc-comics.com/comic/random",
+      "title": "Random",
+      "date": "2026-10-12",
+      "dateLabel": "October 12, 2026",
+      "thumbnail": "thumbs/random.webp",
+      "comicText": "EPISTEMIC\n\nOR ONTIC\n\nRANDOMNESS?\n\nee\n\nQDS\n\nZL\n\nARE YOU CLAIMING\n\nMERE LACK OF\n\nKNOWLEDGE OF MY\n\nDUCK-ICORN SWEATER\n\nOR CLAIMING THAT THE\n\nPRESENCE OF THE\n\nDUCK-ICORN WAS\n\nUNKNOWABLE PRIOR\n\nTO OBSERVATION?\n\noN\n\nme\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nOH MY GOD THAT\n\n/S SO RANDOM\n\nQuckicoRn\n\nPOWER\n\npo\"\n\nOMYGOR\n\nTHANK S/\n\nUi",
+      "hoverText": "If I can get just one teen girl to use the word epistemic, this entire career will have been valuable.",
+      "voteyText": "IN THE FUTURE JUST SAY THAT\n\nMY SWEATER CONVEYS\n\nINFORMATION ABOUT YOUR\n\nLEVEL OF IGNORANCE.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-12T08:01:02.533Z",
+  "semanticImportedAt": "2026-10-13T07:48:23.859Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7937,
+      "indexedComics": 7938,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 138,
+      "unmatchedComics": 139,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
