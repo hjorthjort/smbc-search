@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-13T07:48:23.859Z",
+  "generatedAt": "2026-10-14T07:37:49.590Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7938,
-  "totalIndexedComics": 7938,
+  "totalArchiveComics": 7939,
+  "totalIndexedComics": 7939,
   "fields": [
     "comicText",
     "hoverText",
@@ -134955,19 +134955,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "long-2",
+      "slug": "long-2",
+      "url": "https://www.smbc-comics.com/comic/long-2",
+      "title": "Long",
+      "date": "2026-10-13",
+      "dateLabel": "October 13, 2026",
+      "thumbnail": "thumbs/long-2.webp",
+      "comicText": "I'D LIKE TO START\n\nIT MEAN TI WANT TO INVITE\n\nTHIS FIRST DATE AS\n\nYOU BACK TO MY PLACE,\n\nA LONG-TERM\n\nBUT T HAVEN'T DONE THE\n\nRELATIONSHIP\n\nDISHES OR ANY KIND OF\n\nPERSONAL GROOMING.\n\nYOU CAN'T...\n\nHOW?\n\nTHE FRIDGE\n\nIS GROSS.\n\nWAKE UP\n\nANO\n\nTHE BABIES?\n\nARE YOU\n\nCRAZY\n\nFf\n\nSe\n\npe\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nTD UKE TO START\n\nI MEAN T WANT TO INVITE\n\npar\n\nAND\n\nSf,\n\nKe\n\nge",
+      "hoverText": "Also I have very revealing undergarments but not in an attractive way.",
+      "voteyText": "wah",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-13T07:48:23.859Z",
+  "semanticImportedAt": "2026-10-14T07:37:49.590Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7938,
+      "indexedComics": 7939,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 139,
+      "unmatchedComics": 140,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
