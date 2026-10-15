@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-14T07:37:49.590Z",
+  "generatedAt": "2026-10-15T07:37:08.456Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7939,
-  "totalIndexedComics": 7939,
+  "totalArchiveComics": 7940,
+  "totalIndexedComics": 7940,
   "fields": [
     "comicText",
     "hoverText",
@@ -134972,19 +134972,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "break",
+      "slug": "break",
+      "url": "https://www.smbc-comics.com/comic/break",
+      "title": "Break",
+      "date": "2026-10-14",
+      "dateLabel": "October 14, 2026",
+      "thumbnail": "thumbs/break.webp",
+      "comicText": "WELP TIME TO HAVE\n\nA BEER AND WANK\n\nFOR THREE HOURS.\n\naA\n\nJS\n\nHEN AT, HAVE A BEER\n\nAND WANK.\n\nINITIATING...\n\nCHUG AND TUG...\n\neA\n\nSSS\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nWAIT ASEC. WHA:\n\nDOING WITH MY LIFE?\n\nAT\n\nra\n\nHEY AT, HAVE A BEER\n\nMARS",
+      "hoverText": "I'm having the last panel inscribed on my tombstone.",
+      "voteyText": "LIFE IS SO\n\nBEAUTIFUL.",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-14T07:37:49.590Z",
+  "semanticImportedAt": "2026-10-15T07:37:08.456Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7939,
+      "indexedComics": 7940,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 140,
+      "unmatchedComics": 141,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
