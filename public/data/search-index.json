@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-16T07:35:09.988Z",
+  "generatedAt": "2026-10-17T07:30:50.900Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7941,
-  "totalIndexedComics": 7941,
+  "totalArchiveComics": 7942,
+  "totalIndexedComics": 7942,
   "fields": [
     "comicText",
     "hoverText",
@@ -135006,19 +135006,36 @@
       "voteyTextSource": "",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "hun",
+      "slug": "hun",
+      "url": "https://www.smbc-comics.com/comic/hun",
+      "title": "Hun",
+      "date": "2026-10-16",
+      "dateLabel": "October 16, 2026",
+      "thumbnail": "thumbs/hun.webp",
+      "comicText": "YOU THINK I CAN JUST\n\nASSIGN SOME NONGSENSICAL\n\n\"GOODNESS\" SCORE TO EVERY\n\nFOOL/ YOU THINK\n\nITEM AND COMBINATION, AND\n\nIT'S POSSIBLE TO\n\nCALCULATE MAXIMUM FELICITY\n\n‘ORDER LUNCH\"/\n\nAS \\F TAM GOD AND\n\nTHE WORLD IS MATH/\n\nChe\n\nAulite\n\npS\n\nLN\n\nHA/ THIS IS MERE\n\nHUN, YOb DON'T NEED\n\nSCIENTISM/\n\nA COMMENSURABLE\n\nSCALAR SCORE FOR\n\nEACH ITEM. JUST\n\nORDINALLY RANK\n\nYER PREFERENCES\n\nA\n\nSORRY, I MEAN TRY THE\n\nCHICKEN STRIPS, HUN.\n\nCHICKEN STRIPS\n\nPLEASE, MAAM\n\nhd\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nYOU THINK T CAN JUST\n\nASSIGN SOME NONSENSICAL\n\nAS IF TAM GOD AND\n\n\"ORDER LUNCH\"7/\n\nTHE WORLD |S MATH?/\n\nae\n\nAuli\n\nil\n\nINS\n\nHON, YOU DON'T NEED\n\naye\n\nCHICKEN STRIPS, HON.",
+      "hoverText": "I believe this comic is making fun of naive objections to consequentialism, but I am not 100% certain.",
+      "voteyText": "WANNA TRY OOR HIGH\n\nUTILITY STRAWBERRY\n\nRHUBARB PIE?\n\nWANNA TRY OUR HIGH\n\nRHUBARB PIED",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-16T07:35:09.988Z",
+  "semanticImportedAt": "2026-10-17T07:30:50.900Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7941,
+      "indexedComics": 7942,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 142,
+      "unmatchedComics": 143,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
