@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-17T07:30:50.900Z",
+  "generatedAt": "2026-10-18T07:31:15.885Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7942,
-  "totalIndexedComics": 7942,
+  "totalArchiveComics": 7943,
+  "totalIndexedComics": 7943,
   "fields": [
     "comicText",
     "hoverText",
@@ -135023,19 +135023,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "chip",
+      "slug": "chip",
+      "url": "https://www.smbc-comics.com/comic/chip",
+      "title": "Chip",
+      "date": "2026-10-17",
+      "dateLabel": "October 17, 2026",
+      "thumbnail": "thumbs/chip.webp",
+      "comicText": "HAHAHA/ AT LAST A BRAIN\n\nCHIP THAT MAKES ME\n\nINFINITELY INTELLIGENT\n\nAND IMMORTAL. ACTIVATE/\n\nwa\n\nMY DESIRE FOR KNOWLEDGE\n\nWAS IN FACT A DESIRE FOR\n\nSOCIAL STATUS AMONG APES\n\nWHO I'VE NOW TRANSCENDED,\n\nAND MY FEAR OF DEATH WAS\n\nFOUNDED ON A TRIVIALLY\n\nFLAWED NOTION OF\n\nPERSISTENT IDENTITY.\n\nBe\n\n— WwW\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nHAHAHA’ AT LAST A BRAN\n\nWAG IN FACT A DESIRE FOR\n\nal",
+      "hoverText": "Actually maybe this is the solution to the Fermi Paradox.",
+      "voteyText": "JEEPERS CREEPERS,\n\nEVERYTHING |S BEAUTIFUL\n\nAND FOR NOTHING.\n\nEVERYTHING IS BEAUTIFUL",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-17T07:30:50.900Z",
+  "semanticImportedAt": "2026-10-18T07:31:15.885Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7942,
+      "indexedComics": 7943,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 143,
+      "unmatchedComics": 144,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
