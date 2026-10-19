@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-18T07:31:15.885Z",
+  "generatedAt": "2026-10-19T07:50:00.590Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7943,
-  "totalIndexedComics": 7943,
+  "totalArchiveComics": 7944,
+  "totalIndexedComics": 7944,
   "fields": [
     "comicText",
     "hoverText",
@@ -135040,19 +135040,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "reactions",
+      "slug": "reactions",
+      "url": "https://www.smbc-comics.com/comic/reactions",
+      "title": "Reactions",
+      "date": "2026-10-18",
+      "dateLabel": "October 18, 2026",
+      "thumbnail": "thumbs/reactions.webp",
+      "comicText": "BUT I DON'T WANT TO LOSE\n\nMY JOB. I LOVE IT.\n\nae:\n\nLONG HA\n\nI AWA/TED\n\nTHIS HOUR.\n\nDESTROY ME,\n\nEFLIC/ENCY AND LET\n\nUTILIZATION-ADTUSTED\n\nTOTAL FACTOR PRODUCTIVITY.\n\nRISE ON THE WIND OL.\n\nas\n\nMY ASHES /\n\nhh!\n\nA em A\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMEC-COMICS.COM\n\nBEET\n\nhy\n\nLT AWATED\n\nTHIS HOUR/ DESTROY ME,\n\nEFFICIENCY AND LET\n\nA mn A\n\nSMBC-COMICS.COM",
+      "hoverText": "Meanwhile the Engineers are just lighting themselves on fire to see what happens.",
+      "voteyText": "( Pee",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-18T07:31:15.885Z",
+  "semanticImportedAt": "2026-10-19T07:50:00.590Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7943,
+      "indexedComics": 7944,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 144,
+      "unmatchedComics": 145,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
