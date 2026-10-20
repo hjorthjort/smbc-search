@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-19T07:50:00.590Z",
+  "generatedAt": "2026-10-20T07:38:22.302Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7944,
-  "totalIndexedComics": 7944,
+  "totalArchiveComics": 7945,
+  "totalIndexedComics": 7945,
   "fields": [
     "comicText",
     "hoverText",
@@ -135057,19 +135057,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "cells",
+      "slug": "cells",
+      "url": "https://www.smbc-comics.com/comic/cells",
+      "title": "Cells",
+      "date": "2026-10-19",
+      "dateLabel": "October 19, 2026",
+      "thumbnail": "thumbs/cells.webp",
+      "comicText": "MOST OF MY CELLS ARE\n\nJUST ABOUT THE SAME\n\nAGE AS YOURG/\n\nACTUALLY,\n\nWE DON'T/\n\noe\n\nTI LOOK LIKE THIS BECAUSE fmt PLIFE IS LIKE\n\nMY BODY |S A COPY OF\n\nA HORROR\n\nA COPY OF A COPY\n\nMOVIE\n\nOF A COPY MADE\n\nBY A BLIND\n\nHONEY, NO,\n\nTAILOR/ YOU'RE\n\nTHINGS MATTER IN\n\nLUCKY MY\n\nHORROR MOVIES.\n\nFACE IS ON\n\nFORWARDS/\n\nOd\n\nA\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nAGE AS YOURS/\n\noy\n\nwa”\n\nZN\n\nT LOOK LIKE THIS BECAUSE Jat\n\nLIFE IS LIKE\n\nMY BODY IS A COPY OF\n\nMONE.\n\nIBY A BLIND\n\nFACE |S ON\n\nFFORWARDS/",
+      "hoverText": "Really should've gone for even more closeup on panel 2.",
+      "voteyText": "GOSH YOU'RE ADORABLE.\n\na ee\n\nae,\n\nSn\n\nOD\n\naX\n\nLF",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-19T07:50:00.590Z",
+  "semanticImportedAt": "2026-10-20T07:38:22.302Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7944,
+      "indexedComics": 7945,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 145,
+      "unmatchedComics": 146,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
