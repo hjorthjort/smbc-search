@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-20T07:38:22.302Z",
+  "generatedAt": "2026-10-21T07:39:14.555Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7945,
-  "totalIndexedComics": 7945,
+  "totalArchiveComics": 7946,
+  "totalIndexedComics": 7946,
   "fields": [
     "comicText",
     "hoverText",
@@ -135074,19 +135074,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "funeral",
+      "slug": "funeral",
+      "url": "https://www.smbc-comics.com/comic/funeral",
+      "title": "Funeral",
+      "date": "2026-10-20",
+      "dateLabel": "October 20, 2026",
+      "thumbnail": "thumbs/funeral.webp",
+      "comicText": "FOR YEAR IN RANGE($$):\n\nBOOKS(); GARDENING(); FAMILY()\n\nea\n\nWhen I die, I want a Kolmogorov Eulogy.\n\nFOR YEAR IN RANGE($9):",
+      "hoverText": "Actually for me you can get it down to an eyeroll and a tired sigh.",
+      "voteyText": "",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-20T07:38:22.302Z",
+  "semanticImportedAt": "2026-10-21T07:39:14.555Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7945,
+      "indexedComics": 7946,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 146,
+      "unmatchedComics": 147,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
