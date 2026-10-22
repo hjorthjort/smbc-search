@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-21T07:39:14.555Z",
+  "generatedAt": "2026-10-22T07:38:55.142Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7946,
-  "totalIndexedComics": 7946,
+  "totalArchiveComics": 7947,
+  "totalIndexedComics": 7947,
   "fields": [
     "comicText",
     "hoverText",
@@ -135091,19 +135091,36 @@
       "voteyTextSource": "",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "future-5",
+      "slug": "future-5",
+      "url": "https://www.smbc-comics.com/comic/future-5",
+      "title": "Future",
+      "date": "2026-10-21",
+      "dateLabel": "October 21, 2026",
+      "thumbnail": "thumbs/future-5.webp",
+      "comicText": "T'VE DONE IT/ NOW, ANYONE CAN OSE\n\nMACHINE LEARNING TO INSTANTLY GENERATE\n\nANY MOVIE THEY CAN IMAGINE/\n\nCo)\n\nSi\n\nART /S FORTHE PEOPLE/\n\nTHE PEOPLE DECIDE\n\nWHAT THE PEOPLE WANT/\n\nCEE,\n\nee\n\nUDve BIG_TIT\n\nTIES A AND DRIV\n\nE RACECARS\n\nTHE X-MEN H\n\nFEDI/WIZAR\n\nDS VS\n\nBIG-ITTIED\n\nMER WERE\n\nEWOLVES\n\n\\TH\n\nRANGEORM\n\nIG TITTIES AND |\n\n75 THE M\n\nATRI\n\nX PART 3\n\nTHE DARK KNIG\n\nEG\n\n-TITTIED\n\nTHE eee\n\nDUMB\n\nLERDORE\n\nTHe BDFAT\n\nTHE ee ait\n\niii EDITION)\n\n— CUM\n\nset\n\nSe OE et\n\nPATREON. COM/ ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nT'VE DONE IT/ NOW, ANYONE CAN USE\n\nca\n\n: RACECARS\n\nIe X-MEN HAY\n\nDV WIZARDS VS\n\naie TITIES & AND DRIVE\n\n6) BIG-\" SATE 3 JE\n\nMER\n\nREWOU\n\nNES WITH\n\nTRANSFOR!\n\nTS THE\n\nMATRIX PART 3\n\naie TITTIES & AND!\n\nARK ies\n\nE-TITTIED\n\n@] THE LEGEND O\n\nUMBLERDORE\n\nTHe ODFATHER\n\nBe Mates EDITION)\n\n(ORTEAEALNEE",
+      "hoverText": "The real question is how long until each of these can be one-shotted.",
+      "voteyText": "I CAN ONLY HOPE THAT\n\nMY WATCHING ALL OF THESE\n\nMOVIES DOESN'T\n\nENCOURAGE ANYONE\n\nTO MAKE MORE.\n\n\\ OS",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-10-21T07:39:14.555Z",
+  "semanticImportedAt": "2026-10-22T07:38:55.142Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7946,
+      "indexedComics": 7947,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 147,
+      "unmatchedComics": 148,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
