@@ -7,6 +7,8 @@ import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 import sharp from "sharp";
 
+import { readSmbcResponse } from "./smbc-response.mjs";
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const dataDir = path.join(rootDir, "data");
@@ -666,12 +668,7 @@ async function fetchText(url, options) {
       accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
     }
   });
-  const text = await response.text();
-  const archiveStatusQuirk = url === archiveUrl && response.status === 500 && text.includes("select name=\"comic\"");
-  if (!response.ok && !archiveStatusQuirk) {
-    throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
-  }
-  return text;
+  return readSmbcResponse(url, response);
 }
 
 function cleanHoverText(text, page) {

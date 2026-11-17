@@ -43,3 +43,9 @@ In GitHub Actions, run **Update SMBC index** manually with:
 - `full` to refresh the whole archive
 
 Locally, use `npm run update:latest` or `npm run update:full` for the same scrape-plus-import path the scheduled workflow uses.
+
+## SMBC HTTP 500 responses
+
+SMBC can return HTTP 500 while serving usable HTML. This affected individual comic pages starting October 23, 2026, stopping updates before the index could be published. The scraper accepts these responses only on official SMBC archive/comic URLs when the HTML contains archive entries or the main comic image, respectively. Genuine error pages and other HTTP error statuses still fail the update. Accepted HTTP 500 pages emit a warning in the run log.
+
+Run `npm test` for the response-handling regression tests; the scheduled workflow runs them before scraping.

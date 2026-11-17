@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "test": "node --test scripts/*.test.mjs",
     "scrape": "node scripts/build-index.mjs",
     "scrape:latest": "node scripts/build-index.mjs --refresh-pages --refresh-images --refresh-ocr --latest 4",
     "scrape:full": "node scripts/build-index.mjs --refresh-pages",
