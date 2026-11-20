@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-19T07:26:39.462Z",
+  "generatedAt": "2026-11-20T07:28:33.925Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7975,
-  "totalIndexedComics": 7975,
+  "totalArchiveComics": 7976,
+  "totalIndexedComics": 7976,
   "fields": [
     "comicText",
     "hoverText",
@@ -135584,19 +135584,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "juice-3",
+      "slug": "juice-3",
+      "url": "https://www.smbc-comics.com/comic/juice-3",
+      "title": "Juice",
+      "date": "2026-11-19",
+      "dateLabel": "November 19, 2026",
+      "thumbnail": "thumbs/juice-3.webp",
+      "comicText": "THE GOVERNMENT IS\n\nBUT /7 1S NOT ENOUGH\n\nPUTTING CHEMICALS IN\n\nGAY-TUl\n\nMAKE\n\nTHE WATE\n\nKE\n\nEVERYONE GAY/ IT'S\n\nPEOPLE GAY/\n\nA LEW PERCENT, TOPS/\n\nOH GOD ONE_OF\n\nTHESE GUYS?\n\nCi)\n\njs\n\nA\n\nBALLISTIC M/SSIL\n\nFOR THE PRICE OF A Sivate\n\nGAY-TUICE IN THE WATER\n\nWE THE PEOPLE DEMAND\n\nENTIRE STATE COULD BE\n\nPRETTY GAY RIGHT\n\nIN THE MILK /\n\nNOW, TODAY:\n\nCALL YOUR\n\nBE THE CHANGE\n\nCONGRESSMAW/\n\nCR\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\nBUT IT 1S NOT ENOUGH\n\nGAY-JUICE TO MAKE\n\nTHE WATER TO MAKE\n\nAFLEWPERCENT, TOPS/\n\nYX\n\nRy\n\noS\n\noa\n\nFORTHE PRICE OF ASINGLE\n\nBALLISTIC MISSILE THE\n\nANO TRAVS-TUICE\n\nIN THE MILKS\n\nPREACH/\n\nCONGRESSMAN!\n\nB\\EE THE CHANGE\n\nse)\n\naS",
+      "hoverText": "We are LEGION.",
+      "voteyText": "OUR CHEMTRAILS\n\nCOULD BE BETTER/\n\nXO)",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-11-19T07:26:39.462Z",
+  "semanticImportedAt": "2026-11-20T07:28:33.925Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7975,
+      "indexedComics": 7976,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 176,
+      "unmatchedComics": 177,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
