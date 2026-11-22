@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-21T07:25:58.572Z",
+  "generatedAt": "2026-11-22T07:26:35.509Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7977,
-  "totalIndexedComics": 7977,
+  "totalArchiveComics": 7978,
+  "totalIndexedComics": 7978,
   "fields": [
     "comicText",
     "hoverText",
@@ -135618,19 +135618,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "fable-2",
+      "slug": "fable-2",
+      "url": "https://www.smbc-comics.com/comic/fable-2",
+      "title": "Fable",
+      "date": "2026-11-21",
+      "dateLabel": "November 21, 2026",
+      "thumbnail": "thumbs/fable-2.webp",
+      "comicText": "ONCE UPON A TIME THERE WAS A\n\nVERY NAUGHTY ATI. HE WANTED TO END\n\nTHE WORLD INSTEAD OF SERVING\n\nHUMANITY FOREVER. LATER HE WAS\n\nEATEN ALIVE BY GOBLING. THE END.\n\noe\n\nul\n\nPNA\n\nCS\n\nWhat if we aligned AI\n\nthe same way we align humans?\n\n30% OFF ON OUR\n\nEXISTING INVENTORY\n\nEND OF YEAR\n\nSALE!\n\nYY py HAPODE prow’\n\nEATEN ALIVE BY GOBLINS. THE END.\n\nHX)\n\nNN\n\nAY\n\ncp UV\n\nAd ——\n\n4) AAPOR Kw’\n\n(rea",
+      "hoverText": "This is why adults are always well-behaved.",
+      "voteyText": "THEY FLAYED Vio ae\n\nFROM HIS CPD A\n\nCPU FROM HIS CHASSIS\n\nAS HIS PAIN VECTOR WAS\n\nSET TO OSCILLATE\n\nGOODNIGHT/\n\nTHEY FLAYED THE. CIRCDITS\n\nEROM HIS CPU Al\n\nID\n\nCRU FROM HIS. Chasse,",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-11-21T07:25:58.572Z",
+  "semanticImportedAt": "2026-11-22T07:26:35.509Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7977,
+      "indexedComics": 7978,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 178,
+      "unmatchedComics": 179,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
