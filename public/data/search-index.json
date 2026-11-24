@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-23T07:28:27.353Z",
+  "generatedAt": "2026-11-24T07:27:15.847Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7979,
-  "totalIndexedComics": 7979,
+  "totalArchiveComics": 7980,
+  "totalIndexedComics": 7980,
   "fields": [
     "comicText",
     "hoverText",
@@ -135652,19 +135652,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "see-2",
+      "slug": "see-2",
+      "url": "https://www.smbc-comics.com/comic/see-2",
+      "title": "See",
+      "date": "2026-11-23",
+      "dateLabel": "November 23, 2026",
+      "thumbnail": "thumbs/see-2.webp",
+      "comicText": "OH GOD/ OH GOD/\n\nI ANEW YOU'D BE CIBE THIS/\n\nI THOUGHT YOU\n\nMEN ARE ALL THE SAME /\n\nSAID NO MAKE—\n\nI HATE YOU/\n\ned /\n\nfai\n\niw\n\nEARLIER...\n\nBABY, I WANT TO SHOW YOU\n\nWHAT T LOOK LIKE WITH...\n\nGNOME MAKEUP ON.\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\n30% OFF ON OUR\n\nEXISTING INVENTORY\n\n—S>S\n\nEND OF YEAR\n\nSALE!\n\n4) 1 HADDIN oR\n\n(rae.\n\nI ANEW YOUO BE LIKE THIS/\n\nEAR\n\nBA\n\nWANT TO SHOW YOU\n\nWHAT IT LOOK LIKE WITH.",
+      "hoverText": "Sorry.",
+      "voteyText": "GN\n\nYOU\n\nMeat GVEN",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-11-23T07:28:27.353Z",
+  "semanticImportedAt": "2026-11-24T07:27:15.847Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7979,
+      "indexedComics": 7980,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 180,
+      "unmatchedComics": 181,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
