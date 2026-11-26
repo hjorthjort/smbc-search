@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-25T07:28:06.618Z",
+  "generatedAt": "2026-11-26T07:29:10.509Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7981,
-  "totalIndexedComics": 7981,
+  "totalArchiveComics": 7982,
+  "totalIndexedComics": 7982,
   "fields": [
     "comicText",
     "hoverText",
@@ -135686,19 +135686,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "wowww",
+      "slug": "wowww",
+      "url": "https://www.smbc-comics.com/comic/wowww",
+      "title": "Wowww",
+      "date": "2026-11-25",
+      "dateLabel": "November 25, 2026",
+      "thumbnail": "thumbs/wowww.webp",
+      "comicText": "Ann\n\n= ZOOM\n\nace\n\npete:\n\nWOES\n\nRS\n\nGO0M\n\n“ia\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM\n\n30% OFF ON OUR\n\nEXISTING INVENTORY\n\nSf\n\nww 2’ See\n\nNovenner 20th, 2026\n\nto January 7th 2027\n\nAnh\n\nae\n\nFIN\n\nEXISTING VEN TORY\n\nBS 22\n\nNovember 20th, 2026\n\npeg\n\nNV || =\n\nao\n\nTHIS IS AC TOALLY — a\n\nKIND OF DINOSAUR.\n\niD)\n\nNe\n\nEONS LATER...\n\nae” N\n\nveg ;\n\nTHIS IS ACTUALLY ~\n\nA KIND OF HUMAN. co oe\n\n; Nee\n\nee\n\nNM ———\n\nPATREON.COM/ZACHWEINERSMITH SMBC-COMICS.COM\n\nx oY |\n\nSS — 30% OFF ON OUR x\n\nEXISTING INVENTORY J)” =;\n\nsf END OF YEAR — @\n\nJ ; _ toJanuary7th2027 = |",
+      "hoverText": "Is that a dairy human or a meat human?",
+      "voteyText": "be\n\naa",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-11-25T07:28:06.618Z",
+  "semanticImportedAt": "2026-11-26T07:29:10.509Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7981,
+      "indexedComics": 7982,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 182,
+      "unmatchedComics": 183,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
