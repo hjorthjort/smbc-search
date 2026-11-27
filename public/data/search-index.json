@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-26T07:29:10.509Z",
+  "generatedAt": "2026-11-27T07:27:13.393Z",
   "source": "https://www.smbc-comics.com/comic/archive",
-  "totalArchiveComics": 7982,
-  "totalIndexedComics": 7982,
+  "totalArchiveComics": 7983,
+  "totalIndexedComics": 7983,
   "fields": [
     "comicText",
     "hoverText",
@@ -135703,19 +135703,36 @@
       "voteyTextSource": "tesseract",
       "descriptionTextSource": "",
       "semanticTranscriptUrl": ""
+    },
+    {
+      "id": "staring",
+      "slug": "staring",
+      "url": "https://www.smbc-comics.com/comic/staring",
+      "title": "Staring",
+      "date": "2026-11-26",
+      "dateLabel": "November 26, 2026",
+      "thumbnail": "thumbs/staring.webp",
+      "comicText": "AGI IS COMING, YET SCHOOLS\n\nBUT IF IT CAN DO ALL\n\nARE STILL TEACHING\n\nTHE JOBS, WHAT SHOULD_WE\n\nCHILDREN SKILLS THAT AT\n\nBE TRAINING STUDENTS FOR?\n\nWILL BE BETTER AT\n\nTHE ENTIRE EDUCATION\n\nSYSTEM NEEDS TO BE\n\nWORK THAT WILL\n\nFLIPPED.\n\nALWAYS NEED US.\n\n\\ oe\n\nLL\n\nSCHOOL SCHEDULE:\n\nCREATING ARTIFICIALLY SCARCE GOODS\n\nINHERITING CAPITAL\n\nTOADYING\n\nELECTIVES:\n\nNOT STARING INTO THE VOID\n\nADVANCED NOT STARING INTO THE VOID\n\nPATREON.COM/ZACHWEINERSMITH\n\nSMBC-COMICS.COM",
+      "hoverText": "The good news is many of us already have a lot of void-time already.",
+      "voteyText": "MY CHILD IS IN THE GIFTED\n\nVOID-STARER CLASS.\n\nom\n\n— LL",
+      "descriptionText": "",
+      "comicTextSource": "tesseract",
+      "voteyTextSource": "tesseract",
+      "descriptionTextSource": "",
+      "semanticTranscriptUrl": ""
     }
   ],
-  "semanticImportedAt": "2026-11-26T07:29:10.509Z",
+  "semanticImportedAt": "2026-11-27T07:27:13.393Z",
   "semanticSource": {
     "name": "ohyesrobot",
     "url": "https://ohyesrobot.ordoliberal.com",
     "note": "AI-generated semantic transcripts are split into visible comic/votey text and visual descriptions where they can be mapped to official SMBC URLs. Official SMBC hover text is kept from the original page.",
     "stats": {
-      "indexedComics": 7982,
+      "indexedComics": 7983,
       "sourceEntries": 7799,
       "parsedTranscripts": 7799,
       "matchedComics": 7799,
-      "unmatchedComics": 183,
+      "unmatchedComics": 184,
       "unmatchedSourceTranscripts": 0,
       "manualComicText": 36,
       "manualVoteyText": 53,
